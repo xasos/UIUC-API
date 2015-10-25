@@ -1,6 +1,6 @@
 # UIUC Open Data API
 
-[![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-url]][daviddm-image]
+[![Build Status][travis-image]][travis-url] [![Requirements Status][require-image]][require-url]
 
 Unofficial Open Data API for the University of Illinois at Urbana-Champaign. Heavily modeled off of the University of Waterloo [Open Data API](https://github.com/uWaterloo/api-documentation/). I'm building this out of frustration of not having a centralized data source for UIUC information. This is still very much a WIP, so please feel free to submit an issue or contribute!
 
@@ -86,7 +86,9 @@ Use of this API
 [MIT License](LICENSE)
 
 
-[travis-url]: https://travis-ci.org/xasos/Coins
-[travis-image]: https://travis-ci.org/xasos/Coins.svg?branch=master
+[travis-url]: https://travis-ci.org/xasos/UIUC-Open-Data
+[travis-image]: https://travis-ci.org/xasos/UIUC-Open-Data.svg?branch=master
+[require-image]: https://requires.io/github/xasos/UIUC-Open-Data/requirements.svg?branch=master
+[require-url]: https://requires.io/github/xasos/UIUC-Open-Data/requirements/?branch=master
 [daviddm-url]: https://david-dm.org/xasos/Coins.svg?theme=shields.io
 [daviddm-image]: https://david-dm.org/xasos/Coins
