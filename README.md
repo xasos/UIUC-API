@@ -1,8 +1,8 @@
-# University of Illinois at Urbana-Champaign Open Data API
+# UIUC Open Data API
 
 [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-url]][daviddm-image]
 
-Unofficial Open Data API for UIUC. Heavily Modeled off of the University of Waterloo [Open Data API](https://github.com/uWaterloo/api-documentation/). I'm building this out of frustration of not having a centralized data source for UIUC information. This is still very much a WIP, so please feel free to submit an issue or contribute!
+Unofficial Open Data API for the University of Illinois at Urbana-Champaign. Heavily modeled off of the University of Waterloo [Open Data API](https://github.com/uWaterloo/api-documentation/). I'm building this out of frustration of not having a centralized data source for UIUC information. This is still very much a WIP, so please feel free to submit an issue or contribute!
 
 ## Usage
 **Base URL:** http://uiuc-api.herokuapp.com
