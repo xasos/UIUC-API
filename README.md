@@ -75,14 +75,17 @@ Response:
     "pressure": "",
     "sunrise": "",
     "sunset": "",
-    "latest_radar_image": "",
-    "storm_total_precip_image": "",
-    "surface_temp_image": "",
-    "surface_dew_point_temp_image": "",
-    "sea_level_pressure": "",
-    "mdw_surface_observations": "",
-    "composite_ir_image": "",
-    "composite_enhanced_ir_image": ""
+    "images": [
+      "latest_radar_image": "",
+      "storm_total_precip_image": "",
+      "surface_temp_image": "",
+      "surface_dew_point_temp_image": "",
+      "sea_level_pressure": "",
+      "mdw_surface_observations": "",
+      "composite_ir_image": "",
+      "composite_enhanced_ir_image": ""
+    ],
+    "": ""
   }
 ```
 
