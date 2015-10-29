@@ -2,7 +2,8 @@
 
 [![Build Status][travis-image]][travis-url] [![Requirements Status][require-image]][require-url]
 
-Unofficial Open Data API for the University of Illinois at Urbana-Champaign. I'm building this out of frustration of not having a centralized data source for UIUC information. This is still very much a WIP, so please feel free to submit an issue or contribute! The API is built with Python, Flask + [Flask RESTful](https://github.com/flask-restful/flask-restful), and Redis.
+Unofficial Open Data API for the University of Illinois at Urbana-Champaign. I'm building this out of frustration of not having a centralized data source for UIUC information. The idea was fleshed out [here](https://www.reddit.com/r/UIUC/comments/2hhlhn/would_anyone_be_interested_in_a_uiuc_open_data_api/
+). This is still very much a WIP, so please feel free to submit an issue or contribute! The API is built with Python, Flask + [Flask RESTful](https://github.com/flask-restful/flask-restful), and Redis.
 
 *Note: This is an unofficial API and is not supported or controlled by UIUC itself. Any questions, comments, feedback or feature requests should be directed to xasos or via an issue in this repo.*
 
@@ -165,11 +166,12 @@ Use of this API
 - client libraries
 - meal credits (untested)
 - transportation
+- generate google calendar
+- teach kevin pls
 
 ## License
 [MIT License](LICENSE)
 
-https://www.reddit.com/r/UIUC/comments/2hhlhn/would_anyone_be_interested_in_a_uiuc_open_data_api/
 throw in some redis/memcache for less server usage
 
 [travis-url]: https://travis-ci.org/xasos/UIUC-Open-Data
