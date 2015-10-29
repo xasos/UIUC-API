@@ -67,25 +67,25 @@ Response:
   {
     "weather_station_location": "Willard Airport",
     "last_recorded_time": "1446098674",
-    "weather_condition": "",
-    "temperature": "",
-    "dew_point": "",
-    "relative_humidity": "",
-    "winds": "",
-    "visibility": "",
-    "pressure": "",
-    "sunrise": "",
-    "sunset": "",
-    "images": [
-      "latest_radar_image": "",
-      "storm_total_precip_image": "",
-      "surface_temp_image": "",
-      "surface_dew_point_temp_image": "",
-      "sea_level_pressure": "",
-      "mdw_surface_observations": "",
-      "composite_ir_image": "",
-      "composite_enhanced_ir_image": ""
-    ],
+    "weather_condition": "Cloudy Skies",
+    "temperature": "54",
+    "dew_point": "45",
+    "relative_humidity": "71%",
+    "winds": "NW at 17 mph",
+    "visibility": "10 miles",
+    "pressure": "1020.0 mb (30.13 in)",
+    "sunrise": "7:13AM", 
+    "sunset": "6:01PM",
+    "images": {
+      "latest_radar_image": "https://www.atmos.illinois.edu/weather/tree/prods/current/nicerad/nicerad_N.gif",
+      "storm_total_precip_image": "https://www.atmos.illinois.edu/weather/tree/prods/current/niceradilxpretx/niceradilxpretx_N.gif",
+      "surface_temp_image": "https://www.atmos.illinois.edu/weather/tree/prods/current/sfctmp/sfctmp_N.gif",
+      "surface_dew_point_temp_image": "https://www.atmos.illinois.edu/weather/tree/prods/current/sfctdp/sfctdp_N.gif",
+      "sea_level_pressure": "https://www.atmos.illinois.edu/weather/tree/prods/current/sfcslp/sfcslp_N.gif",
+      "mdw_surface_observations": "https://www.atmos.illinois.edu/weather/tree/prods/current/sfcslp/sfcslp_N.gif",
+      "composite_ir_image": "https://www.atmos.illinois.edu/weather/tree/prods/current/satconusenhir/satconusenhir_N.gif",
+      "composite_enhanced_ir_image": "https://www.atmos.illinois.edu/weather/tree/prods/current/satnoamir/satnoamir_N.gif"
+    },
     "": ""
   }
 ```
