@@ -51,7 +51,7 @@ joe==0.0.5
 logilab-common==0.63.2
 Markdown==2.4.1
 MarkupSafe==0.23
-mercurial==3.2.1.post20141114
+mercurial==3.2.1
 mimerender==0.5.4
 mock==1.0.1
 mogo==0.3.0
