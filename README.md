@@ -5,7 +5,7 @@
 Unofficial Open Data API for the University of Illinois at Urbana-Champaign. I'm building this out of frustration of not having a centralized data source for UIUC information. The idea was fleshed out [here](https://www.reddit.com/r/UIUC/comments/2hhlhn/would_anyone_be_interested_in_a_uiuc_open_data_api/
 ). This is still very much a WIP, so please feel free to submit an issue or contribute! The API is built with Python, Flask + [Flask RESTful](https://github.com/flask-restful/flask-restful), and Redis.
 
-*Note: This is an unofficial API and is not supported or controlled by UIUC itself. Any questions, comments, feedback or feature requests should be directed to xasos or via an issue in this repo.*
+*Note: This is an unofficial API and is not supported or controlled by the University of Illinois at Urbana-Champaign itself. Any questions, comments, feedback or feature requests should be directed to xasos or via an issue in this repo.*
 
 ## Usage
 **Base URL:** http://uiuc-api.herokuapp.com
