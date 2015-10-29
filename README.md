@@ -4,6 +4,8 @@
 
 Unofficial Open Data API for the University of Illinois at Urbana-Champaign. Heavily modeled off of the University of Waterloo [Open Data API](https://github.com/uWaterloo/api-documentation/). I'm building this out of frustration of not having a centralized data source for UIUC information. This is still very much a WIP, so please feel free to submit an issue or contribute!
 
+*Note: This is an unofficial API and is not supported or controlled by UIUC itself. Any questions, comments, feedback or feature requests should be directed to xasos or via an issue in this repo.*
+
 ## Usage
 **Base URL:** http://uiuc-api.herokuapp.com
 
@@ -84,14 +86,11 @@ $ git push heroku master
  - 
  
 ## Expo
-Some apps built using this API:
+Some apps built using this API - if you've built an app using this API, feel free to add it by sending a PR!
 
 | Name | Description | URL |
 | ---- | ---- | ---- |
 | uiuc-cli | CLI to university services | https://github.com/xasos/uiuc-api |
-
-*If you are using Hook, please let me know and I'll showcase your app here.*
-
  
 ## Statistics
 So far, x users have used the API and over y requests have been made!
