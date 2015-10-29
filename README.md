@@ -88,6 +88,12 @@ Response:
  - /directory/search/:searchType/:query
  - 
  
+## Faculty
+
+## wifi
+
+
+ 
 ## Run Locally
 ```sh
 $ pip install -r requirements.txt
