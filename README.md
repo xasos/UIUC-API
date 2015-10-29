@@ -52,7 +52,7 @@ Response:
 
 ## Weather
 
-Get weather information from the [Department of Atmospheric Sciences](https://www.atmos.illinois.edu/).
+Get weather information from the [Department of Atmospheric Sciences](https://www.atmos.illinois.edu/weather/).
 
 #### `GET /weather`
 
@@ -64,17 +64,44 @@ http://uiuc-api.herokuapp.com/weather
 Response:
 ```json
   {
-    "name": "bitcoin",
-    "position": "1",
-    "price": "356.51",
-    "marketCap": "4847623128",
-    "ticker": "BTC",
-    "volume": "29824000",
-    "delta24hr": "2.37",
-    "timestamp": 1418325595612,
-    "currency": "usd"
-  ...
-  ...
+    "weather_station_location": "Willard Airport",
+    "last_recorded_time": "1446098674",
+    "weather_condition": "",
+    "temperature": "",
+    "dew_point": "",
+    "relative_humidity": "",
+    "winds": "",
+    "visibility": "",
+    "pressure": "",
+    "sunrise": "",
+    "sunset": "",
+    "latest_radar_image": "",
+    "storm_total_precip_image": "",
+    "surface_temp_image": "",
+    "surface_dew_point_temp_image": "",
+    "sea_level_pressure": "",
+    "mdw_surface_observations": "",
+    "composite_ir_image": "",
+    "composite_enhanced_ir_image": ""
+  }
+```
+
+## Wi-Fi
+
+Get Wi-Fi information for various places around campus.
+
+#### `GET /wifi`
+
+Example Query:
+```
+http://uiuc-api.herokuapp.com/wifi
+```
+
+Response:
+```json
+  {
+    "weather_station_location": "Willard Airport"
+  }
 ```
 
 ### Dining Services (https://web.housing.illinois.edu/MobileDining/WebService/SettingTable.aspx?k=7A828F94-620B-4EE3-A56F-328036CC3C04&t=json&ts=5-10-2012%2014:30:00)
@@ -90,7 +117,7 @@ Response:
  
 ## Faculty
 
-## wifi
+## newspaper
 
 
  
