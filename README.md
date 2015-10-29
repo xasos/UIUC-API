@@ -13,13 +13,13 @@ Unofficial Open Data API for the University of Illinois at Urbana-Champaign. Hea
 
 ## Dining Services
 
-Get information about food from all dorms.
+Get information about food options from all dining halls.
 
-#### `GET /coins`
+#### `GET /dining`
 
 Example Query:
 ```
-http://coins-api.herokuapp.com/coins
+http://uiuc-api.herokuapp.com/dining
 ```
 
 Response:
@@ -50,13 +50,37 @@ Response:
   ...
 ```
 
+## Weather
+
+Get weather information from the [Department of Atmospheric Sciences](https://www.atmos.illinois.edu/).
+
+#### `GET /weather`
+
+Example Query:
+```
+http://uiuc-api.herokuapp.com/weather
+```
+
+Response:
+```json
+  {
+    "name": "bitcoin",
+    "position": "1",
+    "price": "356.51",
+    "marketCap": "4847623128",
+    "ticker": "BTC",
+    "volume": "29824000",
+    "delta24hr": "2.37",
+    "timestamp": 1418325595612,
+    "currency": "usd"
+  ...
+  ...
+```
+
 ### Dining Services (https://web.housing.illinois.edu/MobileDining/WebService/SettingTable.aspx?k=7A828F94-620B-4EE3-A56F-328036CC3C04&t=json&ts=5-10-2012%2014:30:00)
  - /dining/menu
  - /dining/halls
- - /dining/{year}/{week}/menu
-
-### Weather
- - /weather
+ - /dining/{year}/{week}/menu\
 
 ### Course Information
 
@@ -100,11 +124,15 @@ Use of this API
 
 ## Todo
 - contributing.md
+- front-end
+- cli
+- client libraries
 
 ## License
 [MIT License](LICENSE)
 
-
+https://www.reddit.com/r/UIUC/comments/2hhlhn/would_anyone_be_interested_in_a_uiuc_open_data_api/
+throw in some redis/memcache for less server usage
 
 [travis-url]: https://travis-ci.org/xasos/UIUC-Open-Data
 [travis-image]: https://travis-ci.org/xasos/UIUC-Open-Data.svg?branch=master
