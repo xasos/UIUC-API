@@ -75,6 +75,23 @@ $ heroku create
 $ (git add, git commit)
 $ git push heroku master
 ```
+
+
+## Client Libraries
+ - []() (Python)
+ - []() (Node.js)
+ - []() (Java)
+ - 
+ 
+## Expo
+Some apps built using this API:
+
+| Name | Description | URL |
+| ---- | ---- | ---- |
+| uiuc-cli | CLI to university services | https://github.com/xasos/uiuc-api |
+
+*If you are using Hook, please let me know and I'll showcase your app here.*
+
  
 ## Statistics
 So far, x users have used the API and over y requests have been made!
@@ -82,8 +99,12 @@ So far, x users have used the API and over y requests have been made!
 ## Disclaimer
 Use of this API
 
+## Todo
+- contributing.md
+
 ## License
 [MIT License](LICENSE)
+
 
 
 [travis-url]: https://travis-ci.org/xasos/UIUC-Open-Data
