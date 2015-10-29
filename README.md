@@ -151,7 +151,7 @@ Some apps built using this API - if you've built an app using this API, feel fre
 
 | Name | Description | URL |
 | ---- | ---- | ---- |
-| uiuc-cli | CLI to university services | https://github.com/xasos/uiuc-api |
+| uiuc-cli | CLI to university services | https://github.com/xasos/uiuc-cli |
  
 ## Statistics
 So far, x users have used the API and over y requests have been made!
