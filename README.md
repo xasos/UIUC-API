@@ -168,6 +168,11 @@ Use of this API
 - transportation
 - generate google calendar
 - teach kevin pls
+- department events/seminars
+- wiki
+- buildings
+- Networking, Lens API 
+- https://techservices.illinois.edu/services/campus-lightweight-directory-access-protocol
 
 ## License
 [MIT License](LICENSE)
