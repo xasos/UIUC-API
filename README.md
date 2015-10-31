@@ -181,7 +181,7 @@ Use of this API
 - document (hehehehe) code
 - 
 ## Contributing
-[Contributing 
+Please refer to the [Contributing Guidelines](https://github.com/xasos/UIUC-Open-Data/blob/master/CONTRIBUTING.md) before submitting any pull requests.
 
 ## License
 [MIT License](LICENSE)
