@@ -2,10 +2,10 @@
 
 [![Join the chat at https://gitter.im/xasos/UIUC-Open-Data](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/xasos/UIUC-Open-Data?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
-[![Build Status][travis-image]][travis-url] [![Requirements Status][require-image]][require-url]
+<!--[![Build Status][travis-image]][travis-url] [![Requirements Status][require-image]][require-url]-->
 
-Unofficial Open Data API for the University of Illinois at Urbana-Champaign. I'm building this out of frustration of not having a centralized data source for UIUC information. The idea was fleshed out [here](https://www.reddit.com/r/UIUC/comments/2hhlhn/would_anyone_be_interested_in_a_uiuc_open_data_api/
-). This is still very much a WIP, so please feel free to submit an issue or contribute! The API is built with Python, Flask + [Flask RESTful](https://github.com/flask-restful/flask-restful), and Redis.
+Unofficial Open Data API for the University of Illinois at Urbana-Champaign. Provides data for various services on campus such as Dining, Weather, Wi-Fi, etc. The API is built with Python, Flask + [Flask RESTful](https://github.com/flask-restful/flask-restful), and Redis. Interest in the project was gauged [here](https://www.reddit.com/r/UIUC/comments/2hhlhn/would_anyone_be_interested_in_a_uiuc_open_data_api/
+). This is still very much a WIP, so please feel free to submit an issue or contribute!
 
 *Note: This is an unofficial API and is not supported or controlled by the University of Illinois at Urbana-Champaign itself. Any questions, comments, feedback or feature requests should be directed to xasos or via an issue in this repo.*
 
@@ -176,6 +176,9 @@ Use of this API
 - buildings
 - Networking, Lens API 
 - https://techservices.illinois.edu/services/campus-lightweight-directory-access-protocol
+- 
+## Contributing
+[Contributing 
 
 ## License
 [MIT License](LICENSE)
