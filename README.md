@@ -170,6 +170,7 @@ Use of this API
 - meal credits (untested)
 - transportation
 - generate google calendar
+- uiuc calendar
 - teach kevin pls
 - department events/seminars
 - wiki
