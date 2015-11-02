@@ -5,7 +5,7 @@
 <!--[![Build Status][travis-image]][travis-url] [![Requirements Status][require-image]][require-url]-->
 
 Unofficial Open Data API for the University of Illinois at Urbana-Champaign. Provides data for various services on campus such as Dining, Weather, Wi-Fi, etc. The API is built with Python, Flask + [Flask RESTful](https://github.com/flask-restful/flask-restful), and Redis. Interest in the project was gauged [here](https://www.reddit.com/r/UIUC/comments/2hhlhn/would_anyone_be_interested_in_a_uiuc_open_data_api/
-). This is still very much a WIP, so please feel free to submit an issue or contribute!
+). This is still very much a WIP, so please feel free to [submit an issue](https://github.com/xasos/UIUC-Open-Data/issues/new) or [contribute](https://github.com/xasos/UIUC-Open-Data/blob/master/CONTRIBUTING.md)!
 
 *Note: This is an unofficial API and is not supported or controlled by the University of Illinois at Urbana-Champaign itself. Any questions, comments, feedback or feature requests should be directed to xasos or via an issue in this repo.*
 
@@ -123,7 +123,7 @@ Response:
  
 ## Faculty
 
-## newspaper
+## The Daily Illini
 
 ## Transportation
 The Champaign-Urbana Mass Transit District offers an [API](https://developer.cumtd.com/) for transporation information in Champaign-Urbana. There are several API wrappers and Open-source apps written with the CUMTD API on [GitHub](https://github.com/search?utf8=%E2%9C%93&q=cumtd) as well as in their [App Garage](http://www.cumtd.com/maps-and-schedules/app-garage).
@@ -170,15 +170,18 @@ Use of this API
 - meal credits (untested)
 - transportation
 - generate google calendar
+- uiuc calendar
 - teach kevin pls
 - department events/seminars
 - wiki
 - buildings
 - Networking, Lens API 
 - https://techservices.illinois.edu/services/campus-lightweight-directory-access-protocol
+- to do list
+- document (hehehehe) code
 - 
 ## Contributing
-[Contributing 
+Please refer to the [Contributing Guidelines](https://github.com/xasos/UIUC-Open-Data/blob/master/CONTRIBUTING.md) before submitting any pull requests.
 
 ## License
 [MIT License](LICENSE)
