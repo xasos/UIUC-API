@@ -14,7 +14,7 @@ class HelloWorld(Resource):
     def get(self):
         return {'hello': 'world'}
 
-class Dining(Resource):
+class Main(Resource):
   def get(self):
     return {"yo": "ayy"}
 
@@ -55,13 +55,20 @@ class Weather(Resource):
   data['mdwSufaceObservations'] = "https://www.atmos.illinois.edu/weather/tree/prods/current/sfcslp/sfcslp_N.gif"
   data['irImage'] = "https://www.atmos.illinois.edu/weather/tree/prods/current/satconusenhir/satconusenhir_N.gif"
   data['irImage2'] = "https://www.atmos.illinois.edu/weather/tree/prods/current/satnoamir/satnoamir_N.gif"
+
   def get(self):
     return data
 
 
-api.add_resource(HelloWorld, '/')
+api.add_resource(Main, '/')
 api.add_resource(Dining, '/dining')
 api.add_resource(Weather, '/weather')
+api.add_resource(WiFi, '/wifi')
+api.add_resource(DailyIllini, '/dailyillini')
+api.add_resource(Directory, '/directory/search/:id') #? parameters at end
+api.add_resource(AcademicDepartment, '/department/:name')
+api.add_resource(Wiki, '/wiki/')
+
 
 if __name__ == '__main__':
     app.run(debug=True)
