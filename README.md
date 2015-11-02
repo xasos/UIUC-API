@@ -53,6 +53,51 @@ Response:
   ...
 ```
 
+#### `GET /dining`
+
+Example Query:
+```
+http://uiuc-api.herokuapp.com/dining
+```
+
+Response:
+```json
+  {
+    "name": "bitcoin",
+    "position": "1",
+    "price": "356.51",
+    "marketCap": "4847623128",
+    "ticker": "BTC",
+    "volume": "29824000",
+    "delta24hr": "2.37",
+    "timestamp": 1418325595612,
+    "currency": "usd"
+  },
+  {
+    "name": "ripple",
+    "position": "2",
+    "price": "0.016374",
+    "marketCap": "505654484",
+    "ticker": "XRP",
+    "volume": "1620910",
+    "delta24hr": "6.48",
+    "timestamp": 1418325595612,
+    "currency": "usd"
+  },
+  ...
+  ...
+```
+
+
+### Dining Services
+ - /dining/menu
+ - /dining/halls
+ - /dining/{year}/{week}/menu\
+
+  (https://web.housing.illinois.edu/MobileDining/WebService/SettingTable.aspx?k=7A828F94-620B-4EE3-A56F-328036CC3C04&t=json&ts=5-10-2012%2014:30:00)
+  
+
+
 ## Weather
 
 Get weather information from the [Department of Atmospheric Sciences](https://www.atmos.illinois.edu/weather/).
@@ -110,10 +155,20 @@ Response:
   }
 ```
 
-### Dining Services (https://web.housing.illinois.edu/MobileDining/WebService/SettingTable.aspx?k=7A828F94-620B-4EE3-A56F-328036CC3C04&t=json&ts=5-10-2012%2014:30:00)
- - /dining/menu
- - /dining/halls
- - /dining/{year}/{week}/menu\
+#### `GET /wifi/nearme/:latitude/:longitude` 
+<!-- Switch to query-based parameters and add section -->
+
+Example Query:
+```
+http://uiuc-api.herokuapp.com/wifi
+```
+
+Response:
+```json
+  {
+    "weather_station_location": "Willard Airport"
+  }
+```
 
 ### Course Information
 
@@ -142,19 +197,27 @@ $ (git add, git commit)
 $ git push heroku master
 ```
 
-
 ## Client Libraries
- - []() (Python)
- - []() (Node.js)
- - []() (Java)
- - 
+ - [UIUC.py]() (Python)
+ - [node-uiuc]() (Node.js)
+ - []() (Java/Android)
+ - []() (Swift)
+ - []() (Objective-C)
+ - []() (Scala)
+ - []() (Ruby)
+ - []() (Clojure)
+ - []() (Golang)
+ 
+*If you've built a wrapper for this API, feel free to add it to this list by sending a PR!*
  
 ## Expo
-Some apps built using this API - if you've built an app using this API, feel free to add it by sending a PR!
+Some apps built using this API: 
 
 | Name | Description | URL |
 | ---- | ---- | ---- |
 | uiuc-cli | CLI to university services | https://github.com/xasos/uiuc-cli |
+
+*If you've built an app using this API, feel free to add it to this list by sending a PR!*
  
 ## Statistics
 So far, x users have used the API and over y requests have been made!
@@ -167,11 +230,10 @@ Use of this API
 - front-end
 - cli
 - client libraries
-- meal credits (untested)
+- meal credits (untested) --part of dining, or seperate endpoint? (user-agent, etc.)
 - transportation
 - generate google calendar
 - uiuc calendar
-- teach kevin pls
 - department events/seminars
 - wiki
 - buildings
@@ -179,7 +241,13 @@ Use of this API
 - https://techservices.illinois.edu/services/campus-lightweight-directory-access-protocol
 - to do list
 - document (hehehehe) code
-- 
+- clean up code (a lot)
+- seperate code into files and add into directory
+- add static counter (as text file/button?)
+- overarching py file that runs models
+- seperate documentation md files for each endpoint
+- request for features
+
 ## Contributing
 Please refer to the [Contributing Guidelines](https://github.com/xasos/UIUC-Open-Data/blob/master/CONTRIBUTING.md) before submitting any pull requests.
 
