@@ -337,6 +337,12 @@ Some apps built using this API:
 | uiuc-cli | CLI to university services | https://github.com/xasos/uiuc-cli |
 
 *If you've built an app using this API, feel free to add it to this list by sending a PR!*
+
+## Contributing
+Please refer to the [Contributing Guidelines](https://github.com/xasos/UIUC-Open-Data/blob/master/CONTRIBUTING.md) before submitting any pull requests.
+
+## To-Do List
+The To-Do List can be found [here](https://github.com/xasos/UIUC-Open-Data/blob/master/todo.md).
  
 ## Statistics
 So far, x users have used the API and over y requests have been made!
@@ -344,40 +350,11 @@ So far, x users have used the API and over y requests have been made!
 ## Disclaimer
 Use of this API
 
-## Todo
-- contributing.md
-- front-end
-- cli
-- client libraries
-- transportation
-- generate google calendar
-- uiuc calendar
-- department events/seminars
-- wiki
-- buildings
-- Networking, Lens API 
-- https://techservices.illinois.edu/services/campus-lightweight-directory-access-protocol
-- to do list
-- document (hehehehe) code
-- clean up code (a lot)
-- seperate code into files and add into directory
-- add static counter (as text file/button?)
-- overarching py file that runs models
-- seperate documentation md files for each endpoint
-- request for features
-- table of values for requests (like meerkat api)
-- contributing guidelines
-- format dining options data
-- route parameter description
-- food calories
-
-## Contributing
-Please refer to the [Contributing Guidelines](https://github.com/xasos/UIUC-Open-Data/blob/master/CONTRIBUTING.md) before submitting any pull requests.
-
 ## License
 [MIT License](LICENSE)
 
-throw in some redis/memcache for less server usage
+
+
 
 [travis-url]: https://travis-ci.org/xasos/UIUC-Open-Data
 [travis-image]: https://travis-ci.org/xasos/UIUC-Open-Data.svg?branch=master
