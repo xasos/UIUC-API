@@ -27,6 +27,7 @@ Get information about food options from all dining halls.
 
 
 List of Halls:
+
 | Residence Hall | Dining Hall | Hall ID |
 | -------------- | ----------- | ------- |
 | Lincoln Avenue (LAR) | Lincoln/Allen Dining Hall | 5 |
