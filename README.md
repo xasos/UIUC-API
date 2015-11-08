@@ -215,12 +215,8 @@ Response:
 				"startTime": "0000-00-00 00:00:00",
 				"timeRemaining": "0"
 			},
-			  ...
-			 ...
-		}]
-	}
-} 
-
+			...
+			...
 ```
 
 ### Course Information
