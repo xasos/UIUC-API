@@ -20,6 +20,8 @@ Get information about food options from all dining halls.
 
 #### `GET /dining/:hall/:dateFrom/:dateTo`
 
+Get detailed menus from specific dining halls.
+
 List of Halls:
 
 | Residence Hall | Dining Hall | Hall Nickname | Hall ID |
@@ -49,17 +51,47 @@ List of Halls:
 
 Example Query:
 ```
-http://uiuc-api.herokuapp.com/dining/pennstation/11-09-2015/11-10-2015
+http://uiuc-api.herokuapp.com/dining/par/2015-11-08/2015-11-08
 ```
 
 Response:
 ```json
-
+{
+   "Menus":{
+      "Item":[
+         {
+            "EventDate":1446962400,
+            "DiningMenuID":52456,
+            "ServiceUnit":"Arugula's Serving",
+            "Course":"Salads",
+            "CourseSort":250,
+            "FormalName":"Fruit & Nut Chicken Salad",
+            "Meal":"Dinner",
+            "Traits":"Eggs,Soy,Tree Nuts,",
+            "DiningOptionID":2,
+            "ScheduleID":9,
+            "ItemID":5978
+         },
+         {
+            "EventDate":1446962400,
+            "DiningMenuID":50688,
+            "ServiceUnit":"Arugula's Serving",
+            "Course":"Salads",
+            "CourseSort":250,
+            "FormalName":"Macaroni Salad",
+            "Meal":"Dinner",
+            "Traits":"Corn,Eggs,Gluten,Soy,Vegetarian,Wheat,",
+            "DiningOptionID":2,
+            "ScheduleID":9,
+            "ItemID":3208
+         },
   ...
   ...
 ```
 
 #### `GET /dining/search/:query`
+
+Search dining halls for specific foods.
 
 Example Query:
 ```
@@ -110,6 +142,20 @@ Response:
   ...
 ```
 
+#### `GET /dining/`
+
+Example Query:
+```
+http://uiuc-api.herokuapp.com/dining/search/pasta
+```
+
+Response:
+```json
+
+  ...
+  ...
+```
+
   (https://web.housing.illinois.edu/MobileDining/WebService/SettingTable.aspx?k=7A828F94-620B-4EE3-A56F-328036CC3C04&t=json&ts=5-10-2012%2014:30:00)
   (https://web.housing.illinois.edu/MobileDining/WebService/MyBalances.asmx/GetBalances?k=7A828F94-620B-4EE3-A56F-328036CC3C04&HT=)
   (https://web.housing.illinois.edu/MobileDining/WebService/MobileDining.asmx/SearchMenus?k=7A828F94-620B-4EE3-A56F-328036CC3C04&SearchPhrase=salsa)
@@ -120,6 +166,8 @@ Response:
 Get weather information from the [Department of Atmospheric Sciences](https://www.atmos.illinois.edu/weather/).
 
 #### `GET /weather`
+
+Get Champaign-Urbana weather information from the Williard Airport weather station.
 
 Example Query:
 ```
@@ -193,6 +241,8 @@ Get information about campus laundry.
 
 #### `GET /laundry`
 
+Get washing machine/dryer usage information for all residence halls.
+
 Example Query:
 ```
 http://uiuc-api.herokuapp.com/laundry
@@ -235,6 +285,9 @@ Response:
 			...
 			...
 ```
+
+
+
 
 ### Course Information
 
@@ -316,6 +369,7 @@ Use of this API
 - contributing guidelines
 - format dining options data
 - route parameter description
+- food calories
 
 ## Contributing
 Please refer to the [Contributing Guidelines](https://github.com/xasos/UIUC-Open-Data/blob/master/CONTRIBUTING.md) before submitting any pull requests.
