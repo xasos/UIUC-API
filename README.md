@@ -316,8 +316,8 @@ http://uiuc-api.herokuapp.com/directory/search/netid/npant3
 Response:
 ```json
 {
-	"success" : "true",
-	"type: "Student",
+	"success": "true",
+	"type: "student",
 	"email": "npant3@illinois.edu"
 }
 ```
