@@ -20,7 +20,7 @@ Get information about food options from all dining halls.
 
 #### `GET /dining/:hall/:dateFrom/:dateTo`
 
-Get detailed menus from specific dining halls.
+*Get detailed menus from specific dining halls.*
 
 List of Halls:
 
