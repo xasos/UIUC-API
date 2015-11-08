@@ -314,7 +314,7 @@ Response:
 ```json
 {
 	"success": "true",
-	"type": student",
+	"type": "student",
 	"email": "npant3@illinois.edu"
 }
 ```
