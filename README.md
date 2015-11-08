@@ -364,6 +364,37 @@ Response:
 
 ```
 
+## Atheletic schedule
+
+Get the Fighting Illini's athletic schedule across all sports.
+
+- do individual sports
+
+#### `GET /directory/search/:searchType/:query`
+
+Search types:
+
+| Search Type | Search Type ID |
+| ----------- | --------------- |
+| All | all |
+| Faculty/Staff | faculty |
+| Student | student |
+| NetID | netid |
+| Department | department |
+| Phone | phone |
+
+*`searchType` route parameter can use the Search Type ID when querying.*
+
+Example Query:
+```
+http://uiuc-api.herokuapp.com/directory/search/netid/npant3
+```
+
+Response:
+```json
+
+```
+
 ## Course Information
 UIUC's Student Services Development Team offers an [API](http://courses.illinois.edu/cisdocs/) for information on Class Schedule, Course Catalog, and Gened data. However, since the data is not publibly available, you must sign up for access [here](http://courses.illinois.edu/cisdocs/authentication).
 
