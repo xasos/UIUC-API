@@ -26,24 +26,24 @@ List of Halls:
 | -------------- | ----------- | ------------- | ------- |
 | Lincoln Avenue (LAR) | Lincoln/Allen Dining Hall | lar | 5 |
 | Lincoln Avenue (LAR) | Field of Greens | fieldofgreens  | 12 |
-| Lincoln Avenue (LAR) | Leafy! | 13 | leafy |
+| Lincoln Avenue (LAR) | Leafy! | leafy | 13 |
 | Pennsylvania Avenue (PAR) | PAR Dining Hall | par | 2 |
 | Pennsylvania Avenue (PAR) | Penn Station | pennstation | 14 |
-| Illinois Street (ISR) | ISR Dining Hall | 3 |
-| Illinois Street (ISR) | CHOMPS | 18 |
-| Illinois Street (ISR) | Cocina Mexicana | 10 |
-| Illinois Street (ISR) | Taste of Asia | 17 |
-| Ikenberry | Ikenberry Dining Hall | 1 |
-| Ikenberry | 57 North | 7 |
-| Ikenberry | Better Burger | 20 |
-| Ikenberry | Caffeinator | 9 |
-| Ikenberry | Neo Soul Ingredient | 21 |
-| Florida Avenue (FAR) | FAR Dining Hall | 6 |
-| Florida Avenue (FAR) | Cracked Egg Café | 8 |
-| Florida Avenue (FAR) | Soul Ingredient | 16 |
-| Busey-Evans | Busey-Evans Dining Hall | 4 |
-| Busey-Evans | Busey Bean and Green | 11 |
-| Busey-Evans | Oodles | 19 |
+| Illinois Street (ISR) | ISR Dining Hall | isr | 3 |
+| Illinois Street (ISR) | CHOMPS | chomps | 18 |
+| Illinois Street (ISR) | Cocina Mexicana | cocinamexicana |10 |
+| Illinois Street (ISR) | Taste of Asia | tasteofasia | 17 |
+| Ikenberry | Ikenberry Dining Hall | ikenberrydininghall | 1 |
+| Ikenberry | 57 North | 57north | 7 |
+| Ikenberry | Better Burger | betterburger | 20 |
+| Ikenberry | Caffeinator | caffeinator | 9 |
+| Ikenberry | Neo Soul Ingredient | neosoulingredient | 21 |
+| Florida Avenue (FAR) | FAR Dining Hall | far | 6 |
+| Florida Avenue (FAR) | Cracked Egg Café | crackedeggcafe | 8 |
+| Florida Avenue (FAR) | Soul Ingredient | soulingredient | 16 |
+| Busey-Evans | Busey-Evans Dining Hall | buseyevans | 4 |
+| Busey-Evans | Busey Bean and Green | buseybeanandgreen | 11 |
+| Busey-Evans | Oodles | oodles | 19 |
 
 *`Hall` route parameter can use the Hall ID or Hall nickname when querying.*
 
