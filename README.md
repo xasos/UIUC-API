@@ -170,6 +170,55 @@ Response:
   }
 ```
 
+## Laundry
+
+Get information about campus laundry.
+
+#### `GET /laundry`
+
+Example Query:
+```
+http://uiuc-api.herokuapp.com/laundry
+```
+
+Response:
+```json
+{
+	"location": {
+		"name": "University of Illinois at Urbana",
+		"code": "urba7723",
+		"networked": "false",
+		"company": "Jetz Service Co",
+		"rooms": [{
+			"id": "110959186",
+			"name": "1107 West Green",
+			"networked": "A",
+			"machines": [{
+				"port": "1",
+				"label": "1",
+				"description": "Front-Load Washer",
+				"status": "Available",
+				"startTime": "0000-00-00 00:00:00",
+				"timeRemaining": "0"
+			}, {
+				"port": "2",
+				"label": "2",
+				"description": "Front-Load Washer",
+				"status": "Available",
+				"startTime": "0000-00-00 00:00:00",
+				"timeRemaining": "0"
+			}, {
+				"port": "3",
+				"label": "3",
+				"description": "Front-Load Washer",
+				"status": "Available",
+				"startTime": "0000-00-00 00:00:00",
+				"timeRemaining": "0"
+			}, 
+  ...
+  ...
+```
+
 ### Course Information
 
 ### University Directory
