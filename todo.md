@@ -19,3 +19,5 @@ _\( managed using [todo-md](https://github.com/Hypercubed/todo-md) \)_
 - [ ] Get food calorie data
 - [ ] Memcache/Redis for less networking usage
 - [ ] Format JSON in README
+- [ ] Academic Department Data
+- [ ] Possibly create a course information endpoint
