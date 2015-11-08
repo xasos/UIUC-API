@@ -4,6 +4,7 @@ from bs4 import BeautifulSoup
 from IPython import embed
 import urllib2
 import re
+import json
 
 app = Flask(__name__)
 api = Api(app)
@@ -45,7 +46,6 @@ class Weather(Resource):
   #data['visibility'] = match.search(weather_data)
   match = re.compile(r'Pressure:.*?(([0-9]+(\.[0-9][0-9]?)?).*?)\\n(.*?)\\n')
   #data['pressure'] = match.search(weather_data)
-  embed()
 
   data['latestRadarImage'] = "https://www.atmos.illinois.edu/weather/tree/prods/current/nicerad/nicerad_N.gif"
   data['stormTotalPrecipImage'] = "https://www.atmos.illinois.edu/weather/tree/prods/current/niceradilxpretx/niceradilxpretx_N.gif"
@@ -59,15 +59,22 @@ class Weather(Resource):
   def get(self):
     return data
 
+class Laundry(Resource):
+  def get(self):
+    request_url = "http://23.23.147.128/homes/mydata/urba7723"
+    response = urllib2.urlopen(request_url)
+    data = json.load(response)
+    return data
 
 api.add_resource(Main, '/')
-api.add_resource(Dining, '/dining')
+#api.add_resource(Dining, '/dining')
 api.add_resource(Weather, '/weather')
-api.add_resource(WiFi, '/wifi')
-api.add_resource(DailyIllini, '/dailyillini')
-api.add_resource(Directory, '/directory/search/:id') #? parameters at end
-api.add_resource(AcademicDepartment, '/department/:name')
-api.add_resource(Wiki, '/wiki/')
+api.add_resource(Laundry, '/laundry')
+#api.add_resource(WiFi, '/wifi')
+#api.add_resource(DailyIllini, '/dailyillini')
+#api.add_resource(Directory, '/directory/search/:id') #? parameters at end
+#api.add_resource(AcademicDepartment, '/department/:name')
+#api.add_resource(Wiki, '/wiki/')
 
 
 if __name__ == '__main__':
