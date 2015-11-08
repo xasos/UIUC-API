@@ -286,9 +286,6 @@ Response:
 			...
 ```
 
-## Course Information
-
-
 ## University Directory
 
 Search the university directory for students, academic departments, and faculty/staff.
@@ -317,14 +314,42 @@ Response:
 ```json
 {
 	"success": "true",
-	"type: "student",
+	"type": student",
 	"email": "npant3@illinois.edu"
 }
 ```
- 
-## Faculty/Department
 
 ## The Daily Illini
+
+Search the university directory for students, academic departments, and faculty/staff.
+
+#### `GET /directory/search/:searchType/:query`
+
+Search types:
+
+| Search Type | Search Type ID |
+| ----------- | --------------- |
+| All | all |
+| Faculty/Staff | faculty |
+| Student | student |
+| NetID | netid |
+| Department | department |
+| Phone | phone |
+
+*`searchType` route parameter can use the Search Type ID when querying.*
+
+Example Query:
+```
+http://uiuc-api.herokuapp.com/directory/search/netid/npant3
+```
+
+Response:
+```json
+
+```
+
+## Course Information
+UIUC's Student Services Development Team offers an [API](http://courses.illinois.edu/cisdocs/) for information on Class Schedule, Course Catalog, and Gened data. However, since the data is not publibly available, you must sign up for access [here](http://courses.illinois.edu/cisdocs/authentication).
 
 ## Transportation
 The Champaign-Urbana Mass Transit District offers an [API](https://developer.cumtd.com/) for transporation information in the Champaign-Urbana metropolitan area. There are several API wrappers and Open-source applications written with the CUMTD API on [GitHub](https://github.com/search?utf8=%E2%9C%93&q=cumtd) as well as in their [App Garage](http://www.cumtd.com/maps-and-schedules/app-garage).
