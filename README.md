@@ -92,10 +92,12 @@ Response:
 ### Dining Services
  - /dining/menu
  - /dining/halls
- - /dining/{year}/{week}/menu\
+ - /dining/{year}/{week}/menu
+ - /dining/search/:query
 
   (https://web.housing.illinois.edu/MobileDining/WebService/SettingTable.aspx?k=7A828F94-620B-4EE3-A56F-328036CC3C04&t=json&ts=5-10-2012%2014:30:00)
-  
+  (https://web.housing.illinois.edu/MobileDining/WebService/MyBalances.asmx/GetBalances?k=7A828F94-620B-4EE3-A56F-328036CC3C04&HT=)
+  (https://web.housing.illinois.edu/MobileDining/WebService/MobileDining.asmx/SearchMenus?k=7A828F94-620B-4EE3-A56F-328036CC3C04&SearchPhrase=salsa)
 
 
 ## Weather
@@ -225,7 +227,7 @@ Response:
  - /directory/search/:searchType/:query
  - 
  
-## Faculty
+## Faculty/Department
 
 ## The Daily Illini
 
@@ -279,7 +281,6 @@ Use of this API
 - front-end
 - cli
 - client libraries
-- meal credits (untested) --part of dining, or seperate endpoint? (user-agent, etc.)
 - transportation
 - generate google calendar
 - uiuc calendar
@@ -297,6 +298,7 @@ Use of this API
 - seperate documentation md files for each endpoint
 - request for features
 - table of values for requests (like meerkat api)
+- contributing guidelines
 
 ## Contributing
 Please refer to the [Contributing Guidelines](https://github.com/xasos/UIUC-Open-Data/blob/master/CONTRIBUTING.md) before submitting any pull requests.
