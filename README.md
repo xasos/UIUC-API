@@ -339,7 +339,7 @@ Some apps built using this API:
 *If you've built an app using this API, feel free to add it to this list by sending a PR!*
 
 ## Contributing
-Please refer to the [Contributing Guidelines](https://github.com/xasos/UIUC-Open-Data/blob/master/CONTRIBUTING.md) before submitting any pull requests.
+Please refer to the [Contributing Guidelines](https://github.com/xasos/UIUC-Open-Data/blob/master/CONTRIBUTING.md) before submitting any pull requests!
 
 ## To-Do List
 The To-Do List can be found [here](https://github.com/xasos/UIUC-Open-Data/blob/master/todo.md).
@@ -352,8 +352,6 @@ Use of this API
 
 ## License
 [MIT License](LICENSE)
-
-
 
 
 [travis-url]: https://travis-ci.org/xasos/UIUC-Open-Data
