@@ -56,6 +56,8 @@ class Weather(Resource):
   data['irImage'] = "https://www.atmos.illinois.edu/weather/tree/prods/current/satconusenhir/satconusenhir_N.gif"
   data['irImage2'] = "https://www.atmos.illinois.edu/weather/tree/prods/current/satnoamir/satnoamir_N.gif"
 
+  embed()
+
   def get(self):
     return data
 
@@ -66,8 +68,12 @@ class Laundry(Resource):
     data = json.load(response)
     return data
 
+class Dining(Resource):
+  def get(self):
+
+
 api.add_resource(Main, '/')
-#api.add_resource(Dining, '/dining')
+api.add_resource(Dining, '/dining', '/dining/search/<query>')
 api.add_resource(Weather, '/weather')
 api.add_resource(Laundry, '/laundry')
 #api.add_resource(WiFi, '/wifi')
