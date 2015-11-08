@@ -18,82 +18,95 @@ Unofficial Open Data API for the University of Illinois at Urbana-Champaign. Pro
 
 Get information about food options from all dining halls.
 
-#### `GET /dining`
+#### `GET /dining/:hall/:dateFrom/:dateTo`
+List of Halls:
+| Residence Hall | Dining Hall | Hall ID |
+| ---- | ---- | ---- |
+| Lincoln Avenue (LAR) | Lincoln/Allen Dining Hall | 5 |
+| Lincoln Avenue (LAR) | Field of Greens | 12 |
+| Lincoln Avenue (LAR) | Leafy! | 13 |
+| Pennsylvania Avenue (PAR) | PAR Dining Hall | 2 |
+| Pennsylvania Avenue (PAR) | Penn Station | 14 |
+| Illinois Street (ISR) | ISR Dining Hall | 3 |
+| Illinois Street (ISR) | CHOMPS | 18 |
+| Illinois Street (ISR) | Cocina Mexicana | 10 |
+| Illinois Street (ISR) | Taste of Asia | 17 |
+| Ikenberry | Ikenberry Dining Hall | 1 |
+| Ikenberry | 57 North | 7 |
+| Ikenberry | Better Burger | 20 |
+| Ikenberry | Caffeinator | 9 |
+| Ikenberry | Neo Soul Ingredient | 21 |
+| Florida Avenue (FAR) | FAR Dining Hall | 6 |
+| Florida Avenue (FAR) | Cracked Egg Café | 8 |
+| Florida Avenue (FAR) | Soul Ingredient | 16 |
+| Busey-Evans | Busey-Evans Dining Hall | 4 |
+| Busey-Evans | Busey Bean and Green | 11 |
+| Busey-Evans | Oodles | 19 |
+
+*`Hall` route parameter can use the Hall ID or Hall nickname when querying.*
 
 Example Query:
 ```
-http://uiuc-api.herokuapp.com/dining
+http://uiuc-api.herokuapp.com/dining/pennstation/11-09-2015/11-10-2015
 ```
 
 Response:
 ```json
-  {
-    "name": "bitcoin",
-    "position": "1",
-    "price": "356.51",
-    "marketCap": "4847623128",
-    "ticker": "BTC",
-    "volume": "29824000",
-    "delta24hr": "2.37",
-    "timestamp": 1418325595612,
-    "currency": "usd"
-  },
-  {
-    "name": "ripple",
-    "position": "2",
-    "price": "0.016374",
-    "marketCap": "505654484",
-    "ticker": "XRP",
-    "volume": "1620910",
-    "delta24hr": "6.48",
-    "timestamp": 1418325595612,
-    "currency": "usd"
-  },
+
   ...
   ...
 ```
 
-#### `GET /dining`
+#### `GET /dining/search/:query`
 
 Example Query:
 ```
-http://uiuc-api.herokuapp.com/dining
+http://uiuc-api.herokuapp.com/dining/search/pasta
 ```
 
 Response:
 ```json
-  {
-    "name": "bitcoin",
-    "position": "1",
-    "price": "356.51",
-    "marketCap": "4847623128",
-    "ticker": "BTC",
-    "volume": "29824000",
-    "delta24hr": "2.37",
-    "timestamp": 1418325595612,
-    "currency": "usd"
-  },
-  {
-    "name": "ripple",
-    "position": "2",
-    "price": "0.016374",
-    "marketCap": "505654484",
-    "ticker": "XRP",
-    "volume": "1620910",
-    "delta24hr": "6.48",
-    "timestamp": 1418325595612,
-    "currency": "usd"
-  },
+{
+   "Data":{
+      "Table":[
+         {
+            "name":"ItemList",
+            "Row":[
+               {
+                  "Item_IntID":"16596",
+                  "FormalName":"BLT Pasta Salad",
+                  "ScheduleIDs":[
+                     {
+                        "ScheduleID":4,
+                        "DiningOptionID":4,
+                        "EventDate":1447221600
+                     }
+                  ]
+               },
+               {
+                  "Item_IntID":"17136",
+                  "FormalName":"Campanelle Pasta",
+                  "ScheduleIDs":[
+                     {
+                        "ScheduleID":21,
+                        "DiningOptionID":5,
+                        "EventDate":1447653600
+                     },
+                     {
+                        "ScheduleID":42,
+                        "DiningOptionID":1,
+                        "EventDate":1447308000
+                     },
+                     {
+                        "ScheduleID":42,
+                        "DiningOptionID":1,
+                        "EventDate":1447912800
+                     }
+                  ]
+               },
   ...
   ...
 ```
-
-
-### Dining Services
- - /dining/menu
- - /dining/halls
- - /dining/{year}/{week}/menu
- - /dining/search/:query
 
   (https://web.housing.illinois.edu/MobileDining/WebService/SettingTable.aspx?k=7A828F94-620B-4EE3-A56F-328036CC3C04&t=json&ts=5-10-2012%2014:30:00)
   (https://web.housing.illinois.edu/MobileDining/WebService/MyBalances.asmx/GetBalances?k=7A828F94-620B-4EE3-A56F-328036CC3C04&HT=)
@@ -299,6 +312,8 @@ Use of this API
 - request for features
 - table of values for requests (like meerkat api)
 - contributing guidelines
+- format dining options data
+- route parameter description
 
 ## Contributing
 Please refer to the [Contributing Guidelines](https://github.com/xasos/UIUC-Open-Data/blob/master/CONTRIBUTING.md) before submitting any pull requests.
