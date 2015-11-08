@@ -22,13 +22,13 @@ Get information about food options from all dining halls.
 
 List of Halls:
 
-| Residence Hall | Dining Hall | Hall ID |
-| -------------- | ----------- | ------- |
-| Lincoln Avenue (LAR) | Lincoln/Allen Dining Hall | 5 |
-| Lincoln Avenue (LAR) | Field of Greens | 12 |
-| Lincoln Avenue (LAR) | Leafy! | 13 |
-| Pennsylvania Avenue (PAR) | PAR Dining Hall | 2 |
-| Pennsylvania Avenue (PAR) | Penn Station | 14 |
+| Residence Hall | Dining Hall | Hall Nickname | Hall ID |
+| -------------- | ----------- | ------------- | ------- |
+| Lincoln Avenue (LAR) | Lincoln/Allen Dining Hall | lar | 5 |
+| Lincoln Avenue (LAR) | Field of Greens | fieldofgreens  | 12 |
+| Lincoln Avenue (LAR) | Leafy! | 13 | leafy |
+| Pennsylvania Avenue (PAR) | PAR Dining Hall | par | 2 |
+| Pennsylvania Avenue (PAR) | Penn Station | pennstation | 14 |
 | Illinois Street (ISR) | ISR Dining Hall | 3 |
 | Illinois Street (ISR) | CHOMPS | 18 |
 | Illinois Street (ISR) | Cocina Mexicana | 10 |
