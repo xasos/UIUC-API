@@ -91,7 +91,7 @@ Response:
 
 #### `GET /dining/search/:query`
 
-Search dining halls for specific foods.
+*Search dining halls for specific foods.*
 
 Example Query:
 ```
@@ -167,7 +167,7 @@ Get weather information from the [Department of Atmospheric Sciences](https://ww
 
 #### `GET /weather`
 
-Get Champaign-Urbana weather information from the Williard Airport weather station.
+*Get Champaign-Urbana weather information from the Williard Airport weather station.*
 
 Example Query:
 ```
@@ -241,7 +241,7 @@ Get information about campus laundry.
 
 #### `GET /laundry`
 
-Get washing machine/dryer usage information for all residence halls.
+*Get washing machine/dryer usage information for all residence halls.*
 
 Example Query:
 ```
