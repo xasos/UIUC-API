@@ -7,7 +7,7 @@
 Unofficial Open Data API for the University of Illinois at Urbana-Champaign. Provides data for various services on campus such as Dining, Weather, Wi-Fi, etc. The API is built with Python, Flask + [Flask RESTful](https://github.com/flask-restful/flask-restful), and Redis. Interest in the project was gauged [here](https://www.reddit.com/r/UIUC/comments/2hhlhn/would_anyone_be_interested_in_a_uiuc_open_data_api/
 ). This is still very much a WIP, so please feel free to [submit an issue](https://github.com/xasos/UIUC-Open-Data/issues/new) or [contribute](https://github.com/xasos/UIUC-Open-Data/blob/master/CONTRIBUTING.md)!
 
-*Note: This is an unofficial API and is not supported or controlled by the University of Illinois at Urbana-Champaign itself. Any questions, comments, feedback or feature requests should be directed to xasos or via an issue in this repo.*
+*Note: This is an unofficial API and is not supported or controlled by the University of Illinois at Urbana-Champaign itself. Any questions, comments, feedback or feature requests should be directed to [xasos](https://github.com/xasos) or via an [issue](https://github.com/xasos/UIUC-Open-Data/issues/new) in this repo.*
 
 ## Usage
 **Base URL:** http://uiuc-api.herokuapp.com
@@ -286,14 +286,41 @@ Response:
 			...
 ```
 
+## Course Information
 
 
+## University Directory
 
-### Course Information
+Search the university directory for students, academic departments, and faculty/staff.
 
-### University Directory
- - /directory/search/:searchType/:query
- - 
+#### `GET /directory/search/:searchType/:query`
+
+Search types:
+
+| Search Type | Search Type ID |
+| ----------- | --------------- |
+| All | all |
+| Faculty/Staff | faculty |
+| Student | student |
+| NetID | netid |
+| Department | department |
+| Phone | phone |
+
+*`searchType` route parameter can use the Search Type ID when querying.*
+
+Example Query:
+```
+http://uiuc-api.herokuapp.com/directory/search/netid/npant3
+```
+
+Response:
+```json
+{
+	"success" : "true",
+	"type: "Student",
+	"email": "npant3@illinois.edu"
+}
+```
  
 ## Faculty/Department
 
@@ -337,6 +364,12 @@ Some apps built using this API:
 | uiuc-cli | CLI to university services | https://github.com/xasos/uiuc-cli |
 
 *If you've built an app using this API, feel free to add it to this list by sending a PR!*
+
+## Contributing
+Please refer to the [Contributing Guidelines](https://github.com/xasos/UIUC-Open-Data/blob/master/CONTRIBUTING.md) before submitting any pull requests!
+
+## To-Do List
+The To-Do List can be found [here](https://github.com/xasos/UIUC-Open-Data/blob/master/todo.md).
  
 ## Statistics
 So far, x users have used the API and over y requests have been made!
@@ -344,40 +377,9 @@ So far, x users have used the API and over y requests have been made!
 ## Disclaimer
 Use of this API
 
-## Todo
-- contributing.md
-- front-end
-- cli
-- client libraries
-- transportation
-- generate google calendar
-- uiuc calendar
-- department events/seminars
-- wiki
-- buildings
-- Networking, Lens API 
-- https://techservices.illinois.edu/services/campus-lightweight-directory-access-protocol
-- to do list
-- document (hehehehe) code
-- clean up code (a lot)
-- seperate code into files and add into directory
-- add static counter (as text file/button?)
-- overarching py file that runs models
-- seperate documentation md files for each endpoint
-- request for features
-- table of values for requests (like meerkat api)
-- contributing guidelines
-- format dining options data
-- route parameter description
-- food calories
-
-## Contributing
-Please refer to the [Contributing Guidelines](https://github.com/xasos/UIUC-Open-Data/blob/master/CONTRIBUTING.md) before submitting any pull requests.
-
 ## License
 [MIT License](LICENSE)
 
-throw in some redis/memcache for less server usage
 
 [travis-url]: https://travis-ci.org/xasos/UIUC-Open-Data
 [travis-image]: https://travis-ci.org/xasos/UIUC-Open-Data.svg?branch=master
