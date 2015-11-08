@@ -321,6 +321,22 @@ Response:
 
 ## The Daily Illini
 
+Get stories, classifieds, events, and more from UIUC's campus newspaper, [The Daily Illini](http://www.dailyillini.com/).
+
+#### `GET /dailyillini/search/:query`
+
+Example Query:
+```
+http://uiuc-api.herokuapp.com/directory/search/netid/npant3
+```
+
+Response:
+```json
+
+```
+
+## Buildings
+
 Search the university directory for students, academic departments, and faculty/staff.
 
 #### `GET /directory/search/:searchType/:query`
