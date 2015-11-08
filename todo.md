@@ -17,3 +17,5 @@ _\( managed using [todo-md](https://github.com/Hypercubed/todo-md) \)_
 - [ ] Enpoint parameters
 - [ ] Format dining option data
 - [ ] Get food calorie data
+- [ ] Memcache/Redis for less networking usage
+- [ ] Format JSON in README
