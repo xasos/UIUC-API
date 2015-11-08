@@ -230,7 +230,7 @@ Response:
 ## The Daily Illini
 
 ## Transportation
-The Champaign-Urbana Mass Transit District offers an [API](https://developer.cumtd.com/) for transporation information in Champaign-Urbana. There are several API wrappers and Open-source apps written with the CUMTD API on [GitHub](https://github.com/search?utf8=%E2%9C%93&q=cumtd) as well as in their [App Garage](http://www.cumtd.com/maps-and-schedules/app-garage).
+The Champaign-Urbana Mass Transit District offers an [API](https://developer.cumtd.com/) for transporation information in the Champaign-Urbana metropolitan area. There are several API wrappers and Open-source applications written with the CUMTD API on [GitHub](https://github.com/search?utf8=%E2%9C%93&q=cumtd) as well as in their [App Garage](http://www.cumtd.com/maps-and-schedules/app-garage).
  
 ## Run Locally
 ```sh
@@ -296,6 +296,7 @@ Use of this API
 - overarching py file that runs models
 - seperate documentation md files for each endpoint
 - request for features
+- table of values for requests (like meerkat api)
 
 ## Contributing
 Please refer to the [Contributing Guidelines](https://github.com/xasos/UIUC-Open-Data/blob/master/CONTRIBUTING.md) before submitting any pull requests.
