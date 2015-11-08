@@ -19,9 +19,16 @@ Unofficial Open Data API for the University of Illinois at Urbana-Champaign. Pro
 Get information about food options from all dining halls.
 
 #### `GET /dining/:hall/:dateFrom/:dateTo`
+
+
+| Name | Description | URL |
+| ---- | ---- | ---- |
+| uiuc-cli | CLI to university services | https://github.com/xasos/uiuc-cli |
+
+
 List of Halls:
 | Residence Hall | Dining Hall | Hall ID |
-| ---- | ---- | ---- |
+| -------------- | ----------- | ------- |
 | Lincoln Avenue (LAR) | Lincoln/Allen Dining Hall | 5 |
 | Lincoln Avenue (LAR) | Field of Greens | 12 |
 | Lincoln Avenue (LAR) | Leafy! | 13 |
