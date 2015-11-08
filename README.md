@@ -20,12 +20,6 @@ Get information about food options from all dining halls.
 
 #### `GET /dining/:hall/:dateFrom/:dateTo`
 
-
-| Name | Description | URL |
-| ---- | ---- | ---- |
-| uiuc-cli | CLI to university services | https://github.com/xasos/uiuc-cli |
-
-
 List of Halls:
 
 | Residence Hall | Dining Hall | Hall ID |
