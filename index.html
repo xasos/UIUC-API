@@ -1,0 +1,746 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>UIUC-Open-Data by xasos</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/github-light.css">
+    <meta name="viewport" content="width=device-width">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>UIUC-Open-Data</h1>
+        <p>Open Data API for UIUC</p>
+
+        <p class="view"><a href="https://github.com/xasos/UIUC-Open-Data">View the Project on GitHub <small>xasos/UIUC-Open-Data</small></a></p>
+
+
+        <ul>
+          <li><a href="https://github.com/xasos/UIUC-Open-Data/zipball/master">Download <strong>ZIP File</strong></a></li>
+          <li><a href="https://github.com/xasos/UIUC-Open-Data/tarball/master">Download <strong>TAR Ball</strong></a></li>
+          <li><a href="https://github.com/xasos/UIUC-Open-Data">View On <strong>GitHub</strong></a></li>
+        </ul>
+      </header>
+      <section>
+        <h1>
+<a id="uiuc-open-data-api" class="anchor" href="#uiuc-open-data-api" aria-hidden="true"><span class="octicon octicon-link"></span></a>UIUC Open Data API</h1>
+
+<p><a href="https://gitter.im/xasos/UIUC-Open-Data?utm_source=badge&amp;utm_medium=badge&amp;utm_campaign=pr-badge&amp;utm_content=badge"><img src="https://badges.gitter.im/Join%20Chat.svg" alt="Join the chat at https://gitter.im/xasos/UIUC-Open-Data"></a></p>
+
+
+
+<p>Unofficial Open Data API for the University of Illinois at Urbana-Champaign. Provides data for various services on campus such as Dining, Weather, Wi-Fi, etc. The API is built with Python, Flask + <a href="https://github.com/flask-restful/flask-restful">Flask RESTful</a>, and Redis. Interest in the project was gauged <a href="https://www.reddit.com/r/UIUC/comments/2hhlhn/would_anyone_be_interested_in_a_uiuc_open_data_api/">here</a>. This is still very much a WIP, so please feel free to <a href="https://github.com/xasos/UIUC-Open-Data/issues/new">submit an issue</a> or <a href="https://github.com/xasos/UIUC-Open-Data/blob/master/CONTRIBUTING.md">contribute</a>!</p>
+
+<p><em>Note: This is an unofficial API and is not supported or controlled by the University of Illinois at Urbana-Champaign itself. Any questions, comments, feedback or feature requests should be directed to <a href="https://github.com/xasos">xasos</a> or via an <a href="https://github.com/xasos/UIUC-Open-Data/issues/new">issue</a> in this repo.</em></p>
+
+<h2>
+<a id="usage" class="anchor" href="#usage" aria-hidden="true"><span class="octicon octicon-link"></span></a>Usage</h2>
+
+<p><strong>Base URL:</strong> <a href="http://uiuc-api.herokuapp.com">http://uiuc-api.herokuapp.com</a></p>
+
+<p><strong>Output:</strong> JSON</p>
+
+<h2>
+<a id="dining-services" class="anchor" href="#dining-services" aria-hidden="true"><span class="octicon octicon-link"></span></a>Dining Services</h2>
+
+<p>Get information about food options from all dining halls.</p>
+
+<h4>
+<a id="get-dininghalldatefromdateto" class="anchor" href="#get-dininghalldatefromdateto" aria-hidden="true"><span class="octicon octicon-link"></span></a><code>GET /dining/:hall/:dateFrom/:dateTo</code>
+</h4>
+
+<p><em>Get detailed menus from specific dining halls.</em></p>
+
+<p>List of Halls:</p>
+
+<table>
+<thead>
+<tr>
+<th>Residence Hall</th>
+<th>Dining Hall</th>
+<th>Hall Nickname</th>
+<th>Hall ID</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Lincoln Avenue (LAR)</td>
+<td>Lincoln/Allen Dining Hall</td>
+<td>lar</td>
+<td>5</td>
+</tr>
+<tr>
+<td>Lincoln Avenue (LAR)</td>
+<td>Field of Greens</td>
+<td>fieldofgreens</td>
+<td>12</td>
+</tr>
+<tr>
+<td>Lincoln Avenue (LAR)</td>
+<td>Leafy!</td>
+<td>leafy</td>
+<td>13</td>
+</tr>
+<tr>
+<td>Pennsylvania Avenue (PAR)</td>
+<td>PAR Dining Hall</td>
+<td>par</td>
+<td>2</td>
+</tr>
+<tr>
+<td>Pennsylvania Avenue (PAR)</td>
+<td>Penn Station</td>
+<td>pennstation</td>
+<td>14</td>
+</tr>
+<tr>
+<td>Illinois Street (ISR)</td>
+<td>ISR Dining Hall</td>
+<td>isr</td>
+<td>3</td>
+</tr>
+<tr>
+<td>Illinois Street (ISR)</td>
+<td>CHOMPS</td>
+<td>chomps</td>
+<td>18</td>
+</tr>
+<tr>
+<td>Illinois Street (ISR)</td>
+<td>Cocina Mexicana</td>
+<td>cocinamexicana</td>
+<td>10</td>
+</tr>
+<tr>
+<td>Illinois Street (ISR)</td>
+<td>Taste of Asia</td>
+<td>tasteofasia</td>
+<td>17</td>
+</tr>
+<tr>
+<td>Ikenberry</td>
+<td>Ikenberry Dining Hall</td>
+<td>ikenberrydininghall</td>
+<td>1</td>
+</tr>
+<tr>
+<td>Ikenberry</td>
+<td>57 North</td>
+<td>57north</td>
+<td>7</td>
+</tr>
+<tr>
+<td>Ikenberry</td>
+<td>Better Burger</td>
+<td>betterburger</td>
+<td>20</td>
+</tr>
+<tr>
+<td>Ikenberry</td>
+<td>Caffeinator</td>
+<td>caffeinator</td>
+<td>9</td>
+</tr>
+<tr>
+<td>Ikenberry</td>
+<td>Neo Soul Ingredient</td>
+<td>neosoulingredient</td>
+<td>21</td>
+</tr>
+<tr>
+<td>Florida Avenue (FAR)</td>
+<td>FAR Dining Hall</td>
+<td>far</td>
+<td>6</td>
+</tr>
+<tr>
+<td>Florida Avenue (FAR)</td>
+<td>Cracked Egg Café</td>
+<td>crackedeggcafe</td>
+<td>8</td>
+</tr>
+<tr>
+<td>Florida Avenue (FAR)</td>
+<td>Soul Ingredient</td>
+<td>soulingredient</td>
+<td>16</td>
+</tr>
+<tr>
+<td>Busey-Evans</td>
+<td>Busey-Evans Dining Hall</td>
+<td>buseyevans</td>
+<td>4</td>
+</tr>
+<tr>
+<td>Busey-Evans</td>
+<td>Busey Bean and Green</td>
+<td>buseybeanandgreen</td>
+<td>11</td>
+</tr>
+<tr>
+<td>Busey-Evans</td>
+<td>Oodles</td>
+<td>oodles</td>
+<td>19</td>
+</tr>
+</tbody>
+</table>
+
+<p><em><code>Hall</code> route parameter can use the Hall ID or Hall nickname when querying.</em></p>
+
+<p>Example Query:</p>
+
+<pre><code>http://uiuc-api.herokuapp.com/dining/par/2015-11-08/2015-11-08
+</code></pre>
+
+<p>Response:</p>
+
+<div class="highlight highlight-source-json"><pre>{
+   <span class="pl-s"><span class="pl-pds">"</span>Menus<span class="pl-pds">"</span></span>:{
+      <span class="pl-s"><span class="pl-pds">"</span>Item<span class="pl-pds">"</span></span>:[
+         {
+            <span class="pl-s"><span class="pl-pds">"</span>EventDate<span class="pl-pds">"</span></span>:<span class="pl-c1">1446962400</span>,
+            <span class="pl-s"><span class="pl-pds">"</span>DiningMenuID<span class="pl-pds">"</span></span>:<span class="pl-c1">52456</span>,
+            <span class="pl-s"><span class="pl-pds">"</span>ServiceUnit<span class="pl-pds">"</span></span>:<span class="pl-s"><span class="pl-pds">"</span>Arugula's Serving<span class="pl-pds">"</span></span>,
+            <span class="pl-s"><span class="pl-pds">"</span>Course<span class="pl-pds">"</span></span>:<span class="pl-s"><span class="pl-pds">"</span>Salads<span class="pl-pds">"</span></span>,
+            <span class="pl-s"><span class="pl-pds">"</span>CourseSort<span class="pl-pds">"</span></span>:<span class="pl-c1">250</span>,
+            <span class="pl-s"><span class="pl-pds">"</span>FormalName<span class="pl-pds">"</span></span>:<span class="pl-s"><span class="pl-pds">"</span>Fruit &amp; Nut Chicken Salad<span class="pl-pds">"</span></span>,
+            <span class="pl-s"><span class="pl-pds">"</span>Meal<span class="pl-pds">"</span></span>:<span class="pl-s"><span class="pl-pds">"</span>Dinner<span class="pl-pds">"</span></span>,
+            <span class="pl-s"><span class="pl-pds">"</span>Traits<span class="pl-pds">"</span></span>:<span class="pl-s"><span class="pl-pds">"</span>Eggs,Soy,Tree Nuts,<span class="pl-pds">"</span></span>,
+            <span class="pl-s"><span class="pl-pds">"</span>DiningOptionID<span class="pl-pds">"</span></span>:<span class="pl-c1">2</span>,
+            <span class="pl-s"><span class="pl-pds">"</span>ScheduleID<span class="pl-pds">"</span></span>:<span class="pl-c1">9</span>,
+            <span class="pl-s"><span class="pl-pds">"</span>ItemID<span class="pl-pds">"</span></span>:<span class="pl-c1">5978</span>
+         },
+         {
+            <span class="pl-s"><span class="pl-pds">"</span>EventDate<span class="pl-pds">"</span></span>:<span class="pl-c1">1446962400</span>,
+            <span class="pl-s"><span class="pl-pds">"</span>DiningMenuID<span class="pl-pds">"</span></span>:<span class="pl-c1">50688</span>,
+            <span class="pl-s"><span class="pl-pds">"</span>ServiceUnit<span class="pl-pds">"</span></span>:<span class="pl-s"><span class="pl-pds">"</span>Arugula's Serving<span class="pl-pds">"</span></span>,
+            <span class="pl-s"><span class="pl-pds">"</span>Course<span class="pl-pds">"</span></span>:<span class="pl-s"><span class="pl-pds">"</span>Salads<span class="pl-pds">"</span></span>,
+            <span class="pl-s"><span class="pl-pds">"</span>CourseSort<span class="pl-pds">"</span></span>:<span class="pl-c1">250</span>,
+            <span class="pl-s"><span class="pl-pds">"</span>FormalName<span class="pl-pds">"</span></span>:<span class="pl-s"><span class="pl-pds">"</span>Macaroni Salad<span class="pl-pds">"</span></span>,
+            <span class="pl-s"><span class="pl-pds">"</span>Meal<span class="pl-pds">"</span></span>:<span class="pl-s"><span class="pl-pds">"</span>Dinner<span class="pl-pds">"</span></span>,
+            <span class="pl-s"><span class="pl-pds">"</span>Traits<span class="pl-pds">"</span></span>:<span class="pl-s"><span class="pl-pds">"</span>Corn,Eggs,Gluten,Soy,Vegetarian,Wheat,<span class="pl-pds">"</span></span>,
+            <span class="pl-s"><span class="pl-pds">"</span>DiningOptionID<span class="pl-pds">"</span></span>:<span class="pl-c1">2</span>,
+            <span class="pl-s"><span class="pl-pds">"</span>ScheduleID<span class="pl-pds">"</span></span>:<span class="pl-c1">9</span>,
+            <span class="pl-s"><span class="pl-pds">"</span>ItemID<span class="pl-pds">"</span></span>:<span class="pl-c1">3208</span>
+         },
+  <span class="pl-ii">...</span>
+  <span class="pl-ii">...</span></pre></div>
+
+<h4>
+<a id="get-diningsearchquery" class="anchor" href="#get-diningsearchquery" aria-hidden="true"><span class="octicon octicon-link"></span></a><code>GET /dining/search/:query</code>
+</h4>
+
+<p><em>Search dining halls for specific foods.</em></p>
+
+<p>Example Query:</p>
+
+<pre><code>http://uiuc-api.herokuapp.com/dining/search/pasta
+</code></pre>
+
+<p>Response:</p>
+
+<div class="highlight highlight-source-json"><pre>{
+   <span class="pl-s"><span class="pl-pds">"</span>Data<span class="pl-pds">"</span></span>:{
+      <span class="pl-s"><span class="pl-pds">"</span>Table<span class="pl-pds">"</span></span>:[
+         {
+            <span class="pl-s"><span class="pl-pds">"</span>name<span class="pl-pds">"</span></span>:<span class="pl-s"><span class="pl-pds">"</span>ItemList<span class="pl-pds">"</span></span>,
+            <span class="pl-s"><span class="pl-pds">"</span>Row<span class="pl-pds">"</span></span>:[
+               {
+                  <span class="pl-s"><span class="pl-pds">"</span>Item_IntID<span class="pl-pds">"</span></span>:<span class="pl-s"><span class="pl-pds">"</span>16596<span class="pl-pds">"</span></span>,
+                  <span class="pl-s"><span class="pl-pds">"</span>FormalName<span class="pl-pds">"</span></span>:<span class="pl-s"><span class="pl-pds">"</span>BLT Pasta Salad<span class="pl-pds">"</span></span>,
+                  <span class="pl-s"><span class="pl-pds">"</span>ScheduleIDs<span class="pl-pds">"</span></span>:[
+                     {
+                        <span class="pl-s"><span class="pl-pds">"</span>ScheduleID<span class="pl-pds">"</span></span>:<span class="pl-c1">4</span>,
+                        <span class="pl-s"><span class="pl-pds">"</span>DiningOptionID<span class="pl-pds">"</span></span>:<span class="pl-c1">4</span>,
+                        <span class="pl-s"><span class="pl-pds">"</span>EventDate<span class="pl-pds">"</span></span>:<span class="pl-c1">1447221600</span>
+                     }
+                  ]
+               },
+               {
+                  <span class="pl-s"><span class="pl-pds">"</span>Item_IntID<span class="pl-pds">"</span></span>:<span class="pl-s"><span class="pl-pds">"</span>17136<span class="pl-pds">"</span></span>,
+                  <span class="pl-s"><span class="pl-pds">"</span>FormalName<span class="pl-pds">"</span></span>:<span class="pl-s"><span class="pl-pds">"</span>Campanelle Pasta<span class="pl-pds">"</span></span>,
+                  <span class="pl-s"><span class="pl-pds">"</span>ScheduleIDs<span class="pl-pds">"</span></span>:[
+                     {
+                        <span class="pl-s"><span class="pl-pds">"</span>ScheduleID<span class="pl-pds">"</span></span>:<span class="pl-c1">21</span>,
+                        <span class="pl-s"><span class="pl-pds">"</span>DiningOptionID<span class="pl-pds">"</span></span>:<span class="pl-c1">5</span>,
+                        <span class="pl-s"><span class="pl-pds">"</span>EventDate<span class="pl-pds">"</span></span>:<span class="pl-c1">1447653600</span>
+                     },
+                     {
+                        <span class="pl-s"><span class="pl-pds">"</span>ScheduleID<span class="pl-pds">"</span></span>:<span class="pl-c1">42</span>,
+                        <span class="pl-s"><span class="pl-pds">"</span>DiningOptionID<span class="pl-pds">"</span></span>:<span class="pl-c1">1</span>,
+                        <span class="pl-s"><span class="pl-pds">"</span>EventDate<span class="pl-pds">"</span></span>:<span class="pl-c1">1447308000</span>
+                     },
+                     {
+                        <span class="pl-s"><span class="pl-pds">"</span>ScheduleID<span class="pl-pds">"</span></span>:<span class="pl-c1">42</span>,
+                        <span class="pl-s"><span class="pl-pds">"</span>DiningOptionID<span class="pl-pds">"</span></span>:<span class="pl-c1">1</span>,
+                        <span class="pl-s"><span class="pl-pds">"</span>EventDate<span class="pl-pds">"</span></span>:<span class="pl-c1">1447912800</span>
+                     }
+                  ]
+               },
+  <span class="pl-ii">...</span>
+  <span class="pl-ii">...</span></pre></div>
+
+<h4>
+<a id="get-dining" class="anchor" href="#get-dining" aria-hidden="true"><span class="octicon octicon-link"></span></a><code>GET /dining/</code>
+</h4>
+
+<p>Example Query:</p>
+
+<pre><code>http://uiuc-api.herokuapp.com/dining/search/pasta
+</code></pre>
+
+<p>Response:</p>
+
+<div class="highlight highlight-source-json"><pre>
+  ...
+  ...</pre></div>
+
+<p>(<a href="https://web.housing.illinois.edu/MobileDining/WebService/SettingTable.aspx?k=7A828F94-620B-4EE3-A56F-328036CC3C04&amp;t=json&amp;ts=5-10-2012%2014:30:00">https://web.housing.illinois.edu/MobileDining/WebService/SettingTable.aspx?k=7A828F94-620B-4EE3-A56F-328036CC3C04&amp;t=json&amp;ts=5-10-2012%2014:30:00</a>)
+  (<a href="https://web.housing.illinois.edu/MobileDining/WebService/MyBalances.asmx/GetBalances?k=7A828F94-620B-4EE3-A56F-328036CC3C04&amp;HT=">https://web.housing.illinois.edu/MobileDining/WebService/MyBalances.asmx/GetBalances?k=7A828F94-620B-4EE3-A56F-328036CC3C04&amp;HT=</a>)
+  (<a href="https://web.housing.illinois.edu/MobileDining/WebService/MobileDining.asmx/SearchMenus?k=7A828F94-620B-4EE3-A56F-328036CC3C04&amp;SearchPhrase=salsa">https://web.housing.illinois.edu/MobileDining/WebService/MobileDining.asmx/SearchMenus?k=7A828F94-620B-4EE3-A56F-328036CC3C04&amp;SearchPhrase=salsa</a>)</p>
+
+<h2>
+<a id="weather" class="anchor" href="#weather" aria-hidden="true"><span class="octicon octicon-link"></span></a>Weather</h2>
+
+<p>Get weather information from the <a href="https://www.atmos.illinois.edu/weather/">Department of Atmospheric Sciences</a>.</p>
+
+<h4>
+<a id="get-weather" class="anchor" href="#get-weather" aria-hidden="true"><span class="octicon octicon-link"></span></a><code>GET /weather</code>
+</h4>
+
+<p><em>Get Champaign-Urbana weather information from the Williard Airport weather station.</em></p>
+
+<p>Example Query:</p>
+
+<pre><code>http://uiuc-api.herokuapp.com/weather
+</code></pre>
+
+<p>Response:</p>
+
+<div class="highlight highlight-source-json"><pre>  {
+    <span class="pl-s"><span class="pl-pds">"</span>weather_station_location<span class="pl-pds">"</span></span>: <span class="pl-s"><span class="pl-pds">"</span>Willard Airport<span class="pl-pds">"</span></span>,
+    <span class="pl-s"><span class="pl-pds">"</span>last_recorded_time<span class="pl-pds">"</span></span>: <span class="pl-s"><span class="pl-pds">"</span>1446098674<span class="pl-pds">"</span></span>,
+    <span class="pl-s"><span class="pl-pds">"</span>weather_condition<span class="pl-pds">"</span></span>: <span class="pl-s"><span class="pl-pds">"</span>Cloudy Skies<span class="pl-pds">"</span></span>,
+    <span class="pl-s"><span class="pl-pds">"</span>temperature<span class="pl-pds">"</span></span>: <span class="pl-s"><span class="pl-pds">"</span>54<span class="pl-pds">"</span></span>,
+    <span class="pl-s"><span class="pl-pds">"</span>dew_point<span class="pl-pds">"</span></span>: <span class="pl-s"><span class="pl-pds">"</span>45<span class="pl-pds">"</span></span>,
+    <span class="pl-s"><span class="pl-pds">"</span>relative_humidity<span class="pl-pds">"</span></span>: <span class="pl-s"><span class="pl-pds">"</span>71%<span class="pl-pds">"</span></span>,
+    <span class="pl-s"><span class="pl-pds">"</span>winds<span class="pl-pds">"</span></span>: <span class="pl-s"><span class="pl-pds">"</span>NW at 17 mph<span class="pl-pds">"</span></span>,
+    <span class="pl-s"><span class="pl-pds">"</span>visibility<span class="pl-pds">"</span></span>: <span class="pl-s"><span class="pl-pds">"</span>10 miles<span class="pl-pds">"</span></span>,
+    <span class="pl-s"><span class="pl-pds">"</span>pressure<span class="pl-pds">"</span></span>: <span class="pl-s"><span class="pl-pds">"</span>1020.0 mb (30.13 in)<span class="pl-pds">"</span></span>,
+    <span class="pl-s"><span class="pl-pds">"</span>sunrise<span class="pl-pds">"</span></span>: <span class="pl-s"><span class="pl-pds">"</span>7:13AM<span class="pl-pds">"</span></span>, 
+    <span class="pl-s"><span class="pl-pds">"</span>sunset<span class="pl-pds">"</span></span>: <span class="pl-s"><span class="pl-pds">"</span>6:01PM<span class="pl-pds">"</span></span>,
+    <span class="pl-s"><span class="pl-pds">"</span>images<span class="pl-pds">"</span></span>: {
+        <span class="pl-s"><span class="pl-pds">"</span>latest_radar_image<span class="pl-pds">"</span></span>: <span class="pl-s"><span class="pl-pds">"</span>https://www.atmos.illinois.edu/weather/tree/prods/current/nicerad/nicerad_N.gif<span class="pl-pds">"</span></span>,
+        <span class="pl-s"><span class="pl-pds">"</span>storm_total_precip_image<span class="pl-pds">"</span></span>: <span class="pl-s"><span class="pl-pds">"</span>https://www.atmos.illinois.edu/weather/tree/prods/current/niceradilxpretx/niceradilxpretx_N.gif<span class="pl-pds">"</span></span>,
+        <span class="pl-s"><span class="pl-pds">"</span>surface_temp_image<span class="pl-pds">"</span></span>: <span class="pl-s"><span class="pl-pds">"</span>https://www.atmos.illinois.edu/weather/tree/prods/current/sfctmp/sfctmp_N.gif<span class="pl-pds">"</span></span>,
+        <span class="pl-s"><span class="pl-pds">"</span>surface_dew_point_temp_image<span class="pl-pds">"</span></span>: <span class="pl-s"><span class="pl-pds">"</span>https://www.atmos.illinois.edu/weather/tree/prods/current/sfctdp/sfctdp_N.gif<span class="pl-pds">"</span></span>,
+        <span class="pl-s"><span class="pl-pds">"</span>sea_level_pressure<span class="pl-pds">"</span></span>: <span class="pl-s"><span class="pl-pds">"</span>https://www.atmos.illinois.edu/weather/tree/prods/current/sfcslp/sfcslp_N.gif<span class="pl-pds">"</span></span>,
+        <span class="pl-s"><span class="pl-pds">"</span>mdw_surface_observations<span class="pl-pds">"</span></span>: <span class="pl-s"><span class="pl-pds">"</span>https://www.atmos.illinois.edu/weather/tree/prods/current/sfcslp/sfcslp_N.gif<span class="pl-pds">"</span></span>,
+        <span class="pl-s"><span class="pl-pds">"</span>composite_ir_image<span class="pl-pds">"</span></span>: <span class="pl-s"><span class="pl-pds">"</span>https://www.atmos.illinois.edu/weather/tree/prods/current/satconusenhir/satconusenhir_N.gif<span class="pl-pds">"</span></span>,
+        <span class="pl-s"><span class="pl-pds">"</span>composite_enhanced_ir_image<span class="pl-pds">"</span></span>: <span class="pl-s"><span class="pl-pds">"</span>https://www.atmos.illinois.edu/weather/tree/prods/current/satnoamir/satnoamir_N.gif<span class="pl-pds">"</span></span>
+    },
+    <span class="pl-s"><span class="pl-pds">"</span><span class="pl-pds">"</span></span>: <span class="pl-s"><span class="pl-pds">"</span><span class="pl-pds">"</span></span>
+  }</pre></div>
+
+<h2>
+<a id="wi-fi" class="anchor" href="#wi-fi" aria-hidden="true"><span class="octicon octicon-link"></span></a>Wi-Fi</h2>
+
+<p>Get Wi-Fi information for various places around campus.</p>
+
+<h4>
+<a id="get-wifi" class="anchor" href="#get-wifi" aria-hidden="true"><span class="octicon octicon-link"></span></a><code>GET /wifi</code>
+</h4>
+
+<p>Example Query:</p>
+
+<pre><code>http://uiuc-api.herokuapp.com/wifi
+</code></pre>
+
+<p>Response:</p>
+
+<div class="highlight highlight-source-json"><pre>  {
+    <span class="pl-s"><span class="pl-pds">"</span>weather_station_location<span class="pl-pds">"</span></span>: <span class="pl-s"><span class="pl-pds">"</span>Willard Airport<span class="pl-pds">"</span></span>
+  }</pre></div>
+
+<h4>
+<a id="get-wifinearmelatitudelongitude" class="anchor" href="#get-wifinearmelatitudelongitude" aria-hidden="true"><span class="octicon octicon-link"></span></a><code>GET /wifi/nearme/:latitude/:longitude</code>
+</h4>
+
+
+
+<p>Example Query:</p>
+
+<pre><code>http://uiuc-api.herokuapp.com/wifi
+</code></pre>
+
+<p>Response:</p>
+
+<div class="highlight highlight-source-json"><pre>  {
+    <span class="pl-s"><span class="pl-pds">"</span>weather_station_location<span class="pl-pds">"</span></span>: <span class="pl-s"><span class="pl-pds">"</span>Willard Airport<span class="pl-pds">"</span></span>
+  }</pre></div>
+
+<h2>
+<a id="laundry" class="anchor" href="#laundry" aria-hidden="true"><span class="octicon octicon-link"></span></a>Laundry</h2>
+
+<p>Get information about campus laundry.</p>
+
+<h4>
+<a id="get-laundry" class="anchor" href="#get-laundry" aria-hidden="true"><span class="octicon octicon-link"></span></a><code>GET /laundry</code>
+</h4>
+
+<p><em>Get washing machine/dryer usage information for all residence halls.</em></p>
+
+<p>Example Query:</p>
+
+<pre><code>http://uiuc-api.herokuapp.com/laundry
+</code></pre>
+
+<p>Response:</p>
+
+<div class="highlight highlight-source-json"><pre>{
+    <span class="pl-s"><span class="pl-pds">"</span>location<span class="pl-pds">"</span></span>: {
+        <span class="pl-s"><span class="pl-pds">"</span>name<span class="pl-pds">"</span></span>: <span class="pl-s"><span class="pl-pds">"</span>University of Illinois at Urbana<span class="pl-pds">"</span></span>,
+        <span class="pl-s"><span class="pl-pds">"</span>code<span class="pl-pds">"</span></span>: <span class="pl-s"><span class="pl-pds">"</span>urba7723<span class="pl-pds">"</span></span>,
+        <span class="pl-s"><span class="pl-pds">"</span>networked<span class="pl-pds">"</span></span>: <span class="pl-s"><span class="pl-pds">"</span>false<span class="pl-pds">"</span></span>,
+        <span class="pl-s"><span class="pl-pds">"</span>company<span class="pl-pds">"</span></span>: <span class="pl-s"><span class="pl-pds">"</span>Jetz Service Co<span class="pl-pds">"</span></span>,
+        <span class="pl-s"><span class="pl-pds">"</span>rooms<span class="pl-pds">"</span></span>: [{
+            <span class="pl-s"><span class="pl-pds">"</span>id<span class="pl-pds">"</span></span>: <span class="pl-s"><span class="pl-pds">"</span>110959186<span class="pl-pds">"</span></span>,
+            <span class="pl-s"><span class="pl-pds">"</span>name<span class="pl-pds">"</span></span>: <span class="pl-s"><span class="pl-pds">"</span>1107 West Green<span class="pl-pds">"</span></span>,
+            <span class="pl-s"><span class="pl-pds">"</span>networked<span class="pl-pds">"</span></span>: <span class="pl-s"><span class="pl-pds">"</span>A<span class="pl-pds">"</span></span>,
+            <span class="pl-s"><span class="pl-pds">"</span>machines<span class="pl-pds">"</span></span>: [{
+                <span class="pl-s"><span class="pl-pds">"</span>port<span class="pl-pds">"</span></span>: <span class="pl-s"><span class="pl-pds">"</span>1<span class="pl-pds">"</span></span>,
+                <span class="pl-s"><span class="pl-pds">"</span>label<span class="pl-pds">"</span></span>: <span class="pl-s"><span class="pl-pds">"</span>1<span class="pl-pds">"</span></span>,
+                <span class="pl-s"><span class="pl-pds">"</span>description<span class="pl-pds">"</span></span>: <span class="pl-s"><span class="pl-pds">"</span>Front-Load Washer<span class="pl-pds">"</span></span>,
+                <span class="pl-s"><span class="pl-pds">"</span>status<span class="pl-pds">"</span></span>: <span class="pl-s"><span class="pl-pds">"</span>Available<span class="pl-pds">"</span></span>,
+                <span class="pl-s"><span class="pl-pds">"</span>startTime<span class="pl-pds">"</span></span>: <span class="pl-s"><span class="pl-pds">"</span>0000-00-00 00:00:00<span class="pl-pds">"</span></span>,
+                <span class="pl-s"><span class="pl-pds">"</span>timeRemaining<span class="pl-pds">"</span></span>: <span class="pl-s"><span class="pl-pds">"</span>0<span class="pl-pds">"</span></span>
+            }, {
+                <span class="pl-s"><span class="pl-pds">"</span>port<span class="pl-pds">"</span></span>: <span class="pl-s"><span class="pl-pds">"</span>2<span class="pl-pds">"</span></span>,
+                <span class="pl-s"><span class="pl-pds">"</span>label<span class="pl-pds">"</span></span>: <span class="pl-s"><span class="pl-pds">"</span>2<span class="pl-pds">"</span></span>,
+                <span class="pl-s"><span class="pl-pds">"</span>description<span class="pl-pds">"</span></span>: <span class="pl-s"><span class="pl-pds">"</span>Front-Load Washer<span class="pl-pds">"</span></span>,
+                <span class="pl-s"><span class="pl-pds">"</span>status<span class="pl-pds">"</span></span>: <span class="pl-s"><span class="pl-pds">"</span>Available<span class="pl-pds">"</span></span>,
+                <span class="pl-s"><span class="pl-pds">"</span>startTime<span class="pl-pds">"</span></span>: <span class="pl-s"><span class="pl-pds">"</span>0000-00-00 00:00:00<span class="pl-pds">"</span></span>,
+                <span class="pl-s"><span class="pl-pds">"</span>timeRemaining<span class="pl-pds">"</span></span>: <span class="pl-s"><span class="pl-pds">"</span>0<span class="pl-pds">"</span></span>
+            }, {
+                <span class="pl-s"><span class="pl-pds">"</span>port<span class="pl-pds">"</span></span>: <span class="pl-s"><span class="pl-pds">"</span>3<span class="pl-pds">"</span></span>,
+                <span class="pl-s"><span class="pl-pds">"</span>label<span class="pl-pds">"</span></span>: <span class="pl-s"><span class="pl-pds">"</span>3<span class="pl-pds">"</span></span>,
+                <span class="pl-s"><span class="pl-pds">"</span>description<span class="pl-pds">"</span></span>: <span class="pl-s"><span class="pl-pds">"</span>Front-Load Washer<span class="pl-pds">"</span></span>,
+                <span class="pl-s"><span class="pl-pds">"</span>status<span class="pl-pds">"</span></span>: <span class="pl-s"><span class="pl-pds">"</span>Available<span class="pl-pds">"</span></span>,
+                <span class="pl-s"><span class="pl-pds">"</span>startTime<span class="pl-pds">"</span></span>: <span class="pl-s"><span class="pl-pds">"</span>0000-00-00 00:00:00<span class="pl-pds">"</span></span>,
+                <span class="pl-s"><span class="pl-pds">"</span>timeRemaining<span class="pl-pds">"</span></span>: <span class="pl-s"><span class="pl-pds">"</span>0<span class="pl-pds">"</span></span>
+            },
+            <span class="pl-ii">...</span>
+            <span class="pl-ii">...</span></pre></div>
+
+<h2>
+<a id="university-directory" class="anchor" href="#university-directory" aria-hidden="true"><span class="octicon octicon-link"></span></a>University Directory</h2>
+
+<p>Search the university directory for students, academic departments, and faculty/staff.</p>
+
+<h4>
+<a id="get-directorysearchsearchtypequery" class="anchor" href="#get-directorysearchsearchtypequery" aria-hidden="true"><span class="octicon octicon-link"></span></a><code>GET /directory/search/:searchType/:query</code>
+</h4>
+
+<p>Search types:</p>
+
+<table>
+<thead>
+<tr>
+<th>Search Type</th>
+<th>Search Type ID</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>All</td>
+<td>all</td>
+</tr>
+<tr>
+<td>Faculty/Staff</td>
+<td>faculty</td>
+</tr>
+<tr>
+<td>Student</td>
+<td>student</td>
+</tr>
+<tr>
+<td>NetID</td>
+<td>netid</td>
+</tr>
+<tr>
+<td>Department</td>
+<td>department</td>
+</tr>
+<tr>
+<td>Phone</td>
+<td>phone</td>
+</tr>
+</tbody>
+</table>
+
+<p><em><code>searchType</code> route parameter can use the Search Type ID when querying.</em></p>
+
+<p>Example Query:</p>
+
+<pre><code>http://uiuc-api.herokuapp.com/directory/search/netid/npant3
+</code></pre>
+
+<p>Response:</p>
+
+<div class="highlight highlight-source-json"><pre>{
+    <span class="pl-s"><span class="pl-pds">"</span>success<span class="pl-pds">"</span></span>: <span class="pl-s"><span class="pl-pds">"</span>true<span class="pl-pds">"</span></span>,
+    <span class="pl-s"><span class="pl-pds">"</span>type<span class="pl-pds">"</span></span>: <span class="pl-s"><span class="pl-pds">"</span>student<span class="pl-pds">"</span></span>,
+    <span class="pl-s"><span class="pl-pds">"</span>email<span class="pl-pds">"</span></span>: <span class="pl-s"><span class="pl-pds">"</span>npant3@illinois.edu<span class="pl-pds">"</span></span>
+}</pre></div>
+
+<h2>
+<a id="the-daily-illini" class="anchor" href="#the-daily-illini" aria-hidden="true"><span class="octicon octicon-link"></span></a>The Daily Illini</h2>
+
+<p>Get stories, classifieds, events, and more from UIUC's campus newspaper, <a href="http://www.dailyillini.com/">The Daily Illini</a>.</p>
+
+<h4>
+<a id="get-dailyillinisearchquery" class="anchor" href="#get-dailyillinisearchquery" aria-hidden="true"><span class="octicon octicon-link"></span></a><code>GET /dailyillini/search/:query</code>
+</h4>
+
+<p>Example Query:</p>
+
+<pre><code>http://uiuc-api.herokuapp.com/directory/search/netid/npant3
+</code></pre>
+
+<p>Response:</p>
+
+<div class="highlight highlight-source-json"><pre></pre></div>
+
+<h2>
+<a id="buildings" class="anchor" href="#buildings" aria-hidden="true"><span class="octicon octicon-link"></span></a>Buildings</h2>
+
+<p>Search the university directory for students, academic departments, and faculty/staff.</p>
+
+<h4>
+<a id="get-directorysearchsearchtypequery-1" class="anchor" href="#get-directorysearchsearchtypequery-1" aria-hidden="true"><span class="octicon octicon-link"></span></a><code>GET /directory/search/:searchType/:query</code>
+</h4>
+
+<p>Search types:</p>
+
+<table>
+<thead>
+<tr>
+<th>Search Type</th>
+<th>Search Type ID</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>All</td>
+<td>all</td>
+</tr>
+<tr>
+<td>Faculty/Staff</td>
+<td>faculty</td>
+</tr>
+<tr>
+<td>Student</td>
+<td>student</td>
+</tr>
+<tr>
+<td>NetID</td>
+<td>netid</td>
+</tr>
+<tr>
+<td>Department</td>
+<td>department</td>
+</tr>
+<tr>
+<td>Phone</td>
+<td>phone</td>
+</tr>
+</tbody>
+</table>
+
+<p><em><code>searchType</code> route parameter can use the Search Type ID when querying.</em></p>
+
+<p>Example Query:</p>
+
+<pre><code>http://uiuc-api.herokuapp.com/directory/search/netid/npant3
+</code></pre>
+
+<p>Response:</p>
+
+<div class="highlight highlight-source-json"><pre></pre></div>
+
+<h2>
+<a id="atheletic-schedule" class="anchor" href="#atheletic-schedule" aria-hidden="true"><span class="octicon octicon-link"></span></a>Atheletic schedule</h2>
+
+<p>Get the Fighting Illini's athletic schedule across all sports.</p>
+
+<ul>
+<li>do individual sports</li>
+</ul>
+
+<h4>
+<a id="get-directorysearchsearchtypequery-2" class="anchor" href="#get-directorysearchsearchtypequery-2" aria-hidden="true"><span class="octicon octicon-link"></span></a><code>GET /directory/search/:searchType/:query</code>
+</h4>
+
+<p>Search types:</p>
+
+<table>
+<thead>
+<tr>
+<th>Search Type</th>
+<th>Search Type ID</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>All</td>
+<td>all</td>
+</tr>
+<tr>
+<td>Faculty/Staff</td>
+<td>faculty</td>
+</tr>
+<tr>
+<td>Student</td>
+<td>student</td>
+</tr>
+<tr>
+<td>NetID</td>
+<td>netid</td>
+</tr>
+<tr>
+<td>Department</td>
+<td>department</td>
+</tr>
+<tr>
+<td>Phone</td>
+<td>phone</td>
+</tr>
+</tbody>
+</table>
+
+<p><em><code>searchType</code> route parameter can use the Search Type ID when querying.</em></p>
+
+<p>Example Query:</p>
+
+<pre><code>http://uiuc-api.herokuapp.com/directory/search/netid/npant3
+</code></pre>
+
+<p>Response:</p>
+
+<div class="highlight highlight-source-json"><pre></pre></div>
+
+<h2>
+<a id="course-information" class="anchor" href="#course-information" aria-hidden="true"><span class="octicon octicon-link"></span></a>Course Information</h2>
+
+<p>UIUC's Student Services Development Team offers an <a href="http://courses.illinois.edu/cisdocs/">API</a> for information on Class Schedule, Course Catalog, and Gened data. However, since the data is not publibly available, you must sign up for access <a href="http://courses.illinois.edu/cisdocs/authentication">here</a>.</p>
+
+<h2>
+<a id="transportation" class="anchor" href="#transportation" aria-hidden="true"><span class="octicon octicon-link"></span></a>Transportation</h2>
+
+<p>The Champaign-Urbana Mass Transit District offers an <a href="https://developer.cumtd.com/">API</a> for transporation information in the Champaign-Urbana metropolitan area. There are several API wrappers and Open-source applications written with the CUMTD API on <a href="https://github.com/search?utf8=%E2%9C%93&amp;q=cumtd">GitHub</a> as well as in their <a href="http://www.cumtd.com/maps-and-schedules/app-garage">App Garage</a>.</p>
+
+<h2>
+<a id="run-locally" class="anchor" href="#run-locally" aria-hidden="true"><span class="octicon octicon-link"></span></a>Run Locally</h2>
+
+<div class="highlight highlight-source-shell"><pre>$ pip install -r requirements.txt
+$ python api.py</pre></div>
+
+<h2>
+<a id="deploy-to-heroku" class="anchor" href="#deploy-to-heroku" aria-hidden="true"><span class="octicon octicon-link"></span></a>Deploy to Heroku</h2>
+
+<div class="highlight highlight-source-shell"><pre>$ pip install -r requirements.txt
+$ heroku create
+$ (git add, git commit)
+$ git push heroku master</pre></div>
+
+<h2>
+<a id="client-libraries" class="anchor" href="#client-libraries" aria-hidden="true"><span class="octicon octicon-link"></span></a>Client Libraries</h2>
+
+<ul>
+<li>
+<a href="">UIUC.py</a> (Python)</li>
+<li>
+<a href="">node-uiuc</a> (Node.js)</li>
+<li>
+<a href=""></a> (Java/Android)</li>
+<li>
+<a href=""></a> (Swift)</li>
+<li>
+<a href=""></a> (Objective-C)</li>
+<li>
+<a href=""></a> (Scala)</li>
+<li>
+<a href=""></a> (Ruby)</li>
+<li>
+<a href=""></a> (Clojure)</li>
+<li>
+<a href=""></a> (Golang)</li>
+</ul>
+
+<p><em>If you've built a wrapper for this API, feel free to add it to this list by sending a PR!</em></p>
+
+<h2>
+<a id="expo" class="anchor" href="#expo" aria-hidden="true"><span class="octicon octicon-link"></span></a>Expo</h2>
+
+<p>Some apps built using this API: </p>
+
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Description</th>
+<th>URL</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>uiuc-cli</td>
+<td>CLI to university services</td>
+<td><a href="https://github.com/xasos/uiuc-cli">https://github.com/xasos/uiuc-cli</a></td>
+</tr>
+</tbody>
+</table>
+
+<p><em>If you've built an app using this API, feel free to add it to this list by sending a PR!</em></p>
+
+<h2>
+<a id="contributing" class="anchor" href="#contributing" aria-hidden="true"><span class="octicon octicon-link"></span></a>Contributing</h2>
+
+<p>Please refer to the <a href="https://github.com/xasos/UIUC-Open-Data/blob/master/CONTRIBUTING.md">Contributing Guidelines</a> before submitting any pull requests!</p>
+
+<h2>
+<a id="to-do-list" class="anchor" href="#to-do-list" aria-hidden="true"><span class="octicon octicon-link"></span></a>To-Do List</h2>
+
+<p>The To-Do List can be found <a href="https://github.com/xasos/UIUC-Open-Data/blob/master/todo.md">here</a>.</p>
+
+<h2>
+<a id="statistics" class="anchor" href="#statistics" aria-hidden="true"><span class="octicon octicon-link"></span></a>Statistics</h2>
+
+<p>So far, x users have used the API and over y requests have been made!</p>
+
+<h2>
+<a id="disclaimer" class="anchor" href="#disclaimer" aria-hidden="true"><span class="octicon octicon-link"></span></a>Disclaimer</h2>
+
+<p>Use of this API</p>
+
+<h2>
+<a id="license" class="anchor" href="#license" aria-hidden="true"><span class="octicon octicon-link"></span></a>License</h2>
+
+<p><a href="LICENSE">MIT License</a></p>
+      </section>
+      <footer>
+        <p>This project is maintained by <a href="https://github.com/xasos">xasos</a></p>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="javascripts/scale.fix.js"></script>
+    
+  </body>
+</html>
