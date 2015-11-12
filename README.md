@@ -251,39 +251,43 @@ http://uiuc-api.herokuapp.com/laundry
 Response:
 ```json
 {
-	"location": {
-		"name": "University of Illinois at Urbana",
-		"code": "urba7723",
-		"networked": "false",
-		"company": "Jetz Service Co",
-		"rooms": [{
-			"id": "110959186",
-			"name": "1107 West Green",
-			"networked": "A",
-			"machines": [{
-				"port": "1",
-				"label": "1",
-				"description": "Front-Load Washer",
-				"status": "Available",
-				"startTime": "0000-00-00 00:00:00",
-				"timeRemaining": "0"
-			}, {
-				"port": "2",
-				"label": "2",
-				"description": "Front-Load Washer",
-				"status": "Available",
-				"startTime": "0000-00-00 00:00:00",
-				"timeRemaining": "0"
-			}, {
-				"port": "3",
-				"label": "3",
-				"description": "Front-Load Washer",
-				"status": "Available",
-				"startTime": "0000-00-00 00:00:00",
-				"timeRemaining": "0"
-			},
-			...
-			...
+    "location":{
+        "name":"University of Illinois at Urbana",
+        "code":"urba7723",
+        "networked":"false",
+        "company":"Jetz Service Co",
+        "rooms":[
+            {
+                "id":"110959186",
+                "name":"1107 West Green",
+                "networked":"A",
+                "machines":[
+                    {
+                        "port":"1",
+                        "label":"1",
+                        "description":"Front-Load Washer",
+                        "status":"Available",
+                        "startTime":"0000-00-00 00:00:00",
+                        "timeRemaining":"0"
+                    },
+                    {
+                        "port":"2",
+                        "label":"2",
+                        "description":"Front-Load Washer",
+                        "status":"Available",
+                        "startTime":"0000-00-00 00:00:00",
+                        "timeRemaining":"0"
+                    },
+                    {
+                        "port":"3",
+                        "label":"3",
+                        "description":"Front-Load Washer",
+                        "status":"Available",
+                        "startTime":"0000-00-00 00:00:00",
+                        "timeRemaining":"0"
+                    },
+	...
+	...
 ```
 
 ## University Directory
@@ -381,6 +385,39 @@ Sports:
 | Women's Tennis | womenstennis |
 | Women's Track & Field | womenstrack |
 | Wrestling | wrestling |
+
+
+http://app-uiuc-ncaa.yinzcam.com/V1/Game/List/?teamid=uiuc-football&version=4.6&app_version=1.0.1&mcc=310&width=640&application=NCAA_UIUC&schoolid=UIUC&os=iOS&mnc=260&height=1136&os_version=9.1&ff=mobile&carrier=T-Mobile
+
+http://app-uiuc-ncaa.yinzcam.com/V1/Game/List/?teamid=uiuc-mcross&version=4.6&app_version=1.0.1&mcc=310&width=640&application=NCAA_UIUC&schoolid=UIUC&os=iOS&mnc=260&height=1136&os_version=9.1&ff=mobile&carrier=T-Mobile
+
+wcross
+wvball
+wsoc
+mbball
+wbball
+wswim
+mgym
+wgym
+wrestling
+baseball
+softball
+mgolf
+wgolf
+mtrack
+wtrack
+mten
+wten
+
+http://app-uiuc-ncaa.yinzcam.com/V1/Media/ShortList/?version=4.6&mcc=310&app_version=1.0.1&width=640&application=NCAA_UIUC&schoolid=UIUC&os=iOS&mnc=260&height=1136&os_version=9.1&ff=mobile&carrier=T-Mobile
+
+
+http://app-uiuc-ncaa.yinzcam.com/V1/Game/Calendar/?teamid=uiuc-football&version=4.6&app_version=1.0.1&mcc=310&width=640&application=NCAA_UIUC&schoolid=UIUC&os=iOS&mnc=260&height=1136&os_version=9.1&ff=mobile&carrier=T-Mobile
+
+http://app-uiuc-ncaa.yinzcam.com/V1/Team/Players/?teamid=uiuc-football&version=4.6&app_version=1.0.1&mcc=310&width=640&application=NCAA_UIUC&schoolid=UIUC&os=iOS&mnc=260&height=1136&os_version=9.1&ff=mobile&carrier=T-Mobile
+
+http://app-uiuc-ncaa.yinzcam.com/V1/Team/Coaches/?teamid=uiuc-football&version=4.6&app_version=1.0.1&mcc=310&width=640&application=NCAA_UIUC&schoolid=UIUC&os=iOS&mnc=260&height=1136&os_version=9.1&ff=mobile&carrier=T-Mobile
+
 
 
 #### `GET /athleticschedule/:sport`
