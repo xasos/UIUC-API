@@ -337,57 +337,43 @@ Response:
 
 ## Buildings
 
-Search the university directory for students, academic departments, and faculty/staff.
+Get a list of all buildings + information on campus.
 
-#### `GET /directory/search/:searchType/:query`
-
-Search types:
-
-| Search Type | Search Type ID |
-| ----------- | --------------- |
-| All | all |
-| Faculty/Staff | faculty |
-| Student | student |
-| NetID | netid |
-| Department | department |
-| Phone | phone |
-
-*`searchType` route parameter can use the Search Type ID when querying.*
+#### `GET /buildings`
 
 Example Query:
 ```
-http://uiuc-api.herokuapp.com/directory/search/netid/npant3
+http://uiuc-api.herokuapp.com/buildings
 ```
 
 Response:
 ```json
-
+{ "building1", 
+"building2"
+}
 ```
 
-## Atheletic schedule
+## Atheletic Schedule
 
 Get the Fighting Illini's athletic schedule across all sports.
 
-- do individual sports
-
-#### `GET /directory/search/:searchType/:query`
-
-Search types:
+Sports:
 
 | Search Type | Search Type ID |
 | ----------- | --------------- |
-| All | all |
+|  | all |
 | Faculty/Staff | faculty |
 | Student | student |
 | NetID | netid |
 | Department | department |
 | Phone | phone |
 
-*`searchType` route parameter can use the Search Type ID when querying.*
+
+#### `GET /athleticschedule/:sport`
 
 Example Query:
 ```
-http://uiuc-api.herokuapp.com/directory/search/netid/npant3
+http://uiuc-api.herokuapp.com/athleticschedule/menscrosscountry
 ```
 
 Response:
