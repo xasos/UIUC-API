@@ -22,3 +22,4 @@ _\( managed using [todo-md](https://github.com/Hypercubed/todo-md) \)_
 - [ ] Academic Department Data
 - [ ] Possibly create a course information endpoint
 - [ ] Error Handling
+- [ ] Format JSON in README
