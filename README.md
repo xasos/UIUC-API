@@ -361,12 +361,26 @@ Sports:
 
 | Search Type | Search Type ID |
 | ----------- | --------------- |
-|  | all |
-| Faculty/Staff | faculty |
-| Student | student |
-| NetID | netid |
-| Department | department |
-| Phone | phone |
+| All | all |
+| Baseball | baseball |
+| Football | football |
+| Men's Basketball | mensbasketball |
+| Men's Cross Country | mensxc |
+| Men's Golf | mensgolf |
+| Men's Gymnastics | mensgymanstics |
+| Men's Tennis | menstennis |
+| Men's Track & Field | menstrack |
+| Soccer | soccer |
+| Softball | softball |
+| Swimming & Diving | swimming |
+| Volleyball | volleyball |
+| Women's Basketball | womensbball |
+| Women's Cross Country | womensxc |
+| Women's Golf | womensgolf |
+| Women's Gymnastics | womensgymnastics |
+| Women's Tennis | womenstennis |
+| Women's Track & Field | womenstrack |
+| Wrestling | wrestling |
 
 
 #### `GET /athleticschedule/:sport`
