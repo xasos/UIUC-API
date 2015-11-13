@@ -25,3 +25,6 @@ _\( managed using [todo-md](https://github.com/Hypercubed/todo-md) \)_
 - [ ] Format JSON in README
 - [ ] Clean up webpage location
 - [ ] Make scraping more reliable (Diffbot?)
+- [ ] Maintenance Requests
+- [ ] Fix build environment (Heroku + Status + Python version)
+- [ ] Update Code + Contributing to PEP8
