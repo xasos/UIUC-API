@@ -23,3 +23,5 @@ _\( managed using [todo-md](https://github.com/Hypercubed/todo-md) \)_
 - [ ] Possibly create a course information endpoint
 - [ ] Error Handling
 - [ ] Format JSON in README
+- [ ] Clean up webpage location
+- [ ] Make scraping more reliable (Diffbot?)
