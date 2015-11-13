@@ -2,7 +2,7 @@
 
 [![Join the chat at https://gitter.im/xasos/UIUC-Open-Data](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/xasos/UIUC-Open-Data?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
-<!--[![Build Status][travis-image]][travis-url] [![Requirements Status][require-image]][require-url]-->
+[![Build Status][travis-image]][travis-url] [![Requirements Status][require-image]][require-url]
 
 Unofficial Open Data API for the University of Illinois at Urbana-Champaign. Provides data for various services on campus such as Dining, Weather, Wi-Fi, etc. The API is built with Python, Flask + [Flask RESTful](https://github.com/flask-restful/flask-restful), and Redis. Interest in the project was gauged [here](https://www.reddit.com/r/UIUC/comments/2hhlhn/would_anyone_be_interested_in_a_uiuc_open_data_api/
 ). This is still very much a WIP, so please feel free to [submit an issue](https://github.com/xasos/UIUC-Open-Data/issues/new) or [contribute](https://github.com/xasos/UIUC-Open-Data/blob/master/CONTRIBUTING.md)!
@@ -329,19 +329,75 @@ Get stories, classifieds, events, and more from UIUC's campus newspaper, [The Da
 
 #### `GET /dailyillini/search/:query`
 
+*Search the Daily Illini for articles.*
+
 Example Query:
 ```
-http://uiuc-api.herokuapp.com/directory/search/netid/npant3
+http://uiuc-api.herokuapp.com/dailyillini/search/unofficial
 ```
 
 Response:
 ```json
+{
 
+},
+...
+```
+
+#### `GET /dailyillini/classifieds/:type`
+
+*Search the Daily Illini for articles.*
+
+Example Query:
+```
+http://uiuc-api.herokuapp.com/dailyillini/search/unofficial
+```
+
+Response:
+```json
+{
+
+},
+...
+```
+
+#### `GET /stories/:category`
+
+*Get stories from different news sections.*
+
+Example Query:
+```
+http://uiuc-api.herokuapp.com/dailyillini/stories/news
+```
+
+Response:
+```json
+{
+
+},
+...
+```
+
+#### `GET /calendar`
+
+*Get the Daily Illini event calendar.*
+
+Example Query:
+```
+http://uiuc-api.herokuapp.com/dailyillini/calendar
+```
+
+Response:
+```json
+{
+
+},
+...
 ```
 
 ## Buildings
 
-Get a list of all buildings + information on campus.
+Get a list of all buildings and building information on campus.
 
 #### `GET /buildings`
 
@@ -352,8 +408,8 @@ http://uiuc-api.herokuapp.com/buildings
 
 Response:
 ```json
-{ "building1", 
-"building2"
+{ "building1": "", 
+  "building2": ""
 }
 ```
 
