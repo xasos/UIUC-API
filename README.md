@@ -344,13 +344,28 @@ Response:
 ...
 ```
 
-#### `GET /dailyillini/classifieds/:type`
+#### `GET /stories/:category`
 
-*Search the Daily Illini for articles.*
+*Get stories from different news sections.*
+
+News Sections:
+
+| News Section | News Section ID |
+| ----------- | --------------- |
+| Campus (inc. Crime/Administration) |  |
+| Crime |  |
+| Administration |  |
+| Champaign-Urbana |  |
+| State |  |
+| Men's Sports (All-Inclusive) |  |
+| Women's Sports |  |
+| Sports (All-Inclusive) |  |
+| Illini of the Week |  |
+| Wheelchair Basketball |  |
 
 Example Query:
 ```
-http://uiuc-api.herokuapp.com/dailyillini/search/unofficial
+http://uiuc-api.herokuapp.com/dailyillini/stories/news
 ```
 
 Response:
@@ -361,13 +376,67 @@ Response:
 ...
 ```
 
-#### `GET /stories/:category`
+#### `POST /stories/submit`
 
-*Get stories from different news sections.*
+Post Parameters:
+| News Section | News Section ID |
+| ----------- | --------------- |
+| Campus (inc. Crime/Administration) |  |
+| Crime |  |
+| Administration |  |
+| Champaign-Urbana |  |
+| State |  |
+| |  |
+
+
+
+Name *
+
+First
+
+Last
+Address
+
+Street Address
+
+Address Line 2
+
+City
+
+State / Province / Region
+
+Postal / Zip Code
+
+Country
+Phone Number *
+
+###
+-
+###
+-
+####
+Email *
+
+Your News *
+
+
+
+
+
+
+
+
+
+
+http://www.dailyillini.com/page/submit-a-news-tip
+
+#### `GET /dailyillini/classifieds/:type`
+
+*Search the Daily Illini for articles.*
 
 Example Query:
 ```
-http://uiuc-api.herokuapp.com/dailyillini/stories/news
+http://uiuc-api.herokuapp.com/dailyillini/search/unofficial
 ```
 
 Response:
