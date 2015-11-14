@@ -142,7 +142,7 @@ Response:
   ...
 ```
 
-#### `POST /dining/mybalance`
+#### `POST /dining/balance`
 
 *Get University Dining Hall balances and credits.*
 
@@ -151,7 +151,7 @@ Post Parameters:
 
 Example Query:
 ```
-http://uiuc-api.herokuapp.com/dining/mybalance
+http://uiuc-api.herokuapp.com/dining/balance
 ```
 
 Response:
