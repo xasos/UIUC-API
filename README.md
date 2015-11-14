@@ -142,6 +142,21 @@ Response:
   ...
 ```
 
+#### `GET /dining/information`
+
+*Search information on specific dining halls and calorie content for different food .*
+
+Example Query:
+```
+http://uiuc-api.herokuapp.com/dining/information
+```
+
+Response:
+```json
+  ...
+  ...
+```
+
 #### `POST /dining/balance`
 
 *Get University Dining Hall balances and credits.*
