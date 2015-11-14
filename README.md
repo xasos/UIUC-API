@@ -571,7 +571,7 @@ The Champaign-Urbana Mass Transit District offers an [API](https://developer.cum
 ## Run Locally
 ```sh
 $ pip install -r requirements.txt
-$ python api.py
+$ python app.py
 ```
 
 ## Deploy to Heroku 
