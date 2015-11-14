@@ -142,7 +142,22 @@ Response:
   ...
 ```
 
-#### `POST /dining/mybalance`
+#### `GET /dining/information`
+
+*Search information on specific dining halls and calorie content for different food .*
+
+Example Query:
+```
+http://uiuc-api.herokuapp.com/dining/information
+```
+
+Response:
+```json
+  ...
+  ...
+```
+
+#### `POST /dining/balance`
 
 *Get University Dining Hall balances and credits.*
 
@@ -151,7 +166,7 @@ Post Parameters:
 
 Example Query:
 ```
-http://uiuc-api.herokuapp.com/dining/mybalance
+http://uiuc-api.herokuapp.com/dining/balance
 ```
 
 Response:
@@ -571,7 +586,7 @@ The Champaign-Urbana Mass Transit District offers an [API](https://developer.cum
 ## Run Locally
 ```sh
 $ pip install -r requirements.txt
-$ python api.py
+$ python app.py
 ```
 
 ## Deploy to Heroku 
