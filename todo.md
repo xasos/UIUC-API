@@ -28,3 +28,4 @@ _\( managed using [todo-md](https://github.com/Hypercubed/todo-md) \)_
 - [ ] Maintenance Requests
 - [ ] Fix build environment (Heroku + Status + Python version)
 - [ ] Update Code + Contributing to PEP8
+- [ ] Use http://results.openaddresses.io/ for faster geocoding
