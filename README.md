@@ -236,22 +236,21 @@ http://uiuc-api.herokuapp.com/wifi
 Response:
 ```json
   {
-    "weather_station_location": "Willard Airport"
+
   }
 ```
 
-#### `GET /wifi/nearme/:latitude/:longitude` 
+#### `GET /wifi/:latitude/:longitude` 
 <!-- Switch to query-based parameters and add section -->
 
 Example Query:
 ```
-http://uiuc-api.herokuapp.com/wifi
+http://uiuc-api.herokuapp.com/wifi/nearme/40.1140260/-88.2248070
 ```
 
 Response:
 ```json
   {
-    "weather_station_location": "Willard Airport"
   }
 ```
 
