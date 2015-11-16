@@ -13,26 +13,25 @@ class Weather(Resource):
     match = re.compile(r'<b>(.*?)<br>(.*?)<\/br>')
     data['weather_station_location'] = match.search(location).group(1) + " " + match.search(location).group(2)
 
-    time = str(soup.find_all('font')[5]) #convert to unix
-    match = re.compile(r'(^([0-1]\d:[0-5]\d)(AM|PM)?$)')
-    data['last_recorded_time'] = match.search(time)
-    weather_data = str(soup.find_all('font')[6])
+    time = str(soup.find_all('font')[5])
+    match = re.compile(r'<font.*?>((([0-9]):([0-9]+))(AM|PM))')
+    data['last_recorded_time'] = match.search(time).group(1) # convert to Unix
 
-    match = re.compile(r'.*?>\\n(.*?)\\n')
-    data["weather_condition"] = weather_data
-    #data['weather_condition'] = match.search(weather_data)
+    weather_data = str(soup.find_all('font')[6])
+    match = re.compile('<font.*?\\n(.*?)\\n')
+    data['weather_condition'] = match.search(weather_data).group(1).strip()
     match = re.compile(r'Temperature:.*?([0-9]+)')
     data['temperature'] = match.search(weather_data).group(1)
     match = re.compile(r'Dew Point:.*?([0-9]+)')
     data['dew_point'] = match.search(weather_data).group(1)
     match = re.compile(r'Rel. Humidity:.*?([0-9]+%)')
     data['relative_humidity'] = match.search(weather_data).group(1)
-    match = re.compile(r'Winds:(.*?)\\n')
-    #data['winds'] = match.search(weather_data)
-    match = re.compile(r'Visibility:.*?([0-9]+.*?)\\n')
-    #data['visibility'] = match.search(weather_data)
-    match = re.compile(r'Pressure:.*?(([0-9]+(\.[0-9][0-9]?)?).*?)\\n(.*?)\\n')
-    #data['pressure'] = match.search(weather_data)
+    match = re.compile('<br>Winds: (.*?) \\n')
+    data['winds'] = match.search(weather_data).group(1)
+    match = re.compile('Visibility:.*?([0-9]+.*?)\\n')
+    data['visibility'] = match.search(weather_data).group(1)
+    match = re.compile('Pressure:.*?(([0-9]+(\.[0-9][0-9]?)?).*?)\\n(.*?)\\n')
+    data['pressure'] = match.search(weather_data).group(1)
 
     data['latestRadarImage'] = "https://www.atmos.illinois.edu/weather/tree/prods/current/nicerad/nicerad_N.gif"
     data['stormTotalPrecipImage'] = "https://www.atmos.illinois.edu/weather/tree/prods/current/niceradilxpretx/niceradilxpretx_N.gif"
