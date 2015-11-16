@@ -3,6 +3,8 @@ from bs4 import BeautifulSoup
 import urllib2
 import re
 
+data = {}
+
 class Weather(Resource):
     global data
     webpage = urllib2.urlopen('https://www.atmos.illinois.edu/weather/')
@@ -17,6 +19,7 @@ class Weather(Resource):
     weather_data = str(soup.find_all('font')[6])
 
     match = re.compile(r'.*?>\\n(.*?)\\n')
+    data["weather_condition"] = weather_data
     #data['weather_condition'] = match.search(weather_data)
     match = re.compile(r'Temperature:.*?([0-9]+)')
     data['temperature'] = match.search(weather_data).group(1)
