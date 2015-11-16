@@ -14,8 +14,8 @@ class Wifi(Resource):
         for x in range(0, 313):
             data = {}
             data["building"] = str(soup.find_all('span')[(6 * x)])
-            match = re.compile(r'<span class=\\"field-content\\">.*?>(.*?)<\/a>')
-            #data["building"] = match.search(data["building"]).group(1)
+            match = re.compile(r'<a href=.*?>(.*?)<\/a>')
+            data["building"] = match.search(data["building"]).group(1)
             data["street"] = str(soup.find_all('span')[(6 * x) + 3])
             match = re.compile(r'>(.*?)<\/span>')
             data["street"] = match.search(data["street"]).group(1)
@@ -24,11 +24,9 @@ class Wifi(Resource):
             data["city"] = match.search(data["city"]).group(1)
             data["state"] = "IL"
 
-            #geocode = geocoder.google(data["street"] + " " + data["city"] + " " + data["state"])
-            #data["latitude"] = geocode.latlng[0]
-            #data["latitude"] = geocode.latlng[1]
+            geocode = geocoder.google(data["street"] + " " + data["city"] + " " + data["state"])
+            data["latitude"] = geocode.latlng[0]
+            data["latitude"] = geocode.latlng[1]
             addresses.append(data)
 
-        #return json.load(response)
         return addresses
-
