@@ -466,6 +466,64 @@ Response:
 ...
 ```
 
+## Free Food
+
+Get a list of free food from various events on campus. Data kindly provided by the team at [UIUC Free Food](http://uiucfreefood.com/)!
+
+#### `GET /freefood`
+
+Example Query:
+```
+http://uiuc-api.herokuapp.com/freefood
+```
+
+Response:
+```json
+[
+    {
+        "fields":{
+            "abbr":"ISB",
+            "address":"910 S. FIFTH, CHAMPAIGN",
+            "building":"INTERNATIONAL STUDIES BUILDING",
+            "calID":"1354",
+            "counter":0,
+            "displayTime":"11/27 14:00",
+            "event":"First Steps Info Session",
+            "eventID":"32892600",
+            "food":"info session",
+            "googleTime":"20151127T185959Z/20151127T195959Z",
+            "latLng":"40.1072392,-88.2318771",
+            "link":"http://illinois.edu/calendar/detail/1354?eventId=32892600&amp;calMin=201507&amp;cal=20150715&amp;skinId=12775",
+            "location":"101 International Studies Building",
+            "time":"2015/11/27 14:00-15:00"
+        },
+        "model":"uiuc.food",
+        "pk":545
+    },
+    {
+        "fields":{
+            "abbr":"ISB",
+            "address":"910 S. FIFTH, CHAMPAIGN",
+            "building":"INTERNATIONAL STUDIES BUILDING",
+            "calID":"1354",
+            "counter":0,
+            "displayTime":"12/11 14:00",
+            "event":"First Steps Info Session",
+            "eventID":"32892601",
+            "food":"info session",
+            "googleTime":"20151211T185959Z/20151211T195959Z",
+            "latLng":"40.1072392,-88.2318771",
+            "link":"http://illinois.edu/calendar/detail/1354?eventId=32892601&amp;calMin=201507&amp;cal=20150715&amp;skinId=12775",
+            "location":"101 International Studies Building",
+            "time":"2015/12/11 14:00-15:00"
+        },
+        "model":"uiuc.food",
+        "pk":546
+    }
+    ...
+    ...
+```
+
 #### `GET /calendar`
 
 *Get the Daily Illini event calendar.*
