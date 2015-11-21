@@ -30,3 +30,5 @@ _\( managed using [todo-md](https://github.com/Hypercubed/todo-md) \)_
 - [ ] Update Code + Contributing to PEP8
 - [ ] Use http://results.openaddresses.io/ for faster geocoding
 - [ ] Add Free Food and credits to UIUC Free Food Team
+- [ ] Finish other weather scraping (interactive weather history)
+- [ ] Move Static HTML to new directory

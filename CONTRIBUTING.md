@@ -11,6 +11,7 @@ Prerequisites:
 
 - Familiarity with [pull requests](https://help.github.com/articles/using-pull-requests) and [issues](https://guides.github.com/features/issues/).
 - Knowledge of [Markdown](https://help.github.com/articles/markdown-basics/) for editing `.md` documents.
+- Knowledge of Python and Flask (+Flask RESTful)
 
 In particular, this community seeks the following types of contributions:
 

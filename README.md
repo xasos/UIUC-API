@@ -217,8 +217,7 @@ Response:
         "mdw_surface_observations": "https://www.atmos.illinois.edu/weather/tree/prods/current/sfcslp/sfcslp_N.gif",
         "composite_ir_image": "https://www.atmos.illinois.edu/weather/tree/prods/current/satconusenhir/satconusenhir_N.gif",
         "composite_enhanced_ir_image": "https://www.atmos.illinois.edu/weather/tree/prods/current/satnoamir/satnoamir_N.gif"
-    },
-    "": ""
+    }
   }
 ```
 
@@ -559,6 +558,23 @@ Response:
 }
 ```
 
+## EWS Status
+
+Get the status of EWS (Engineering Workstation) machines across campus.
+
+#### `GET /ews-status`
+
+Example Query:
+```
+http://uiuc-api.herokuapp.com/ews-status
+```
+
+Response:
+```json
+
+
+```
+
 ## Atheletic Schedule
 
 Get the Fighting Illini's athletic schedule across all sports.
@@ -673,6 +689,7 @@ Some apps built using this API:
 | Name | Description | URL |
 | ---- | ---- | ---- |
 | uiuc-cli | CLI to university services | https://github.com/xasos/uiuc-cli |
+| UIUC Laundry | iOS application to track UIUC laundry machines | https://github.com/xasos/UIUC-Laundry |
 
 *If you've built an app using this API, feel free to add it to this list by sending a PR!*
 

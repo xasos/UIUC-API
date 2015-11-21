@@ -14,7 +14,7 @@ class Weather(Resource):
     data['weather_station_location'] = match.search(location).group(1) + " " + match.search(location).group(2)
 
     time = str(soup.find_all('font')[5])
-    match = re.compile(r'<font.*?>((([0-9]):([0-9]+))(AM|PM))')
+    match = re.compile(r'<font.*?>((([0-9]+):([0-9]+))(AM|PM))')
     data['last_recorded_time'] = match.search(time).group(1) # convert to Unix
 
     weather_data = str(soup.find_all('font')[6])
@@ -26,7 +26,7 @@ class Weather(Resource):
     data['dew_point'] = match.search(weather_data).group(1)
     match = re.compile(r'Rel. Humidity:.*?([0-9]+%)')
     data['relative_humidity'] = match.search(weather_data).group(1)
-    match = re.compile('<br>Winds: (.*?) \\n')
+    match = re.compile('<br>Winds:(.*?)\\n')
     data['winds'] = match.search(weather_data).group(1)
     match = re.compile('Visibility:.*?([0-9]+.*?)\\n')
     data['visibility'] = match.search(weather_data).group(1)
