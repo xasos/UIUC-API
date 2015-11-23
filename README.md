@@ -571,8 +571,40 @@ http://uiuc-api.herokuapp.com/ews-status
 
 Response:
 ```json
-
-
+{
+    "data":[
+        {
+            "inusecount":0,
+            "machinecount":100,
+            "strlabname":"DCL L416"
+        },
+        {
+            "inusecount":0,
+            "machinecount":7,
+            "strlabname":"DCL L426"
+        },
+        {
+            "inusecount":0,
+            "machinecount":30,
+            "strlabname":"DCL L440"
+        },
+        {
+            "inusecount":0,
+            "machinecount":41,
+            "strlabname":"DCL L520"
+        },
+        {
+            "inusecount":2,
+            "machinecount":46,
+            "strlabname":"ECEB 2022"
+        },
+        {
+            "inusecount":6,
+            "machinecount":17,
+            "strlabname":"ECEB 3022"
+        },
+	...
+	...
 ```
 
 ## Atheletic Schedule
