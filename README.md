@@ -560,7 +560,7 @@ Response:
 
 ## EWS Status
 
-Get the status of EWS (Engineering Workstation) machines across campus.
+Get the status of EWS (Engineering Workstations) machines across campus.
 
 #### `GET /ews-status`
 
