@@ -24,9 +24,13 @@ class Wifi(Resource):
             data["city"] = match.search(data["city"]).group(1)
             data["state"] = "IL"
 
-            geocode = geocoder.google(data["street"] + " " + data["city"] + " " + data["state"])
-            data["latitude"] = geocode.latlng[0]
-            data["latitude"] = geocode.latlng[1]
+            #geocode = geocoder.google(data["street"] + " " + data["city"] + " " + data["state"])
+            #data["latitude"] = geocode.latlng[0]
+            #data["latitude"] = geocode.latlng[1]
             addresses.append(data)
 
         return addresses
+
+class WifiNearMe(Resource):
+  def get(self):
+      return ""

@@ -1,9 +1,9 @@
 from flask import Flask
 from flask_restful import Api, Resource
 
-#from resources.dining import Dining
+from resources.dining import Dining, DiningInformation, DiningSearch
 #from resources.weather import Weather
-from resources.wifi import Wifi
+from resources.wifi import Wifi, WifiNearMe
 from resources.laundry import Laundry
 from resources.main import Main
 from resources.free_food import FreeFood
@@ -12,11 +12,19 @@ from resources.ews_status import EWSStatus
 app = Flask(__name__)
 api = Api(app)
 
+# Define routes
 api.add_resource(Main, '/')
-#api.add_resource(Weather, '/weather')
+
 #api.add_resource(Dining, '/dining/search/<query>', '/dining/<hall>/<dateFrom>/<dateTo>', '/dining/information', '/dining/balance')
-#api.add_resource(Wifi, '/wifi', '/wifi/<latitude>/<longitude>')
+
+api.add_resource(Dining, '/dining/<string:hall>/<string:dateFrom>/<string:dateTo>')
+api.add_resource(DiningSearch, '/dining/search/<string:query>')
+api.add_resource(DiningInformation, '/dining/information')
+
 api.add_resource(Wifi, '/wifi')
+api.add_resource(WifiNearMe, '/wifi/<string:latitude>/<string:longitude>')
+
+#api.add_resource(Weather, '/weather')
 api.add_resource(Laundry, '/laundry')
 #api.add_resource(UniversityDirectory, '', '')
 #api.add_resource(DailyIllini, '', '')
