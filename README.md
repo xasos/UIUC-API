@@ -153,8 +153,31 @@ http://uiuc-api.herokuapp.com/dining/information
 
 Response:
 ```json
-  ...
-  ...
+{
+  "Data":{
+    "Table":[
+      {
+        "Row":[
+          {
+            "Address":"301 E. Gregory Drive, Champaign",
+            "DiningLocation":"Ikenberry Commons",
+            "DiningOptionID":1,
+            "DiningOptionName":"Ikenberry Dining Hall",
+            "MoreInfo":"<p>Located on the first floor of the Student Dining and Residential Programs Building, the Ike features multiple cuisines and made-to-order dishes in this all-you-care-to-eat dining hall. Use a Classic Meal, Café Credits, Extra Credits, or a credit card.</p>",
+            "Serving":"('Don''s Chophouse Serving', 'Gregory Street Diner Serving', 'Hortensia''s Serving', 'Penne Lane Serving', 'Prairie Fire Serving', 'Soytainly Serving', 'Euclid Street Deli Serving')",
+            "Type":"Classic Dining Hall"
+          },
+          {
+            "Address":"906 W. College Court, Urbana",
+            "DiningLocation":"Pennsylvania Avenue (PAR)",
+            "DiningOptionID":2,
+            "DiningOptionName":"PAR Dining Hall",
+            "MoreInfo":"<p>Located downstairs at the Pennsylvania Avenue Residence Halls, the PAR dining hall features multiple cuisines and made-to-order dishes in this all-you-care-to-eat dining hall. Use a Classic Meal, Café Credits, Extra Credits, or a credit card.</p>",
+            "Serving":"('Abbondante Serving', 'Arugula''s Serving', 'Better Burger', 'La Avenida Serving', 'Panini Bar', 'Provolone Serving', 'Sky Garden Serving')",
+            "Type":"Classic Dining Hall"
+          },
+	...
+	...
 ```
 
 #### `POST /dining/balance`
