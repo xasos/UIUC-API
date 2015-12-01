@@ -3,3 +3,6 @@ python:
   - "3.4"
 install: "pip install -r requirements.txt"
 script: echo UIUC Open Data API
+notifications:
+  email: 
+    on_failure: [change]
