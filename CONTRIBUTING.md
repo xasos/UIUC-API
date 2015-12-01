@@ -37,11 +37,9 @@ on what we're actually doing, not wandering off into too much imaginary stuff.
 
 # Frequently Asked Questions
 
- - Q: "Isn't this, like, illegal
-   A: ""
- - Q: "Why?"
-   A: "Many university applications and data sources are often of poor quality, so this API was created to alleviate some of those pains. This API allows students and faculty members to build applications on top, to take advantage of otherwise unused data."
- - Q: "Is this provisioned by the University of Illinois?"
-   A: "No, this API is not affiliated with UIUC in any way. It would be awesome if the university were to show interest and work with us, though."
+ - Q: "Why?"<br>
+   A: "Many university applications and data sources are often of poor quality, so this API was created to alleviate some of those pains. This API allows students and faculty members to build applications on top, to take advantage of otherwise unused data."<br><br>
+ - Q: "Is this provisioned by the University of Illinois?"<br>
+   A: "No, this API is not affiliated with UIUC in any way. It would be awesome if the university were to show interest and work with us, to further improve the quality of data provided."
 
 **Have another question? Submit a [pull request to this file](https://github.com/xasos/UIUC-Open-Data/compare?expand=1), and it'll be answered!**
