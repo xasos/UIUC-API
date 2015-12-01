@@ -153,8 +153,31 @@ http://uiuc-api.herokuapp.com/dining/information
 
 Response:
 ```json
-  ...
-  ...
+{
+  "Data":{
+    "Table":[
+      {
+        "Row":[
+          {
+            "Address":"301 E. Gregory Drive, Champaign",
+            "DiningLocation":"Ikenberry Commons",
+            "DiningOptionID":1,
+            "DiningOptionName":"Ikenberry Dining Hall",
+            "MoreInfo":"<p>Located on the first floor of the Student Dining and Residential Programs Building, the Ike features multiple cuisines and made-to-order dishes in this all-you-care-to-eat dining hall. Use a Classic Meal, Café Credits, Extra Credits, or a credit card.</p>",
+            "Serving":"('Don''s Chophouse Serving', 'Gregory Street Diner Serving', 'Hortensia''s Serving', 'Penne Lane Serving', 'Prairie Fire Serving', 'Soytainly Serving', 'Euclid Street Deli Serving')",
+            "Type":"Classic Dining Hall"
+          },
+          {
+            "Address":"906 W. College Court, Urbana",
+            "DiningLocation":"Pennsylvania Avenue (PAR)",
+            "DiningOptionID":2,
+            "DiningOptionName":"PAR Dining Hall",
+            "MoreInfo":"<p>Located downstairs at the Pennsylvania Avenue Residence Halls, the PAR dining hall features multiple cuisines and made-to-order dishes in this all-you-care-to-eat dining hall. Use a Classic Meal, Café Credits, Extra Credits, or a credit card.</p>",
+            "Serving":"('Abbondante Serving', 'Arugula''s Serving', 'Better Burger', 'La Avenida Serving', 'Panini Bar', 'Provolone Serving', 'Sky Garden Serving')",
+            "Type":"Classic Dining Hall"
+          },
+	...
+	...
 ```
 
 #### `POST /dining/balance`
@@ -234,13 +257,24 @@ http://uiuc-api.herokuapp.com/wifi
 
 Response:
 ```json
+[
   {
-
-  }
+    "building":"100 Trade Center, Ste 403",
+    "city":"Champaign",
+    "state":"IL",
+    "street":"100 Trade Center"
+  },
+  {
+    "building":"1001 W. Nevada",
+    "city":"Urbana",
+    "state":"IL",
+    "street":"1001 W. Nevada St."
+  },
+  ...
+  ...
 ```
 
 #### `GET /wifi/:latitude/:longitude` 
-<!-- Switch to query-based parameters and add section -->
 
 Example Query:
 ```
@@ -560,7 +594,7 @@ Response:
 
 ## EWS Status
 
-Get the status of EWS (Engineering Workstation) machines across campus.
+Get the availability of EWS (Engineering Workstations) machines across campus.
 
 #### `GET /ews-status`
 
@@ -571,8 +605,40 @@ http://uiuc-api.herokuapp.com/ews-status
 
 Response:
 ```json
-
-
+{
+    "data":[
+        {
+            "inusecount":0,
+            "machinecount":100,
+            "strlabname":"DCL L416"
+        },
+        {
+            "inusecount":0,
+            "machinecount":7,
+            "strlabname":"DCL L426"
+        },
+        {
+            "inusecount":0,
+            "machinecount":30,
+            "strlabname":"DCL L440"
+        },
+        {
+            "inusecount":0,
+            "machinecount":41,
+            "strlabname":"DCL L520"
+        },
+        {
+            "inusecount":2,
+            "machinecount":46,
+            "strlabname":"ECEB 2022"
+        },
+        {
+            "inusecount":6,
+            "machinecount":17,
+            "strlabname":"ECEB 3022"
+        },
+	...
+	...
 ```
 
 ## Atheletic Schedule
@@ -636,8 +702,6 @@ http://app-uiuc-ncaa.yinzcam.com/V1/Team/Players/?teamid=uiuc-football&version=4
 
 http://app-uiuc-ncaa.yinzcam.com/V1/Team/Coaches/?teamid=uiuc-football&version=4.6&app_version=1.0.1&mcc=310&width=640&application=NCAA_UIUC&schoolid=UIUC&os=iOS&mnc=260&height=1136&os_version=9.1&ff=mobile&carrier=T-Mobile
 
-
-
 #### `GET /athleticschedule/:sport`
 
 Example Query:
@@ -673,13 +737,13 @@ $ git push heroku master
 ## Client Libraries
  - [UIUC.py]() (Python)
  - [node-uiuc]() (Node.js)
- - []() (Java/Android)
- - []() (Swift)
- - []() (Objective-C)
- - []() (Scala)
- - []() (Ruby)
- - []() (Clojure)
- - []() (Golang)
+ <!--- []() (Java/Android)-->
+ <!--- []() (Swift)-->
+ <!--- []() (Objective-C)-->
+ <!--- []() (Scala)-->
+ <!--- []() (Ruby)-->
+ <!--- []() (Clojure)-->
+ <!--- []() (Golang)-->
  
 *If you've built a wrapper for this API, feel free to add it to this list by sending a PR!*
  
@@ -703,7 +767,7 @@ The To-Do List can be found [here](https://github.com/xasos/UIUC-Open-Data/blob/
 So far, x users have used the API and over y requests have been made!
 
 ## Disclaimer
-Use of this API
+Use of this API is purely for educational purposes only, unless otherwise noted.
 
 ## License
 [MIT License](LICENSE)

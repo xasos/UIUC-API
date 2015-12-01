@@ -1,9 +1,4 @@
-# Request for contributions
-
-Please contribute to this repository if any of the following is true:
-- You have expertise in community development, communication, or education
-- You want open source communities to be more collaborative and inclusive
-- You want to help lower the burden to first time contributors
+# Request for Contributions
 
 # How to contribute
 
@@ -11,7 +6,7 @@ Prerequisites:
 
 - Familiarity with [pull requests](https://help.github.com/articles/using-pull-requests) and [issues](https://guides.github.com/features/issues/).
 - Knowledge of [Markdown](https://help.github.com/articles/markdown-basics/) for editing `.md` documents.
-- Knowledge of Python and Flask (+Flask RESTful)
+- Knowledge of [Python](https://www.python.org/) and [Flask](http://flask.pocoo.org/) (+[Flask RESTful](flask-restful-cn.readthedocs.org/en/latest/) is a plus)
 
 In particular, this community seeks the following types of contributions:
 
@@ -28,47 +23,10 @@ content.
 of the content.
 - **Formatting**: help keep content easy to read with consistent formatting.
 
-# Conduct
-
-We are committed to providing a friendly, safe and welcoming environment for
-all, regardless of gender, sexual orientation, disability, ethnicity, religion,
-or similar personal characteristic.
-
-On IRC, please avoid using overtly sexual nicknames or other nicknames that
-might detract from a friendly, safe and welcoming environment for all.
-
-Please be kind and courteous. There's no need to be mean or rude.
-Respect that people have differences of opinion and that every design or
-implementation choice carries a trade-off and numerous costs. There is seldom
-a right answer, merely an optimal answer given a set of values and
-circumstances.
-
-Please keep unstructured critique to a minimum. If you have solid ideas you
-want to experiment with, make a fork and see how it works.
-
-We will exclude you from interaction if you insult, demean or harass anyone.
-That is not welcome behaviour. We interpret the term "harassment" as
-including the definition in the
-[Citizen Code of Conduct](http://citizencodeofconduct.org/);
-if you have any lack of clarity about what might be included in that concept,
-please read their definition. In particular, we don't tolerate behavior that
-excludes people in socially marginalized groups.
-
-Private harassment is also unacceptable. No matter who you are, if you feel
-you have been or are being harassed or made uncomfortable by a community
-member, please contact one of the channel ops or any of the
-[CONTRIBUTING.md](https://github.com/jden/CONTRIBUTING.md) core team
-immediately. Whether you're a regular contributor or a newcomer, we care about
-making this community a safe place for you and we've got your back.
-
-Likewise any spamming, trolling, flaming, baiting or other attention-stealing
-behaviour is not welcome.
-
 # Communication
 
-There is an IRC channel on irc.freenode.net, channel `#CONTRIBUTING.md`. You're
-welcome to drop in and ask questions, discuss bugs and such. The channel is
-not currently logged.
+There is a gitter channel [here](https://gitter.im/xasos/UIUC-Open-Data), channel `xasos/UIUC-Open-Data`. You're
+welcome to drop in and ask questions, discuss bugs and such.
 
 GitHub issues are the primary way for communicating about specific proposed
 changes to this project.
@@ -79,4 +37,9 @@ on what we're actually doing, not wandering off into too much imaginary stuff.
 
 # Frequently Asked Questions
 
- - Q: "Isn't this, like, illegal
+ - Q: Why?<br>
+   A: Many university applications and data sources are often of poor quality, so this API was created to alleviate some of those pains. This API allows students and faculty members to build applications on top, to take advantage of otherwise unused data.<br><br>
+ - Q: Is this provisioned by the University of Illinois?<br>
+   A: No, this API is not affiliated with UIUC in any way. It would be awesome if the university were to show interest and work with us, to further improve the quality of data provided.
+
+**Have another question? Submit a [pull request to this file](https://github.com/xasos/UIUC-Open-Data/compare?expand=1), and it'll be answered!**
