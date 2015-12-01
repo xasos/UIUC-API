@@ -257,13 +257,24 @@ http://uiuc-api.herokuapp.com/wifi
 
 Response:
 ```json
+[
   {
-
-  }
+    "building":"100 Trade Center, Ste 403",
+    "city":"Champaign",
+    "state":"IL",
+    "street":"100 Trade Center"
+  },
+  {
+    "building":"1001 W. Nevada",
+    "city":"Urbana",
+    "state":"IL",
+    "street":"1001 W. Nevada St."
+  },
+  ...
+  ...
 ```
 
 #### `GET /wifi/:latitude/:longitude` 
-<!-- Switch to query-based parameters and add section -->
 
 Example Query:
 ```
@@ -583,7 +594,7 @@ Response:
 
 ## EWS Status
 
-Get the status of EWS (Engineering Workstations) machines across campus.
+Get the availability of EWS (Engineering Workstations) machines across campus.
 
 #### `GET /ews-status`
 
@@ -691,8 +702,6 @@ http://app-uiuc-ncaa.yinzcam.com/V1/Team/Players/?teamid=uiuc-football&version=4
 
 http://app-uiuc-ncaa.yinzcam.com/V1/Team/Coaches/?teamid=uiuc-football&version=4.6&app_version=1.0.1&mcc=310&width=640&application=NCAA_UIUC&schoolid=UIUC&os=iOS&mnc=260&height=1136&os_version=9.1&ff=mobile&carrier=T-Mobile
 
-
-
 #### `GET /athleticschedule/:sport`
 
 Example Query:
@@ -728,13 +737,13 @@ $ git push heroku master
 ## Client Libraries
  - [UIUC.py]() (Python)
  - [node-uiuc]() (Node.js)
- - []() (Java/Android)
- - []() (Swift)
- - []() (Objective-C)
- - []() (Scala)
- - []() (Ruby)
- - []() (Clojure)
- - []() (Golang)
+ <!--- []() (Java/Android)-->
+ <!--- []() (Swift)-->
+ <!--- []() (Objective-C)-->
+ <!--- []() (Scala)-->
+ <!--- []() (Ruby)-->
+ <!--- []() (Clojure)-->
+ <!--- []() (Golang)-->
  
 *If you've built a wrapper for this API, feel free to add it to this list by sending a PR!*
  
@@ -758,7 +767,7 @@ The To-Do List can be found [here](https://github.com/xasos/UIUC-Open-Data/blob/
 So far, x users have used the API and over y requests have been made!
 
 ## Disclaimer
-Use of this API
+Use of this API is purely for educational purposes only, unless otherwise noted.
 
 ## License
 [MIT License](LICENSE)
