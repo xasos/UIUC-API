@@ -7,3 +7,6 @@ simplejson==3.8.1
 regex==2015.11.22
 requests==2.8.1
 requests-oauthlib==0.5.0
+gunicorn==0.17.2
+Werkzeug==0.8.3
+Jinja2==2.6
