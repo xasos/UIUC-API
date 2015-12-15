@@ -9,6 +9,8 @@ Unofficial Open Data API for the University of Illinois at Urbana-Champaign. Pro
 
 *Note: This is an unofficial API and is not supported or controlled by the University of Illinois at Urbana-Champaign itself. Any questions, comments, feedback or feature requests should be directed to [xasos](https://github.com/xasos) or via an [issue](https://github.com/xasos/UIUC-Open-Data/issues/new) in this repo.*
 
+*Notice*: This API is currently in progess, so all code may not be up-to-date or working! Initial release coming soon :D
+
 ## Usage
 **Base URL:** http://uiuc-api.herokuapp.com
 
