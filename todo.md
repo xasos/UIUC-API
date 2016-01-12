@@ -27,3 +27,4 @@ _\( managed using [todo-md](https://github.com/Hypercubed/todo-md) \)_
 - [ ] Move Static HTML to new directory
 - [ ] Buy domain
 - [ ] Memcache/Redis for less networking usage
+- [ ] Add Dibs! functionality
