@@ -28,3 +28,7 @@ _\( managed using [todo-md](https://github.com/Hypercubed/todo-md) \)_
 - [ ] Buy domain
 - [ ] Memcache/Redis for less networking usage
 - [ ] Add Dibs! functionality
+- [ ] Parkland Services (classes, lms)
+- [ ] Blackboard, Moodle, LON-CAPA
+- [ ] Safe rides CUMTD
+- [ ] https://illinois.edu/massmail/massmailArchive
