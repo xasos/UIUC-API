@@ -33,3 +33,4 @@ _\( managed using [todo-md](https://github.com/Hypercubed/todo-md) \)_
 - [ ] Safe rides CUMTD
 - [ ] https://illinois.edu/massmail/massmailArchive
 - [ ] Peoria charter + other bus comapanies
+- [ ] study spaces
