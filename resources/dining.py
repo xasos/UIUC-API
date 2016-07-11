@@ -5,28 +5,6 @@ import requests
 
 class Dining(Resource):
     def get(self, hall, dateFrom, dateTo):
-        dining_halls = {
-            "lar": 5,
-            "fieldofgreens": 12,
-            "leafy": 13,
-            "par": 2,
-            "pennstation": 14,
-            "isr": 3,
-            "chomps": 18,
-            "cocinamexicana": 10,
-            "tasteofasia": 17,
-            "ikenberry": 1,
-            "57north": 7,
-            "": 20,
-            "": 9,
-            "": 21,
-            "": 6,
-            "": 8,
-            "": 16,
-            "": 4,
-            "": 11,
-            "": 19
-        }
         request_url = "https://web.housing.illinois.edu/MobileDining/WebService/Search.aspx?k=7A828F94-620B-4EE3-A56F-328036CC3C04"
         # Add route parameters
         request_url += "&id=" + hall + "&from=" + dateFrom + "&to=" + dateTo + "&t=json"
