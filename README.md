@@ -1,6 +1,6 @@
 # UIUC API
 
-[![Join the chat at https://gitter.im/xasos/UIUC-Open-Data][gitter-image]][gitter-url] [![Build Status][travis-image]][travis-url] [![Requirements Status][require-image]][require-url]
+[![Join the chat at https://gitter.im/xasos/UIUC-Open-Data][gitter-image]][gitter-url] [![Build Status][travis-image]][travis-url]
 
 Unofficial API for the University of Illinois at Urbana-Champaign. Provides data for various services on campus such as Dining, Weather, Wi-Fi, etc. The API is built with Python, Flask + [Flask RESTful](https://github.com/flask-restful/flask-restful), and Redis. Interest in the project was gauged [here](https://www.reddit.com/r/UIUC/comments/2hhlhn/would_anyone_be_interested_in_a_uiuc_open_data_api/
 ). This is still very much a WIP, so please feel free to [submit an issue](https://github.com/xasos/UIUC-Open-Data/issues/new) or [contribute](https://github.com/xasos/UIUC-Open-Data/blob/master/CONTRIBUTING.md)!
@@ -777,5 +777,3 @@ Use of this API is purely for educational purposes only, unless otherwise noted.
 [gitter-image]: https://badges.gitter.im/Join%20Chat.svg
 [travis-url]: https://travis-ci.org/xasos/UIUC-API
 [travis-image]: https://travis-ci.org/xasos/UIUC-API.svg?branch=master
-[require-image]: https://requires.io/github/xasos/UIUC-Open-Data/requirements.svg?branch=master
-[require-url]: https://requires.io/github/xasos/UIUC-Open-Data/requirements/?branch=master
