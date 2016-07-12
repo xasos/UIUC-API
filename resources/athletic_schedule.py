@@ -1,18 +1,53 @@
 from flask_restful import Resource
 import urllib2
-import xml2json
+from bs4 import BeautifulSoup
 
-BASE_URL = ""
-sports = ['wcross', 'wcross', 'wsoc', 'mbball',
-'wbball', 'wswim', 'mgym', 'wgym', 'wrestling',
-'baseball', 'softball', 'mgolf', 'wgolf', 'mtrack',
-'wtrack', 'mten', 'wten']
+
+BASE_URL = "http://www.fightingillini.com/schedule.aspx?path="
+
+sports = ['baseball', 'mbball', 'mcross', 'football', 'mgolf',
+            'mgym', 'mten', 'mtrack', 'wrestling', 'wbball',
+            'wcross', 'wgolf', 'wgym', 'wsoc', 'softball',
+            'wswim', 'wten', 'wtrack', 'wvball']
 
 class AthleticSchedule(Resource):
     def get(self, sport):
         if sport.lower() in sports:
-            request_url = BASE_URL + sport + END_URL
-            request = urllib2.urlopen(request_url)
-            return xml2json(request)
+            request_url = BASE_URL + sport
+            req = urllib2.Request(request_url, None, {'User-agent': 'Mozilla/5.0 (X11; U; Linux i686) Gecko/20071127 Firefox/2.0.0.11'})
+            request = urllib2.urlopen(req)
+            soup = BeautifulSoup(request, 'html.parser')
+            retval = {}
+            gamelist = []
+            for x in soup.find_all(class_='schedule_game', ):
+                print(x)
+                game = {}
+                if (x.find(class_='schedule_game_opponent_name').a is None and x.find(class_='schedule_game_opponent_name').span is None):
+                    game['Opponent'] = x.find(class_='schedule_game_opponent_name').string.strip()
+                elif (x.find(class_='schedule_game_opponent_name').span is None):
+                    if (x.find(class_='schedule_game_opponent_name').a.string is None):
+                        game['Opponent'] = x.find(class_='schedule_game_opponent_name').a.span.string.strip()
+                    else:
+                        game['Opponent'] = x.find(class_='schedule_game_opponent_name').a.string.strip()
+                else:
+                    game['Opponent'] = x.find(class_='schedule_game_opponent_name').span.string.strip()
+                game['Date'] = x.find(class_='schedule_game_opponent_date').string.strip()
+                game['Time'] = x.find(class_='schedule_game_opponent_time').string.strip()
+                if (x.find(class_='schedule_game_location').span is None):
+                    game['Location'] = x.find(class_='schedule_game_location').string.strip()
+                else:
+                    if (x.find(class_='schedule_game_location').span.string is None):
+                        game['Location'] = None
+                    else:
+                        game['Location'] = x.find(class_='schedule_game_location').span.string.strip()
+                #game['Home/Away'] = x.find(class_='schedule_game_location').span['class'][0].split('_')[1]
+                #game['Watchable Links'] = x.find(class_='schedule_game_links').span['class'].split('_')[1]
+                if (x.find(class_='schedule_game_results') is None or len(x.find(class_='schedule_game_results').div.contents) == 0):
+                    game['Results'] = 'This has not happened yet or no results were reported'
+                else:
+                    game['Results'] = (x.find(class_='schedule_game_results').div.contents[0])
+                gamelist.append(game)
+            retval['games'] = gamelist
+            return retval
         else:
-            return ""
+            return {'This sport' : 'does not exist.'}
