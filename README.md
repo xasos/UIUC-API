@@ -775,9 +775,7 @@ Use of this API is purely for educational purposes only, unless otherwise noted.
 
 [gitter-url]: https://gitter.im/xasos/UIUC-Open-Data?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge
 [gitter-image]: https://badges.gitter.im/Join%20Chat.svg
-[travis-url]: https://travis-ci.org/xasos/UIUC-Open-Data
-[travis-image]: https://travis-ci.org/xasos/UIUC-Open-Data.svg?branch=master
+[travis-url]: https://travis-ci.org/xasos/UIUC-API
+[travis-image]: https://travis-ci.org/xasos/UIUC-API.svg?branch=master
 [require-image]: https://requires.io/github/xasos/UIUC-Open-Data/requirements.svg?branch=master
 [require-url]: https://requires.io/github/xasos/UIUC-Open-Data/requirements/?branch=master
-[daviddm-url]: https://david-dm.org/xasos/Coins.svg?theme=shields.io
-[daviddm-image]: https://david-dm.org/xasos/Coins
