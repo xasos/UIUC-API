@@ -11,6 +11,7 @@ from resources.main import Main
 from resources.free_food import FreeFood
 from resources.ews_status import EWSStatus
 from resources.athletic_schedule import AthleticSchedule
+from resources.buildings import Buildings
 
 app = Flask(__name__)
 api = Api(app)
@@ -33,7 +34,7 @@ api.add_resource(Weather, '/weather')
 api.add_resource(Laundry, '/laundry')
 #api.add_resource(UniversityDirectory, '', '')
 #api.add_resource(DailyIllini, '', '')
-#api.add_resource(Buildings, '', '')
+api.add_resource(Buildings, '/buildings')
 api.add_resource(AthleticSchedule, '/athleticschedule/<string:sport>')
 #api.add(Maintenance, '', '')
 api.add_resource(FreeFood, '/freefood')

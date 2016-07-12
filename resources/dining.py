@@ -17,29 +17,6 @@ class DiningToday(Resource):
 class Dining(Resource):
     def get(self, hall, dateFrom, dateTo):
         request_url = "https://web.housing.illinois.edu/MobileDining2/WebService/Search.aspx?k=7A828F94-620B-4EE3-A56F-328036CC3C04"
-        dining_halls = {
-            "lar": 5,
-            "fieldofgreens": 12,
-            "leafy": 13,
-            "par": 2,
-            "pennstation": 14,
-            "isr": 3,
-            "chomps": 18,
-            "cocinamexicana": 10,
-            "tasteofasia": 17,
-            "ikenberry": 1,
-            "57north": 7,
-            "betterburger": 20,
-            "caffeinator": 9,
-            "neosoulingredient": 21,
-            "far": 6,
-            "crackedeggcafe": 8,
-            "soulingredient": 16,
-            "buseyevans": 4,
-            "buseybeanand green": 11,
-            "oodles": 19
-        }
-
         # Add route parameters
         request_url += "&id=" + hall + "&from=" + dateFrom + "&to=" + dateTo + "&t=json"
         response = urllib2.urlopen(request_url)

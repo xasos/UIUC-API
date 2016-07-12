@@ -1,6 +1,7 @@
 from flask_restful import Resource
 import urllib2
 from bs4 import BeautifulSoup
+import xml2json
 
 
 BASE_URL = "http://www.fightingillini.com/schedule.aspx?path="
@@ -9,6 +10,13 @@ sports = ['baseball', 'mbball', 'mcross', 'football', 'mgolf',
             'mgym', 'mten', 'mtrack', 'wrestling', 'wbball',
             'wcross', 'wgolf', 'wgym', 'wsoc', 'softball',
             'wswim', 'wten', 'wtrack', 'wvball']
+
+'''class AthleticSchedule(Resource):
+    def get(self, sport):
+        request_url = 'http://app-uiuc-ncaa.yinzcam.com/V1/Game/List/?teamid=uiuc-' + sport + '&version=4.6&app_version=1.0.1&mcc=310&width=640&application=NCAA_UIUC&schoolid=UIUC&os=iOS&mnc=260&height=1136&os_version=9.1&ff=mobile&carrier=T-Mobile'
+        request = urllib2.urlopen(request_url)
+        print(type(request))
+        return xml2json.xml2json(request.read(), None)'''
 
 class AthleticSchedule(Resource):
     def get(self, sport):
@@ -19,7 +27,7 @@ class AthleticSchedule(Resource):
             soup = BeautifulSoup(request, 'html.parser')
             retval = {}
             gamelist = []
-            for x in soup.find_all(class_='schedule_game', ):
+            for x in soup.find_all(class_='schedule_game'):
                 print(x)
                 game = {}
                 if (x.find(class_='schedule_game_opponent_name').a is None and x.find(class_='schedule_game_opponent_name').span is None):
@@ -50,4 +58,4 @@ class AthleticSchedule(Resource):
             retval['games'] = gamelist
             return retval
         else:
-            return {'This sport' : 'does not exist.'}
+            return {'This sport' : 'does not exist'}
