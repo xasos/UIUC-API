@@ -21,5 +21,7 @@ for x in soup.find_all('tr'):
     else:
         ret['zipcode'] = x.contents[9].string
     retval.append(ret)
+finalreturn = {}
+finalreturn['data'] = retval
 with open('buildings.json', 'w') as outfile:
-    json.dump(retval, outfile, sort_keys = True, indent = 4)
+    json.dump(finalreturn, outfile, sort_keys = True, indent = 4)

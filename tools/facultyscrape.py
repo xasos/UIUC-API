@@ -12,7 +12,6 @@ for x in soup.find_all(class_='ws-ds-college-name'):
     while(condition):
         departmentname = x.span.a.next_sibling.string
         x = x.next_sibling
-        print('1 ' + x.name)
         for y in x.find_all('li'):
             ret = {}
             ret['collegename'] = collegename
@@ -35,8 +34,8 @@ for x in soup.find_all(class_='ws-ds-college-name'):
             retval.append(ret)
         x = x.next_sibling
         if (x is not None):
-            print('2 ' + x.name)
         condition = x is not None and x.name != u'br'
-
+finalreturn = {}
+finalreturn['data'] = retval
 with open('professors.json', 'w') as outfile:
-    json.dump(retval, outfile, sort_keys = True, indent = 4)
+    json.dump(finalreturn, outfile, sort_keys = True, indent = 4)

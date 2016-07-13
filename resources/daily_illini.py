@@ -51,7 +51,19 @@ class SportsNews(Resource):
         request_url = base_url + category + '/' + subcategory + '/' + sportcategory + '/'
         return scraper(request_url)
 
-
+class RecentNews(Resource):
+    def get(self):
+        request_url = 'http://dailyillini.com/feed/'
+        request = urllib2.urlopen(urllib2.Request(request_url, None, {'User-agent': 'Mozilla/5.0 (X11; U; Linux i686) Gecko/20071127 Firefox/2.0.0.11'}))
+        soup = BeautifulSoup(request, 'lxml')
+        retval = []
+        for x in soup.find_all('item'):
+            ret = {}
+            ret['title'] = x.title.string
+            ret['link'] = x.a['href']
+            ret['date'] = x.contents[7].string
+            retval.append(ret)
+        return {'data':retval}
 
 
 if __name__ == '__main__':

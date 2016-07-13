@@ -11,7 +11,7 @@ from resources.ews_status import EWSStatus
 from resources.athletic_schedule import AthleticSchedule
 from resources.buildings import Buildings
 from resources.directory import FacultyDirectory
-from resources.daily_illini import News, SubCategoryNews, SportsNews
+from resources.daily_illini import News, SubCategoryNews, SportsNews, RecentNews
 
 app = Flask(__name__)
 api = Api(app)
@@ -40,6 +40,7 @@ api.add_resource(FacultyDirectory, '/directory/faculty')
 api.add_resource(News, '/news/<string:category>')
 api.add_resource(SubCategoryNews, '/news/<string:category>/<string:subcategory>')
 api.add_resource(SportsNews, '/news/<string:category>/<string:subcategory>/<string:sportcategory>')
+api.add_resource(RecentNews, '/news/recent')
 
 api.add_resource(Buildings, '/buildings')
 
