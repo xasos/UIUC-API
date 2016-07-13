@@ -1,4 +1,4 @@
-import urllib2
+import urllib2, json
 from bs4 import BeautifulSoup
 
 request = urllib2.urlopen('http://fs.illinois.edu/about-us/building-list-by-building-number')
@@ -6,7 +6,6 @@ soup = BeautifulSoup(request, 'html.parser')
 retval = []
 for x in soup.find_all('tr'):
     ret = {}
-
     ret['number'] = x.contents[1].string
     ret['name'] = x.contents[3].string
     if (x.contents[5] is None):
@@ -22,4 +21,5 @@ for x in soup.find_all('tr'):
     else:
         ret['zipcode'] = x.contents[9].string
     retval.append(ret)
-print retval
+with open('buildings.json', 'w') as outfile:
+    json.dump(retval, outfile, sort_keys = True, indent = 4)

@@ -14,7 +14,6 @@ from resources.directory import FacultyDirectory
 
 app = Flask(__name__)
 api = Api(app)
-cache = SimpleCache()
 
 # Define routes
 api.add_resource(Main, '/')
