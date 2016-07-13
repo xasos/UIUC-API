@@ -1,0 +1,3994 @@
+[
+    {
+        "collegename": "Agricultural, Consumer, and Environmental Sciences, College of ", 
+        "departmentname": "Agricultural Education Program", 
+        "firstname": "Erica", 
+        "lastname": "Thieman", 
+        "middleinitial": "B", 
+        "role": "Assistant Professor"
+    }, 
+    {
+        "collegename": "Agricultural, Consumer, and Environmental Sciences, College of ", 
+        "departmentname": "Agricultural Education Program", 
+        "firstname": "Erica", 
+        "lastname": "Thieman", 
+        "middleinitial": "B", 
+        "role": "Assistant Professor"
+    }, 
+    {
+        "collegename": "Agricultural, Consumer, and Environmental Sciences, College of ", 
+        "departmentname": "Agricultural Education Program", 
+        "firstname": "Erica", 
+        "lastname": "Thieman", 
+        "middleinitial": "B", 
+        "role": "Assistant Professor"
+    }, 
+    {
+        "collegename": "Agricultural, Consumer, and Environmental Sciences, College of ", 
+        "departmentname": "Agricultural Education Program", 
+        "firstname": "Erica", 
+        "lastname": "Thieman", 
+        "middleinitial": "B", 
+        "role": "Assistant Professor"
+    }, 
+    {
+        "collegename": "Agricultural, Consumer, and Environmental Sciences, College of ", 
+        "departmentname": "Agricultural Education Program", 
+        "firstname": "Erica", 
+        "lastname": "Thieman", 
+        "middleinitial": "B", 
+        "role": "Assistant Professor"
+    }, 
+    {
+        "collegename": "Agricultural, Consumer, and Environmental Sciences, College of ", 
+        "departmentname": "Agricultural Education Program", 
+        "firstname": "Erica", 
+        "lastname": "Thieman", 
+        "middleinitial": "B", 
+        "role": "Assistant Professor"
+    }, 
+    {
+        "collegename": "Applied Health Sciences, College of ", 
+        "departmentname": "Interdisciplinary Health Sciences (i-Health)", 
+        "firstname": "William", 
+        "lastname": "Stewart", 
+        "middleinitial": "P", 
+        "role": "Professor"
+    }, 
+    {
+        "collegename": "Aviation, Institute of ", 
+        "departmentname": "Aviation, Institute of ", 
+        "firstname": "Christopher", 
+        "lastname": "Wickens", 
+        "middleinitial": "D", 
+        "role": "None Specified"
+    }, 
+    {
+        "collegename": "Aviation, Institute of ", 
+        "departmentname": "Aviation, Institute of ", 
+        "firstname": "Christopher", 
+        "lastname": "Wickens", 
+        "middleinitial": "D", 
+        "role": "None Specified"
+    }, 
+    {
+        "collegename": "Aviation, Institute of ", 
+        "departmentname": "Aviation, Institute of ", 
+        "firstname": "Christopher", 
+        "lastname": "Wickens", 
+        "middleinitial": "D", 
+        "role": "None Specified"
+    }, 
+    {
+        "collegename": "Aviation, Institute of ", 
+        "departmentname": "Aviation, Institute of ", 
+        "firstname": "Christopher", 
+        "lastname": "Wickens", 
+        "middleinitial": "D", 
+        "role": "None Specified"
+    }, 
+    {
+        "collegename": "Aviation, Institute of ", 
+        "departmentname": "Aviation, Institute of ", 
+        "firstname": "Christopher", 
+        "lastname": "Wickens", 
+        "middleinitial": "D", 
+        "role": "None Specified"
+    }, 
+    {
+        "collegename": "Aviation, Institute of ", 
+        "departmentname": "Aviation, Institute of ", 
+        "firstname": "Christopher", 
+        "lastname": "Wickens", 
+        "middleinitial": "D", 
+        "role": "None Specified"
+    }, 
+    {
+        "collegename": "Aviation, Institute of ", 
+        "departmentname": "Aviation, Institute of ", 
+        "firstname": "Christopher", 
+        "lastname": "Wickens", 
+        "middleinitial": "D", 
+        "role": "None Specified"
+    }, 
+    {
+        "collegename": "Aviation, Institute of ", 
+        "departmentname": "Aviation, Institute of ", 
+        "firstname": "Christopher", 
+        "lastname": "Wickens", 
+        "middleinitial": "D", 
+        "role": "None Specified"
+    }, 
+    {
+        "collegename": "Business, College of ", 
+        "departmentname": "Accountancy, Department of ", 
+        "firstname": "Richard", 
+        "lastname": "Ziegler", 
+        "middleinitial": "E", 
+        "role": "Associate Professor Emeritus"
+    }, 
+    {
+        "collegename": "Business, College of ", 
+        "departmentname": "Accountancy, Department of ", 
+        "firstname": "Richard", 
+        "lastname": "Ziegler", 
+        "middleinitial": "E", 
+        "role": "Associate Professor Emeritus"
+    }, 
+    {
+        "collegename": "Business, College of ", 
+        "departmentname": "Accountancy, Department of ", 
+        "firstname": "Richard", 
+        "lastname": "Ziegler", 
+        "middleinitial": "E", 
+        "role": "Associate Professor Emeritus"
+    }, 
+    {
+        "collegename": "Business, College of ", 
+        "departmentname": "Accountancy, Department of ", 
+        "firstname": "Richard", 
+        "lastname": "Ziegler", 
+        "middleinitial": "E", 
+        "role": "Associate Professor Emeritus"
+    }, 
+    {
+        "collegename": "Business, College of ", 
+        "departmentname": "Accountancy, Department of ", 
+        "firstname": "Richard", 
+        "lastname": "Ziegler", 
+        "middleinitial": "E", 
+        "role": "Associate Professor Emeritus"
+    }, 
+    {
+        "collegename": "Business, College of ", 
+        "departmentname": "Accountancy, Department of ", 
+        "firstname": "Richard", 
+        "lastname": "Ziegler", 
+        "middleinitial": "E", 
+        "role": "Associate Professor Emeritus"
+    }, 
+    {
+        "collegename": "Business, College of ", 
+        "departmentname": "Accountancy, Department of ", 
+        "firstname": "Richard", 
+        "lastname": "Ziegler", 
+        "middleinitial": "E", 
+        "role": "Associate Professor Emeritus"
+    }, 
+    {
+        "collegename": "Business, College of ", 
+        "departmentname": "Accountancy, Department of ", 
+        "firstname": "Richard", 
+        "lastname": "Ziegler", 
+        "middleinitial": "E", 
+        "role": "Associate Professor Emeritus"
+    }, 
+    {
+        "collegename": "Business, College of ", 
+        "departmentname": "Accountancy, Department of ", 
+        "firstname": "Richard", 
+        "lastname": "Ziegler", 
+        "middleinitial": "E", 
+        "role": "Associate Professor Emeritus"
+    }, 
+    {
+        "collegename": "Business, College of ", 
+        "departmentname": "Accountancy, Department of ", 
+        "firstname": "Richard", 
+        "lastname": "Ziegler", 
+        "middleinitial": "E", 
+        "role": "Associate Professor Emeritus"
+    }, 
+    {
+        "collegename": "Business, College of ", 
+        "departmentname": "Accountancy, Department of ", 
+        "firstname": "Richard", 
+        "lastname": "Ziegler", 
+        "middleinitial": "E", 
+        "role": "Associate Professor Emeritus"
+    }, 
+    {
+        "collegename": "Business, College of ", 
+        "departmentname": "Accountancy, Department of ", 
+        "firstname": "Richard", 
+        "lastname": "Ziegler", 
+        "middleinitial": "E", 
+        "role": "Associate Professor Emeritus"
+    }, 
+    {
+        "collegename": "Business, College of ", 
+        "departmentname": "Accountancy, Department of ", 
+        "firstname": "Richard", 
+        "lastname": "Ziegler", 
+        "middleinitial": "E", 
+        "role": "Associate Professor Emeritus"
+    }, 
+    {
+        "collegename": "Business, College of ", 
+        "departmentname": "Accountancy, Department of ", 
+        "firstname": "Richard", 
+        "lastname": "Ziegler", 
+        "middleinitial": "E", 
+        "role": "Associate Professor Emeritus"
+    }, 
+    {
+        "collegename": "Business, College of ", 
+        "departmentname": "Accountancy, Department of ", 
+        "firstname": "Richard", 
+        "lastname": "Ziegler", 
+        "middleinitial": "E", 
+        "role": "Associate Professor Emeritus"
+    }, 
+    {
+        "collegename": "Business, College of ", 
+        "departmentname": "Accountancy, Department of ", 
+        "firstname": "Richard", 
+        "lastname": "Ziegler", 
+        "middleinitial": "E", 
+        "role": "Associate Professor Emeritus"
+    }, 
+    {
+        "collegename": "Business, College of ", 
+        "departmentname": "Accountancy, Department of ", 
+        "firstname": "Richard", 
+        "lastname": "Ziegler", 
+        "middleinitial": "E", 
+        "role": "Associate Professor Emeritus"
+    }, 
+    {
+        "collegename": "Business, College of ", 
+        "departmentname": "Accountancy, Department of ", 
+        "firstname": "Richard", 
+        "lastname": "Ziegler", 
+        "middleinitial": "E", 
+        "role": "Associate Professor Emeritus"
+    }, 
+    {
+        "collegename": "Business, College of ", 
+        "departmentname": "Accountancy, Department of ", 
+        "firstname": "Richard", 
+        "lastname": "Ziegler", 
+        "middleinitial": "E", 
+        "role": "Associate Professor Emeritus"
+    }, 
+    {
+        "collegename": "Business, College of ", 
+        "departmentname": "Accountancy, Department of ", 
+        "firstname": "Richard", 
+        "lastname": "Ziegler", 
+        "middleinitial": "E", 
+        "role": "Associate Professor Emeritus"
+    }, 
+    {
+        "collegename": "Business, College of ", 
+        "departmentname": "Accountancy, Department of ", 
+        "firstname": "Richard", 
+        "lastname": "Ziegler", 
+        "middleinitial": "E", 
+        "role": "Associate Professor Emeritus"
+    }, 
+    {
+        "collegename": "Business, College of ", 
+        "departmentname": "Accountancy, Department of ", 
+        "firstname": "Richard", 
+        "lastname": "Ziegler", 
+        "middleinitial": "E", 
+        "role": "Associate Professor Emeritus"
+    }, 
+    {
+        "collegename": "Business, College of ", 
+        "departmentname": "Accountancy, Department of ", 
+        "firstname": "Richard", 
+        "lastname": "Ziegler", 
+        "middleinitial": "E", 
+        "role": "Associate Professor Emeritus"
+    }, 
+    {
+        "collegename": "Business, College of ", 
+        "departmentname": "Accountancy, Department of ", 
+        "firstname": "Richard", 
+        "lastname": "Ziegler", 
+        "middleinitial": "E", 
+        "role": "Associate Professor Emeritus"
+    }, 
+    {
+        "collegename": "Business, College of ", 
+        "departmentname": "Accountancy, Department of ", 
+        "firstname": "Richard", 
+        "lastname": "Ziegler", 
+        "middleinitial": "E", 
+        "role": "Associate Professor Emeritus"
+    }, 
+    {
+        "collegename": "Business, College of ", 
+        "departmentname": "Accountancy, Department of ", 
+        "firstname": "Richard", 
+        "lastname": "Ziegler", 
+        "middleinitial": "E", 
+        "role": "Associate Professor Emeritus"
+    }, 
+    {
+        "collegename": "Business, College of ", 
+        "departmentname": "Accountancy, Department of ", 
+        "firstname": "Richard", 
+        "lastname": "Ziegler", 
+        "middleinitial": "E", 
+        "role": "Associate Professor Emeritus"
+    }, 
+    {
+        "collegename": "Business, College of ", 
+        "departmentname": "Accountancy, Department of ", 
+        "firstname": "Richard", 
+        "lastname": "Ziegler", 
+        "middleinitial": "E", 
+        "role": "Associate Professor Emeritus"
+    }, 
+    {
+        "collegename": "Business, College of ", 
+        "departmentname": "Accountancy, Department of ", 
+        "firstname": "Richard", 
+        "lastname": "Ziegler", 
+        "middleinitial": "E", 
+        "role": "Associate Professor Emeritus"
+    }, 
+    {
+        "collegename": "Business, College of ", 
+        "departmentname": "Accountancy, Department of ", 
+        "firstname": "Richard", 
+        "lastname": "Ziegler", 
+        "middleinitial": "E", 
+        "role": "Associate Professor Emeritus"
+    }, 
+    {
+        "collegename": "Business, College of ", 
+        "departmentname": "Accountancy, Department of ", 
+        "firstname": "Richard", 
+        "lastname": "Ziegler", 
+        "middleinitial": "E", 
+        "role": "Associate Professor Emeritus"
+    }, 
+    {
+        "collegename": "Business, College of ", 
+        "departmentname": "Accountancy, Department of ", 
+        "firstname": "Richard", 
+        "lastname": "Ziegler", 
+        "middleinitial": "E", 
+        "role": "Associate Professor Emeritus"
+    }, 
+    {
+        "collegename": "Business, College of ", 
+        "departmentname": "Accountancy, Department of ", 
+        "firstname": "Richard", 
+        "lastname": "Ziegler", 
+        "middleinitial": "E", 
+        "role": "Associate Professor Emeritus"
+    }, 
+    {
+        "collegename": "Business, College of ", 
+        "departmentname": "Accountancy, Department of ", 
+        "firstname": "Richard", 
+        "lastname": "Ziegler", 
+        "middleinitial": "E", 
+        "role": "Associate Professor Emeritus"
+    }, 
+    {
+        "collegename": "Business, College of ", 
+        "departmentname": "Accountancy, Department of ", 
+        "firstname": "Richard", 
+        "lastname": "Ziegler", 
+        "middleinitial": "E", 
+        "role": "Associate Professor Emeritus"
+    }, 
+    {
+        "collegename": "Business, College of ", 
+        "departmentname": "Accountancy, Department of ", 
+        "firstname": "Richard", 
+        "lastname": "Ziegler", 
+        "middleinitial": "E", 
+        "role": "Associate Professor Emeritus"
+    }, 
+    {
+        "collegename": "Business, College of ", 
+        "departmentname": "Accountancy, Department of ", 
+        "firstname": "Richard", 
+        "lastname": "Ziegler", 
+        "middleinitial": "E", 
+        "role": "Associate Professor Emeritus"
+    }, 
+    {
+        "collegename": "Business, College of ", 
+        "departmentname": "Accountancy, Department of ", 
+        "firstname": "Richard", 
+        "lastname": "Ziegler", 
+        "middleinitial": "E", 
+        "role": "Associate Professor Emeritus"
+    }, 
+    {
+        "collegename": "Business, College of ", 
+        "departmentname": "Accountancy, Department of ", 
+        "firstname": "Richard", 
+        "lastname": "Ziegler", 
+        "middleinitial": "E", 
+        "role": "Associate Professor Emeritus"
+    }, 
+    {
+        "collegename": "Business, College of ", 
+        "departmentname": "Accountancy, Department of ", 
+        "firstname": "Richard", 
+        "lastname": "Ziegler", 
+        "middleinitial": "E", 
+        "role": "Associate Professor Emeritus"
+    }, 
+    {
+        "collegename": "Business, College of ", 
+        "departmentname": "Accountancy, Department of ", 
+        "firstname": "Richard", 
+        "lastname": "Ziegler", 
+        "middleinitial": "E", 
+        "role": "Associate Professor Emeritus"
+    }, 
+    {
+        "collegename": "Business, College of ", 
+        "departmentname": "Accountancy, Department of ", 
+        "firstname": "Richard", 
+        "lastname": "Ziegler", 
+        "middleinitial": "E", 
+        "role": "Associate Professor Emeritus"
+    }, 
+    {
+        "collegename": "Business, College of ", 
+        "departmentname": "Accountancy, Department of ", 
+        "firstname": "Richard", 
+        "lastname": "Ziegler", 
+        "middleinitial": "E", 
+        "role": "Associate Professor Emeritus"
+    }, 
+    {
+        "collegename": "Business, College of ", 
+        "departmentname": "Accountancy, Department of ", 
+        "firstname": "Richard", 
+        "lastname": "Ziegler", 
+        "middleinitial": "E", 
+        "role": "Associate Professor Emeritus"
+    }, 
+    {
+        "collegename": "Business, College of ", 
+        "departmentname": "Accountancy, Department of ", 
+        "firstname": "Richard", 
+        "lastname": "Ziegler", 
+        "middleinitial": "E", 
+        "role": "Associate Professor Emeritus"
+    }, 
+    {
+        "collegename": "Business, College of ", 
+        "departmentname": "Accountancy, Department of ", 
+        "firstname": "Richard", 
+        "lastname": "Ziegler", 
+        "middleinitial": "E", 
+        "role": "Associate Professor Emeritus"
+    }, 
+    {
+        "collegename": "Business, College of ", 
+        "departmentname": "Accountancy, Department of ", 
+        "firstname": "Richard", 
+        "lastname": "Ziegler", 
+        "middleinitial": "E", 
+        "role": "Associate Professor Emeritus"
+    }, 
+    {
+        "collegename": "Business, College of ", 
+        "departmentname": "Accountancy, Department of ", 
+        "firstname": "Richard", 
+        "lastname": "Ziegler", 
+        "middleinitial": "E", 
+        "role": "Associate Professor Emeritus"
+    }, 
+    {
+        "collegename": "Business, College of ", 
+        "departmentname": "Accountancy, Department of ", 
+        "firstname": "Richard", 
+        "lastname": "Ziegler", 
+        "middleinitial": "E", 
+        "role": "Associate Professor Emeritus"
+    }, 
+    {
+        "collegename": "Business, College of ", 
+        "departmentname": "Accountancy, Department of ", 
+        "firstname": "Richard", 
+        "lastname": "Ziegler", 
+        "middleinitial": "E", 
+        "role": "Associate Professor Emeritus"
+    }, 
+    {
+        "collegename": "Business, College of ", 
+        "departmentname": "Accountancy, Department of ", 
+        "firstname": "Richard", 
+        "lastname": "Ziegler", 
+        "middleinitial": "E", 
+        "role": "Associate Professor Emeritus"
+    }, 
+    {
+        "collegename": "Business, College of ", 
+        "departmentname": "Accountancy, Department of ", 
+        "firstname": "Richard", 
+        "lastname": "Ziegler", 
+        "middleinitial": "E", 
+        "role": "Associate Professor Emeritus"
+    }, 
+    {
+        "collegename": "Business, College of ", 
+        "departmentname": "Accountancy, Department of ", 
+        "firstname": "Richard", 
+        "lastname": "Ziegler", 
+        "middleinitial": "E", 
+        "role": "Associate Professor Emeritus"
+    }, 
+    {
+        "collegename": "Business, College of ", 
+        "departmentname": "Accountancy, Department of ", 
+        "firstname": "Richard", 
+        "lastname": "Ziegler", 
+        "middleinitial": "E", 
+        "role": "Associate Professor Emeritus"
+    }, 
+    {
+        "collegename": "Business, College of ", 
+        "departmentname": "Accountancy, Department of ", 
+        "firstname": "Richard", 
+        "lastname": "Ziegler", 
+        "middleinitial": "E", 
+        "role": "Associate Professor Emeritus"
+    }, 
+    {
+        "collegename": "Business, College of ", 
+        "departmentname": "Accountancy, Department of ", 
+        "firstname": "Richard", 
+        "lastname": "Ziegler", 
+        "middleinitial": "E", 
+        "role": "Associate Professor Emeritus"
+    }, 
+    {
+        "collegename": "Business, College of ", 
+        "departmentname": "Accountancy, Department of ", 
+        "firstname": "Richard", 
+        "lastname": "Ziegler", 
+        "middleinitial": "E", 
+        "role": "Associate Professor Emeritus"
+    }, 
+    {
+        "collegename": "Business, College of ", 
+        "departmentname": "Accountancy, Department of ", 
+        "firstname": "Richard", 
+        "lastname": "Ziegler", 
+        "middleinitial": "E", 
+        "role": "Associate Professor Emeritus"
+    }, 
+    {
+        "collegename": "Education, College of ", 
+        "departmentname": "Curriculum and Instruction, Department of ", 
+        "firstname": "Lynn", 
+        "lastname": "Wurtzel", 
+        "middleinitial": null, 
+        "role": "Adjunct Lecturer"
+    }, 
+    {
+        "collegename": "Education, College of ", 
+        "departmentname": "Curriculum and Instruction, Department of ", 
+        "firstname": "Lynn", 
+        "lastname": "Wurtzel", 
+        "middleinitial": null, 
+        "role": "Adjunct Lecturer"
+    }, 
+    {
+        "collegename": "Education, College of ", 
+        "departmentname": "Curriculum and Instruction, Department of ", 
+        "firstname": "Lynn", 
+        "lastname": "Wurtzel", 
+        "middleinitial": null, 
+        "role": "Adjunct Lecturer"
+    }, 
+    {
+        "collegename": "Education, College of ", 
+        "departmentname": "Curriculum and Instruction, Department of ", 
+        "firstname": "Lynn", 
+        "lastname": "Wurtzel", 
+        "middleinitial": null, 
+        "role": "Adjunct Lecturer"
+    }, 
+    {
+        "collegename": "Education, College of ", 
+        "departmentname": "Curriculum and Instruction, Department of ", 
+        "firstname": "Lynn", 
+        "lastname": "Wurtzel", 
+        "middleinitial": null, 
+        "role": "Adjunct Lecturer"
+    }, 
+    {
+        "collegename": "Education, College of ", 
+        "departmentname": "Curriculum and Instruction, Department of ", 
+        "firstname": "Lynn", 
+        "lastname": "Wurtzel", 
+        "middleinitial": null, 
+        "role": "Adjunct Lecturer"
+    }, 
+    {
+        "collegename": "Education, College of ", 
+        "departmentname": "Curriculum and Instruction, Department of ", 
+        "firstname": "Lynn", 
+        "lastname": "Wurtzel", 
+        "middleinitial": null, 
+        "role": "Adjunct Lecturer"
+    }, 
+    {
+        "collegename": "Education, College of ", 
+        "departmentname": "Curriculum and Instruction, Department of ", 
+        "firstname": "Lynn", 
+        "lastname": "Wurtzel", 
+        "middleinitial": null, 
+        "role": "Adjunct Lecturer"
+    }, 
+    {
+        "collegename": "Education, College of ", 
+        "departmentname": "Curriculum and Instruction, Department of ", 
+        "firstname": "Lynn", 
+        "lastname": "Wurtzel", 
+        "middleinitial": null, 
+        "role": "Adjunct Lecturer"
+    }, 
+    {
+        "collegename": "Education, College of ", 
+        "departmentname": "Curriculum and Instruction, Department of ", 
+        "firstname": "Lynn", 
+        "lastname": "Wurtzel", 
+        "middleinitial": null, 
+        "role": "Adjunct Lecturer"
+    }, 
+    {
+        "collegename": "Education, College of ", 
+        "departmentname": "Curriculum and Instruction, Department of ", 
+        "firstname": "Lynn", 
+        "lastname": "Wurtzel", 
+        "middleinitial": null, 
+        "role": "Adjunct Lecturer"
+    }, 
+    {
+        "collegename": "Education, College of ", 
+        "departmentname": "Curriculum and Instruction, Department of ", 
+        "firstname": "Lynn", 
+        "lastname": "Wurtzel", 
+        "middleinitial": null, 
+        "role": "Adjunct Lecturer"
+    }, 
+    {
+        "collegename": "Education, College of ", 
+        "departmentname": "Curriculum and Instruction, Department of ", 
+        "firstname": "Lynn", 
+        "lastname": "Wurtzel", 
+        "middleinitial": null, 
+        "role": "Adjunct Lecturer"
+    }, 
+    {
+        "collegename": "Education, College of ", 
+        "departmentname": "Curriculum and Instruction, Department of ", 
+        "firstname": "Lynn", 
+        "lastname": "Wurtzel", 
+        "middleinitial": null, 
+        "role": "Adjunct Lecturer"
+    }, 
+    {
+        "collegename": "Education, College of ", 
+        "departmentname": "Curriculum and Instruction, Department of ", 
+        "firstname": "Lynn", 
+        "lastname": "Wurtzel", 
+        "middleinitial": null, 
+        "role": "Adjunct Lecturer"
+    }, 
+    {
+        "collegename": "Education, College of ", 
+        "departmentname": "Curriculum and Instruction, Department of ", 
+        "firstname": "Lynn", 
+        "lastname": "Wurtzel", 
+        "middleinitial": null, 
+        "role": "Adjunct Lecturer"
+    }, 
+    {
+        "collegename": "Education, College of ", 
+        "departmentname": "Curriculum and Instruction, Department of ", 
+        "firstname": "Lynn", 
+        "lastname": "Wurtzel", 
+        "middleinitial": null, 
+        "role": "Adjunct Lecturer"
+    }, 
+    {
+        "collegename": "Education, College of ", 
+        "departmentname": "Curriculum and Instruction, Department of ", 
+        "firstname": "Lynn", 
+        "lastname": "Wurtzel", 
+        "middleinitial": null, 
+        "role": "Adjunct Lecturer"
+    }, 
+    {
+        "collegename": "Education, College of ", 
+        "departmentname": "Curriculum and Instruction, Department of ", 
+        "firstname": "Lynn", 
+        "lastname": "Wurtzel", 
+        "middleinitial": null, 
+        "role": "Adjunct Lecturer"
+    }, 
+    {
+        "collegename": "Education, College of ", 
+        "departmentname": "Curriculum and Instruction, Department of ", 
+        "firstname": "Lynn", 
+        "lastname": "Wurtzel", 
+        "middleinitial": null, 
+        "role": "Adjunct Lecturer"
+    }, 
+    {
+        "collegename": "Education, College of ", 
+        "departmentname": "Curriculum and Instruction, Department of ", 
+        "firstname": "Lynn", 
+        "lastname": "Wurtzel", 
+        "middleinitial": null, 
+        "role": "Adjunct Lecturer"
+    }, 
+    {
+        "collegename": "Education, College of ", 
+        "departmentname": "Curriculum and Instruction, Department of ", 
+        "firstname": "Lynn", 
+        "lastname": "Wurtzel", 
+        "middleinitial": null, 
+        "role": "Adjunct Lecturer"
+    }, 
+    {
+        "collegename": "Education, College of ", 
+        "departmentname": "Curriculum and Instruction, Department of ", 
+        "firstname": "Lynn", 
+        "lastname": "Wurtzel", 
+        "middleinitial": null, 
+        "role": "Adjunct Lecturer"
+    }, 
+    {
+        "collegename": "Education, College of ", 
+        "departmentname": "Curriculum and Instruction, Department of ", 
+        "firstname": "Lynn", 
+        "lastname": "Wurtzel", 
+        "middleinitial": null, 
+        "role": "Adjunct Lecturer"
+    }, 
+    {
+        "collegename": "Education, College of ", 
+        "departmentname": "Curriculum and Instruction, Department of ", 
+        "firstname": "Lynn", 
+        "lastname": "Wurtzel", 
+        "middleinitial": null, 
+        "role": "Adjunct Lecturer"
+    }, 
+    {
+        "collegename": "Education, College of ", 
+        "departmentname": "Curriculum and Instruction, Department of ", 
+        "firstname": "Lynn", 
+        "lastname": "Wurtzel", 
+        "middleinitial": null, 
+        "role": "Adjunct Lecturer"
+    }, 
+    {
+        "collegename": "Education, College of ", 
+        "departmentname": "Curriculum and Instruction, Department of ", 
+        "firstname": "Lynn", 
+        "lastname": "Wurtzel", 
+        "middleinitial": null, 
+        "role": "Adjunct Lecturer"
+    }, 
+    {
+        "collegename": "Education, College of ", 
+        "departmentname": "Curriculum and Instruction, Department of ", 
+        "firstname": "Lynn", 
+        "lastname": "Wurtzel", 
+        "middleinitial": null, 
+        "role": "Adjunct Lecturer"
+    }, 
+    {
+        "collegename": "Education, College of ", 
+        "departmentname": "Curriculum and Instruction, Department of ", 
+        "firstname": "Lynn", 
+        "lastname": "Wurtzel", 
+        "middleinitial": null, 
+        "role": "Adjunct Lecturer"
+    }, 
+    {
+        "collegename": "Education, College of ", 
+        "departmentname": "Curriculum and Instruction, Department of ", 
+        "firstname": "Lynn", 
+        "lastname": "Wurtzel", 
+        "middleinitial": null, 
+        "role": "Adjunct Lecturer"
+    }, 
+    {
+        "collegename": "Education, College of ", 
+        "departmentname": "Curriculum and Instruction, Department of ", 
+        "firstname": "Lynn", 
+        "lastname": "Wurtzel", 
+        "middleinitial": null, 
+        "role": "Adjunct Lecturer"
+    }, 
+    {
+        "collegename": "Education, College of ", 
+        "departmentname": "Curriculum and Instruction, Department of ", 
+        "firstname": "Lynn", 
+        "lastname": "Wurtzel", 
+        "middleinitial": null, 
+        "role": "Adjunct Lecturer"
+    }, 
+    {
+        "collegename": "Education, College of ", 
+        "departmentname": "Curriculum and Instruction, Department of ", 
+        "firstname": "Lynn", 
+        "lastname": "Wurtzel", 
+        "middleinitial": null, 
+        "role": "Adjunct Lecturer"
+    }, 
+    {
+        "collegename": "Education, College of ", 
+        "departmentname": "Curriculum and Instruction, Department of ", 
+        "firstname": "Lynn", 
+        "lastname": "Wurtzel", 
+        "middleinitial": null, 
+        "role": "Adjunct Lecturer"
+    }, 
+    {
+        "collegename": "Education, College of ", 
+        "departmentname": "Curriculum and Instruction, Department of ", 
+        "firstname": "Lynn", 
+        "lastname": "Wurtzel", 
+        "middleinitial": null, 
+        "role": "Adjunct Lecturer"
+    }, 
+    {
+        "collegename": "Education, College of ", 
+        "departmentname": "Curriculum and Instruction, Department of ", 
+        "firstname": "Lynn", 
+        "lastname": "Wurtzel", 
+        "middleinitial": null, 
+        "role": "Adjunct Lecturer"
+    }, 
+    {
+        "collegename": "Education, College of ", 
+        "departmentname": "Curriculum and Instruction, Department of ", 
+        "firstname": "Lynn", 
+        "lastname": "Wurtzel", 
+        "middleinitial": null, 
+        "role": "Adjunct Lecturer"
+    }, 
+    {
+        "collegename": "Education, College of ", 
+        "departmentname": "Curriculum and Instruction, Department of ", 
+        "firstname": "Lynn", 
+        "lastname": "Wurtzel", 
+        "middleinitial": null, 
+        "role": "Adjunct Lecturer"
+    }, 
+    {
+        "collegename": "Education, College of ", 
+        "departmentname": "Curriculum and Instruction, Department of ", 
+        "firstname": "Lynn", 
+        "lastname": "Wurtzel", 
+        "middleinitial": null, 
+        "role": "Adjunct Lecturer"
+    }, 
+    {
+        "collegename": "Education, College of ", 
+        "departmentname": "Curriculum and Instruction, Department of ", 
+        "firstname": "Lynn", 
+        "lastname": "Wurtzel", 
+        "middleinitial": null, 
+        "role": "Adjunct Lecturer"
+    }, 
+    {
+        "collegename": "Education, College of ", 
+        "departmentname": "Curriculum and Instruction, Department of ", 
+        "firstname": "Lynn", 
+        "lastname": "Wurtzel", 
+        "middleinitial": null, 
+        "role": "Adjunct Lecturer"
+    }, 
+    {
+        "collegename": "Education, College of ", 
+        "departmentname": "Curriculum and Instruction, Department of ", 
+        "firstname": "Lynn", 
+        "lastname": "Wurtzel", 
+        "middleinitial": null, 
+        "role": "Adjunct Lecturer"
+    }, 
+    {
+        "collegename": "Education, College of ", 
+        "departmentname": "Curriculum and Instruction, Department of ", 
+        "firstname": "Lynn", 
+        "lastname": "Wurtzel", 
+        "middleinitial": null, 
+        "role": "Adjunct Lecturer"
+    }, 
+    {
+        "collegename": "Education, College of ", 
+        "departmentname": "Curriculum and Instruction, Department of ", 
+        "firstname": "Lynn", 
+        "lastname": "Wurtzel", 
+        "middleinitial": null, 
+        "role": "Adjunct Lecturer"
+    }, 
+    {
+        "collegename": "Education, College of ", 
+        "departmentname": "Curriculum and Instruction, Department of ", 
+        "firstname": "Lynn", 
+        "lastname": "Wurtzel", 
+        "middleinitial": null, 
+        "role": "Adjunct Lecturer"
+    }, 
+    {
+        "collegename": "Education, College of ", 
+        "departmentname": "Curriculum and Instruction, Department of ", 
+        "firstname": "Lynn", 
+        "lastname": "Wurtzel", 
+        "middleinitial": null, 
+        "role": "Adjunct Lecturer"
+    }, 
+    {
+        "collegename": "Education, College of ", 
+        "departmentname": "Curriculum and Instruction, Department of ", 
+        "firstname": "Lynn", 
+        "lastname": "Wurtzel", 
+        "middleinitial": null, 
+        "role": "Adjunct Lecturer"
+    }, 
+    {
+        "collegename": "Education, College of ", 
+        "departmentname": "Curriculum and Instruction, Department of ", 
+        "firstname": "Lynn", 
+        "lastname": "Wurtzel", 
+        "middleinitial": null, 
+        "role": "Adjunct Lecturer"
+    }, 
+    {
+        "collegename": "Education, College of ", 
+        "departmentname": "Curriculum and Instruction, Department of ", 
+        "firstname": "Lynn", 
+        "lastname": "Wurtzel", 
+        "middleinitial": null, 
+        "role": "Adjunct Lecturer"
+    }, 
+    {
+        "collegename": "Education, College of ", 
+        "departmentname": "Curriculum and Instruction, Department of ", 
+        "firstname": "Lynn", 
+        "lastname": "Wurtzel", 
+        "middleinitial": null, 
+        "role": "Adjunct Lecturer"
+    }, 
+    {
+        "collegename": "Education, College of ", 
+        "departmentname": "Curriculum and Instruction, Department of ", 
+        "firstname": "Lynn", 
+        "lastname": "Wurtzel", 
+        "middleinitial": null, 
+        "role": "Adjunct Lecturer"
+    }, 
+    {
+        "collegename": "Education, College of ", 
+        "departmentname": "Curriculum and Instruction, Department of ", 
+        "firstname": "Lynn", 
+        "lastname": "Wurtzel", 
+        "middleinitial": null, 
+        "role": "Adjunct Lecturer"
+    }, 
+    {
+        "collegename": "Education, College of ", 
+        "departmentname": "Curriculum and Instruction, Department of ", 
+        "firstname": "Lynn", 
+        "lastname": "Wurtzel", 
+        "middleinitial": null, 
+        "role": "Adjunct Lecturer"
+    }, 
+    {
+        "collegename": "Education, College of ", 
+        "departmentname": "Curriculum and Instruction, Department of ", 
+        "firstname": "Lynn", 
+        "lastname": "Wurtzel", 
+        "middleinitial": null, 
+        "role": "Adjunct Lecturer"
+    }, 
+    {
+        "collegename": "Education, College of ", 
+        "departmentname": "Curriculum and Instruction, Department of ", 
+        "firstname": "Lynn", 
+        "lastname": "Wurtzel", 
+        "middleinitial": null, 
+        "role": "Adjunct Lecturer"
+    }, 
+    {
+        "collegename": "Education, College of ", 
+        "departmentname": "Curriculum and Instruction, Department of ", 
+        "firstname": "Lynn", 
+        "lastname": "Wurtzel", 
+        "middleinitial": null, 
+        "role": "Adjunct Lecturer"
+    }, 
+    {
+        "collegename": "Education, College of ", 
+        "departmentname": "Curriculum and Instruction, Department of ", 
+        "firstname": "Lynn", 
+        "lastname": "Wurtzel", 
+        "middleinitial": null, 
+        "role": "Adjunct Lecturer"
+    }, 
+    {
+        "collegename": "Education, College of ", 
+        "departmentname": "Curriculum and Instruction, Department of ", 
+        "firstname": "Lynn", 
+        "lastname": "Wurtzel", 
+        "middleinitial": null, 
+        "role": "Adjunct Lecturer"
+    }, 
+    {
+        "collegename": "Education, College of ", 
+        "departmentname": "Curriculum and Instruction, Department of ", 
+        "firstname": "Lynn", 
+        "lastname": "Wurtzel", 
+        "middleinitial": null, 
+        "role": "Adjunct Lecturer"
+    }, 
+    {
+        "collegename": "Education, College of ", 
+        "departmentname": "Curriculum and Instruction, Department of ", 
+        "firstname": "Lynn", 
+        "lastname": "Wurtzel", 
+        "middleinitial": null, 
+        "role": "Adjunct Lecturer"
+    }, 
+    {
+        "collegename": "Engineering, College of ", 
+        "departmentname": "Aerospace Engineering, Department of ", 
+        "firstname": "Brian", 
+        "lastname": "Woodard", 
+        "middleinitial": "S", 
+        "role": "Teaching Associate"
+    }, 
+    {
+        "collegename": "Engineering, College of ", 
+        "departmentname": "Aerospace Engineering, Department of ", 
+        "firstname": "Brian", 
+        "lastname": "Woodard", 
+        "middleinitial": "S", 
+        "role": "Teaching Associate"
+    }, 
+    {
+        "collegename": "Engineering, College of ", 
+        "departmentname": "Aerospace Engineering, Department of ", 
+        "firstname": "Brian", 
+        "lastname": "Woodard", 
+        "middleinitial": "S", 
+        "role": "Teaching Associate"
+    }, 
+    {
+        "collegename": "Engineering, College of ", 
+        "departmentname": "Aerospace Engineering, Department of ", 
+        "firstname": "Brian", 
+        "lastname": "Woodard", 
+        "middleinitial": "S", 
+        "role": "Teaching Associate"
+    }, 
+    {
+        "collegename": "Engineering, College of ", 
+        "departmentname": "Aerospace Engineering, Department of ", 
+        "firstname": "Brian", 
+        "lastname": "Woodard", 
+        "middleinitial": "S", 
+        "role": "Teaching Associate"
+    }, 
+    {
+        "collegename": "Engineering, College of ", 
+        "departmentname": "Aerospace Engineering, Department of ", 
+        "firstname": "Brian", 
+        "lastname": "Woodard", 
+        "middleinitial": "S", 
+        "role": "Teaching Associate"
+    }, 
+    {
+        "collegename": "Engineering, College of ", 
+        "departmentname": "Aerospace Engineering, Department of ", 
+        "firstname": "Brian", 
+        "lastname": "Woodard", 
+        "middleinitial": "S", 
+        "role": "Teaching Associate"
+    }, 
+    {
+        "collegename": "Engineering, College of ", 
+        "departmentname": "Aerospace Engineering, Department of ", 
+        "firstname": "Brian", 
+        "lastname": "Woodard", 
+        "middleinitial": "S", 
+        "role": "Teaching Associate"
+    }, 
+    {
+        "collegename": "Engineering, College of ", 
+        "departmentname": "Aerospace Engineering, Department of ", 
+        "firstname": "Brian", 
+        "lastname": "Woodard", 
+        "middleinitial": "S", 
+        "role": "Teaching Associate"
+    }, 
+    {
+        "collegename": "Engineering, College of ", 
+        "departmentname": "Aerospace Engineering, Department of ", 
+        "firstname": "Brian", 
+        "lastname": "Woodard", 
+        "middleinitial": "S", 
+        "role": "Teaching Associate"
+    }, 
+    {
+        "collegename": "Engineering, College of ", 
+        "departmentname": "Aerospace Engineering, Department of ", 
+        "firstname": "Brian", 
+        "lastname": "Woodard", 
+        "middleinitial": "S", 
+        "role": "Teaching Associate"
+    }, 
+    {
+        "collegename": "Engineering, College of ", 
+        "departmentname": "Aerospace Engineering, Department of ", 
+        "firstname": "Brian", 
+        "lastname": "Woodard", 
+        "middleinitial": "S", 
+        "role": "Teaching Associate"
+    }, 
+    {
+        "collegename": "Engineering, College of ", 
+        "departmentname": "Aerospace Engineering, Department of ", 
+        "firstname": "Brian", 
+        "lastname": "Woodard", 
+        "middleinitial": "S", 
+        "role": "Teaching Associate"
+    }, 
+    {
+        "collegename": "Engineering, College of ", 
+        "departmentname": "Aerospace Engineering, Department of ", 
+        "firstname": "Brian", 
+        "lastname": "Woodard", 
+        "middleinitial": "S", 
+        "role": "Teaching Associate"
+    }, 
+    {
+        "collegename": "Engineering, College of ", 
+        "departmentname": "Aerospace Engineering, Department of ", 
+        "firstname": "Brian", 
+        "lastname": "Woodard", 
+        "middleinitial": "S", 
+        "role": "Teaching Associate"
+    }, 
+    {
+        "collegename": "Engineering, College of ", 
+        "departmentname": "Aerospace Engineering, Department of ", 
+        "firstname": "Brian", 
+        "lastname": "Woodard", 
+        "middleinitial": "S", 
+        "role": "Teaching Associate"
+    }, 
+    {
+        "collegename": "Engineering, College of ", 
+        "departmentname": "Aerospace Engineering, Department of ", 
+        "firstname": "Brian", 
+        "lastname": "Woodard", 
+        "middleinitial": "S", 
+        "role": "Teaching Associate"
+    }, 
+    {
+        "collegename": "Engineering, College of ", 
+        "departmentname": "Aerospace Engineering, Department of ", 
+        "firstname": "Brian", 
+        "lastname": "Woodard", 
+        "middleinitial": "S", 
+        "role": "Teaching Associate"
+    }, 
+    {
+        "collegename": "Engineering, College of ", 
+        "departmentname": "Aerospace Engineering, Department of ", 
+        "firstname": "Brian", 
+        "lastname": "Woodard", 
+        "middleinitial": "S", 
+        "role": "Teaching Associate"
+    }, 
+    {
+        "collegename": "Engineering, College of ", 
+        "departmentname": "Aerospace Engineering, Department of ", 
+        "firstname": "Brian", 
+        "lastname": "Woodard", 
+        "middleinitial": "S", 
+        "role": "Teaching Associate"
+    }, 
+    {
+        "collegename": "Engineering, College of ", 
+        "departmentname": "Aerospace Engineering, Department of ", 
+        "firstname": "Brian", 
+        "lastname": "Woodard", 
+        "middleinitial": "S", 
+        "role": "Teaching Associate"
+    }, 
+    {
+        "collegename": "Engineering, College of ", 
+        "departmentname": "Aerospace Engineering, Department of ", 
+        "firstname": "Brian", 
+        "lastname": "Woodard", 
+        "middleinitial": "S", 
+        "role": "Teaching Associate"
+    }, 
+    {
+        "collegename": "Engineering, College of ", 
+        "departmentname": "Aerospace Engineering, Department of ", 
+        "firstname": "Brian", 
+        "lastname": "Woodard", 
+        "middleinitial": "S", 
+        "role": "Teaching Associate"
+    }, 
+    {
+        "collegename": "Engineering, College of ", 
+        "departmentname": "Aerospace Engineering, Department of ", 
+        "firstname": "Brian", 
+        "lastname": "Woodard", 
+        "middleinitial": "S", 
+        "role": "Teaching Associate"
+    }, 
+    {
+        "collegename": "Engineering, College of ", 
+        "departmentname": "Aerospace Engineering, Department of ", 
+        "firstname": "Brian", 
+        "lastname": "Woodard", 
+        "middleinitial": "S", 
+        "role": "Teaching Associate"
+    }, 
+    {
+        "collegename": "Engineering, College of ", 
+        "departmentname": "Aerospace Engineering, Department of ", 
+        "firstname": "Brian", 
+        "lastname": "Woodard", 
+        "middleinitial": "S", 
+        "role": "Teaching Associate"
+    }, 
+    {
+        "collegename": "Engineering, College of ", 
+        "departmentname": "Aerospace Engineering, Department of ", 
+        "firstname": "Brian", 
+        "lastname": "Woodard", 
+        "middleinitial": "S", 
+        "role": "Teaching Associate"
+    }, 
+    {
+        "collegename": "Engineering, College of ", 
+        "departmentname": "Aerospace Engineering, Department of ", 
+        "firstname": "Brian", 
+        "lastname": "Woodard", 
+        "middleinitial": "S", 
+        "role": "Teaching Associate"
+    }, 
+    {
+        "collegename": "Engineering, College of ", 
+        "departmentname": "Aerospace Engineering, Department of ", 
+        "firstname": "Brian", 
+        "lastname": "Woodard", 
+        "middleinitial": "S", 
+        "role": "Teaching Associate"
+    }, 
+    {
+        "collegename": "Engineering, College of ", 
+        "departmentname": "Aerospace Engineering, Department of ", 
+        "firstname": "Brian", 
+        "lastname": "Woodard", 
+        "middleinitial": "S", 
+        "role": "Teaching Associate"
+    }, 
+    {
+        "collegename": "Engineering, College of ", 
+        "departmentname": "Aerospace Engineering, Department of ", 
+        "firstname": "Brian", 
+        "lastname": "Woodard", 
+        "middleinitial": "S", 
+        "role": "Teaching Associate"
+    }, 
+    {
+        "collegename": "Engineering, College of ", 
+        "departmentname": "Aerospace Engineering, Department of ", 
+        "firstname": "Brian", 
+        "lastname": "Woodard", 
+        "middleinitial": "S", 
+        "role": "Teaching Associate"
+    }, 
+    {
+        "collegename": "Engineering, College of ", 
+        "departmentname": "Aerospace Engineering, Department of ", 
+        "firstname": "Brian", 
+        "lastname": "Woodard", 
+        "middleinitial": "S", 
+        "role": "Teaching Associate"
+    }, 
+    {
+        "collegename": "Engineering, College of ", 
+        "departmentname": "Aerospace Engineering, Department of ", 
+        "firstname": "Brian", 
+        "lastname": "Woodard", 
+        "middleinitial": "S", 
+        "role": "Teaching Associate"
+    }, 
+    {
+        "collegename": "Engineering, College of ", 
+        "departmentname": "Aerospace Engineering, Department of ", 
+        "firstname": "Brian", 
+        "lastname": "Woodard", 
+        "middleinitial": "S", 
+        "role": "Teaching Associate"
+    }, 
+    {
+        "collegename": "Engineering, College of ", 
+        "departmentname": "Aerospace Engineering, Department of ", 
+        "firstname": "Brian", 
+        "lastname": "Woodard", 
+        "middleinitial": "S", 
+        "role": "Teaching Associate"
+    }, 
+    {
+        "collegename": "Engineering, College of ", 
+        "departmentname": "Aerospace Engineering, Department of ", 
+        "firstname": "Brian", 
+        "lastname": "Woodard", 
+        "middleinitial": "S", 
+        "role": "Teaching Associate"
+    }, 
+    {
+        "collegename": "Engineering, College of ", 
+        "departmentname": "Aerospace Engineering, Department of ", 
+        "firstname": "Brian", 
+        "lastname": "Woodard", 
+        "middleinitial": "S", 
+        "role": "Teaching Associate"
+    }, 
+    {
+        "collegename": "Engineering, College of ", 
+        "departmentname": "Aerospace Engineering, Department of ", 
+        "firstname": "Brian", 
+        "lastname": "Woodard", 
+        "middleinitial": "S", 
+        "role": "Teaching Associate"
+    }, 
+    {
+        "collegename": "Engineering, College of ", 
+        "departmentname": "Aerospace Engineering, Department of ", 
+        "firstname": "Brian", 
+        "lastname": "Woodard", 
+        "middleinitial": "S", 
+        "role": "Teaching Associate"
+    }, 
+    {
+        "collegename": "Engineering, College of ", 
+        "departmentname": "Aerospace Engineering, Department of ", 
+        "firstname": "Brian", 
+        "lastname": "Woodard", 
+        "middleinitial": "S", 
+        "role": "Teaching Associate"
+    }, 
+    {
+        "collegename": "Engineering, College of ", 
+        "departmentname": "Aerospace Engineering, Department of ", 
+        "firstname": "Brian", 
+        "lastname": "Woodard", 
+        "middleinitial": "S", 
+        "role": "Teaching Associate"
+    }, 
+    {
+        "collegename": "Engineering, College of ", 
+        "departmentname": "Aerospace Engineering, Department of ", 
+        "firstname": "Brian", 
+        "lastname": "Woodard", 
+        "middleinitial": "S", 
+        "role": "Teaching Associate"
+    }, 
+    {
+        "collegename": "Fine and Applied Arts, College of ", 
+        "departmentname": "Architecture, School of ", 
+        "firstname": "Fengying", 
+        "lastname": "Yan", 
+        "middleinitial": null, 
+        "role": "Visiting Scholar"
+    }, 
+    {
+        "collegename": "Fine and Applied Arts, College of ", 
+        "departmentname": "Architecture, School of ", 
+        "firstname": "Fengying", 
+        "lastname": "Yan", 
+        "middleinitial": null, 
+        "role": "Visiting Scholar"
+    }, 
+    {
+        "collegename": "Fine and Applied Arts, College of ", 
+        "departmentname": "Architecture, School of ", 
+        "firstname": "Fengying", 
+        "lastname": "Yan", 
+        "middleinitial": null, 
+        "role": "Visiting Scholar"
+    }, 
+    {
+        "collegename": "Fine and Applied Arts, College of ", 
+        "departmentname": "Architecture, School of ", 
+        "firstname": "Fengying", 
+        "lastname": "Yan", 
+        "middleinitial": null, 
+        "role": "Visiting Scholar"
+    }, 
+    {
+        "collegename": "Fine and Applied Arts, College of ", 
+        "departmentname": "Architecture, School of ", 
+        "firstname": "Fengying", 
+        "lastname": "Yan", 
+        "middleinitial": null, 
+        "role": "Visiting Scholar"
+    }, 
+    {
+        "collegename": "Fine and Applied Arts, College of ", 
+        "departmentname": "Architecture, School of ", 
+        "firstname": "Fengying", 
+        "lastname": "Yan", 
+        "middleinitial": null, 
+        "role": "Visiting Scholar"
+    }, 
+    {
+        "collegename": "Fine and Applied Arts, College of ", 
+        "departmentname": "Architecture, School of ", 
+        "firstname": "Fengying", 
+        "lastname": "Yan", 
+        "middleinitial": null, 
+        "role": "Visiting Scholar"
+    }, 
+    {
+        "collegename": "Fine and Applied Arts, College of ", 
+        "departmentname": "Architecture, School of ", 
+        "firstname": "Fengying", 
+        "lastname": "Yan", 
+        "middleinitial": null, 
+        "role": "Visiting Scholar"
+    }, 
+    {
+        "collegename": "Fine and Applied Arts, College of ", 
+        "departmentname": "Architecture, School of ", 
+        "firstname": "Fengying", 
+        "lastname": "Yan", 
+        "middleinitial": null, 
+        "role": "Visiting Scholar"
+    }, 
+    {
+        "collegename": "Fine and Applied Arts, College of ", 
+        "departmentname": "Architecture, School of ", 
+        "firstname": "Fengying", 
+        "lastname": "Yan", 
+        "middleinitial": null, 
+        "role": "Visiting Scholar"
+    }, 
+    {
+        "collegename": "Fine and Applied Arts, College of ", 
+        "departmentname": "Architecture, School of ", 
+        "firstname": "Fengying", 
+        "lastname": "Yan", 
+        "middleinitial": null, 
+        "role": "Visiting Scholar"
+    }, 
+    {
+        "collegename": "Fine and Applied Arts, College of ", 
+        "departmentname": "Architecture, School of ", 
+        "firstname": "Fengying", 
+        "lastname": "Yan", 
+        "middleinitial": null, 
+        "role": "Visiting Scholar"
+    }, 
+    {
+        "collegename": "Fine and Applied Arts, College of ", 
+        "departmentname": "Architecture, School of ", 
+        "firstname": "Fengying", 
+        "lastname": "Yan", 
+        "middleinitial": null, 
+        "role": "Visiting Scholar"
+    }, 
+    {
+        "collegename": "Fine and Applied Arts, College of ", 
+        "departmentname": "Architecture, School of ", 
+        "firstname": "Fengying", 
+        "lastname": "Yan", 
+        "middleinitial": null, 
+        "role": "Visiting Scholar"
+    }, 
+    {
+        "collegename": "Fine and Applied Arts, College of ", 
+        "departmentname": "Architecture, School of ", 
+        "firstname": "Fengying", 
+        "lastname": "Yan", 
+        "middleinitial": null, 
+        "role": "Visiting Scholar"
+    }, 
+    {
+        "collegename": "Fine and Applied Arts, College of ", 
+        "departmentname": "Architecture, School of ", 
+        "firstname": "Fengying", 
+        "lastname": "Yan", 
+        "middleinitial": null, 
+        "role": "Visiting Scholar"
+    }, 
+    {
+        "collegename": "Fine and Applied Arts, College of ", 
+        "departmentname": "Architecture, School of ", 
+        "firstname": "Fengying", 
+        "lastname": "Yan", 
+        "middleinitial": null, 
+        "role": "Visiting Scholar"
+    }, 
+    {
+        "collegename": "Fine and Applied Arts, College of ", 
+        "departmentname": "Architecture, School of ", 
+        "firstname": "Fengying", 
+        "lastname": "Yan", 
+        "middleinitial": null, 
+        "role": "Visiting Scholar"
+    }, 
+    {
+        "collegename": "Fine and Applied Arts, College of ", 
+        "departmentname": "Architecture, School of ", 
+        "firstname": "Fengying", 
+        "lastname": "Yan", 
+        "middleinitial": null, 
+        "role": "Visiting Scholar"
+    }, 
+    {
+        "collegename": "Fine and Applied Arts, College of ", 
+        "departmentname": "Architecture, School of ", 
+        "firstname": "Fengying", 
+        "lastname": "Yan", 
+        "middleinitial": null, 
+        "role": "Visiting Scholar"
+    }, 
+    {
+        "collegename": "Fine and Applied Arts, College of ", 
+        "departmentname": "Architecture, School of ", 
+        "firstname": "Fengying", 
+        "lastname": "Yan", 
+        "middleinitial": null, 
+        "role": "Visiting Scholar"
+    }, 
+    {
+        "collegename": "Fine and Applied Arts, College of ", 
+        "departmentname": "Architecture, School of ", 
+        "firstname": "Fengying", 
+        "lastname": "Yan", 
+        "middleinitial": null, 
+        "role": "Visiting Scholar"
+    }, 
+    {
+        "collegename": "Fine and Applied Arts, College of ", 
+        "departmentname": "Architecture, School of ", 
+        "firstname": "Fengying", 
+        "lastname": "Yan", 
+        "middleinitial": null, 
+        "role": "Visiting Scholar"
+    }, 
+    {
+        "collegename": "Fine and Applied Arts, College of ", 
+        "departmentname": "Architecture, School of ", 
+        "firstname": "Fengying", 
+        "lastname": "Yan", 
+        "middleinitial": null, 
+        "role": "Visiting Scholar"
+    }, 
+    {
+        "collegename": "Fine and Applied Arts, College of ", 
+        "departmentname": "Architecture, School of ", 
+        "firstname": "Fengying", 
+        "lastname": "Yan", 
+        "middleinitial": null, 
+        "role": "Visiting Scholar"
+    }, 
+    {
+        "collegename": "Fine and Applied Arts, College of ", 
+        "departmentname": "Architecture, School of ", 
+        "firstname": "Fengying", 
+        "lastname": "Yan", 
+        "middleinitial": null, 
+        "role": "Visiting Scholar"
+    }, 
+    {
+        "collegename": "Fine and Applied Arts, College of ", 
+        "departmentname": "Architecture, School of ", 
+        "firstname": "Fengying", 
+        "lastname": "Yan", 
+        "middleinitial": null, 
+        "role": "Visiting Scholar"
+    }, 
+    {
+        "collegename": "Fine and Applied Arts, College of ", 
+        "departmentname": "Architecture, School of ", 
+        "firstname": "Fengying", 
+        "lastname": "Yan", 
+        "middleinitial": null, 
+        "role": "Visiting Scholar"
+    }, 
+    {
+        "collegename": "Fine and Applied Arts, College of ", 
+        "departmentname": "Architecture, School of ", 
+        "firstname": "Fengying", 
+        "lastname": "Yan", 
+        "middleinitial": null, 
+        "role": "Visiting Scholar"
+    }, 
+    {
+        "collegename": "Fine and Applied Arts, College of ", 
+        "departmentname": "Architecture, School of ", 
+        "firstname": "Fengying", 
+        "lastname": "Yan", 
+        "middleinitial": null, 
+        "role": "Visiting Scholar"
+    }, 
+    {
+        "collegename": "Fine and Applied Arts, College of ", 
+        "departmentname": "Architecture, School of ", 
+        "firstname": "Fengying", 
+        "lastname": "Yan", 
+        "middleinitial": null, 
+        "role": "Visiting Scholar"
+    }, 
+    {
+        "collegename": "Fine and Applied Arts, College of ", 
+        "departmentname": "Architecture, School of ", 
+        "firstname": "Fengying", 
+        "lastname": "Yan", 
+        "middleinitial": null, 
+        "role": "Visiting Scholar"
+    }, 
+    {
+        "collegename": "Fine and Applied Arts, College of ", 
+        "departmentname": "Architecture, School of ", 
+        "firstname": "Fengying", 
+        "lastname": "Yan", 
+        "middleinitial": null, 
+        "role": "Visiting Scholar"
+    }, 
+    {
+        "collegename": "Fine and Applied Arts, College of ", 
+        "departmentname": "Architecture, School of ", 
+        "firstname": "Fengying", 
+        "lastname": "Yan", 
+        "middleinitial": null, 
+        "role": "Visiting Scholar"
+    }, 
+    {
+        "collegename": "Fine and Applied Arts, College of ", 
+        "departmentname": "Architecture, School of ", 
+        "firstname": "Fengying", 
+        "lastname": "Yan", 
+        "middleinitial": null, 
+        "role": "Visiting Scholar"
+    }, 
+    {
+        "collegename": "Fine and Applied Arts, College of ", 
+        "departmentname": "Architecture, School of ", 
+        "firstname": "Fengying", 
+        "lastname": "Yan", 
+        "middleinitial": null, 
+        "role": "Visiting Scholar"
+    }, 
+    {
+        "collegename": "Fine and Applied Arts, College of ", 
+        "departmentname": "Architecture, School of ", 
+        "firstname": "Fengying", 
+        "lastname": "Yan", 
+        "middleinitial": null, 
+        "role": "Visiting Scholar"
+    }, 
+    {
+        "collegename": "Fine and Applied Arts, College of ", 
+        "departmentname": "Architecture, School of ", 
+        "firstname": "Fengying", 
+        "lastname": "Yan", 
+        "middleinitial": null, 
+        "role": "Visiting Scholar"
+    }, 
+    {
+        "collegename": "Fine and Applied Arts, College of ", 
+        "departmentname": "Architecture, School of ", 
+        "firstname": "Fengying", 
+        "lastname": "Yan", 
+        "middleinitial": null, 
+        "role": "Visiting Scholar"
+    }, 
+    {
+        "collegename": "Fine and Applied Arts, College of ", 
+        "departmentname": "Architecture, School of ", 
+        "firstname": "Fengying", 
+        "lastname": "Yan", 
+        "middleinitial": null, 
+        "role": "Visiting Scholar"
+    }, 
+    {
+        "collegename": "Fine and Applied Arts, College of ", 
+        "departmentname": "Architecture, School of ", 
+        "firstname": "Fengying", 
+        "lastname": "Yan", 
+        "middleinitial": null, 
+        "role": "Visiting Scholar"
+    }, 
+    {
+        "collegename": "Fine and Applied Arts, College of ", 
+        "departmentname": "Architecture, School of ", 
+        "firstname": "Fengying", 
+        "lastname": "Yan", 
+        "middleinitial": null, 
+        "role": "Visiting Scholar"
+    }, 
+    {
+        "collegename": "Fine and Applied Arts, College of ", 
+        "departmentname": "Architecture, School of ", 
+        "firstname": "Fengying", 
+        "lastname": "Yan", 
+        "middleinitial": null, 
+        "role": "Visiting Scholar"
+    }, 
+    {
+        "collegename": "Fine and Applied Arts, College of ", 
+        "departmentname": "Architecture, School of ", 
+        "firstname": "Fengying", 
+        "lastname": "Yan", 
+        "middleinitial": null, 
+        "role": "Visiting Scholar"
+    }, 
+    {
+        "collegename": "Fine and Applied Arts, College of ", 
+        "departmentname": "Architecture, School of ", 
+        "firstname": "Fengying", 
+        "lastname": "Yan", 
+        "middleinitial": null, 
+        "role": "Visiting Scholar"
+    }, 
+    {
+        "collegename": "Fine and Applied Arts, College of ", 
+        "departmentname": "Architecture, School of ", 
+        "firstname": "Fengying", 
+        "lastname": "Yan", 
+        "middleinitial": null, 
+        "role": "Visiting Scholar"
+    }, 
+    {
+        "collegename": "Fine and Applied Arts, College of ", 
+        "departmentname": "Architecture, School of ", 
+        "firstname": "Fengying", 
+        "lastname": "Yan", 
+        "middleinitial": null, 
+        "role": "Visiting Scholar"
+    }, 
+    {
+        "collegename": "Fine and Applied Arts, College of ", 
+        "departmentname": "Architecture, School of ", 
+        "firstname": "Fengying", 
+        "lastname": "Yan", 
+        "middleinitial": null, 
+        "role": "Visiting Scholar"
+    }, 
+    {
+        "collegename": "Fine and Applied Arts, College of ", 
+        "departmentname": "Architecture, School of ", 
+        "firstname": "Fengying", 
+        "lastname": "Yan", 
+        "middleinitial": null, 
+        "role": "Visiting Scholar"
+    }, 
+    {
+        "collegename": "Fine and Applied Arts, College of ", 
+        "departmentname": "Architecture, School of ", 
+        "firstname": "Fengying", 
+        "lastname": "Yan", 
+        "middleinitial": null, 
+        "role": "Visiting Scholar"
+    }, 
+    {
+        "collegename": "Fine and Applied Arts, College of ", 
+        "departmentname": "Architecture, School of ", 
+        "firstname": "Fengying", 
+        "lastname": "Yan", 
+        "middleinitial": null, 
+        "role": "Visiting Scholar"
+    }, 
+    {
+        "collegename": "Fine and Applied Arts, College of ", 
+        "departmentname": "Architecture, School of ", 
+        "firstname": "Fengying", 
+        "lastname": "Yan", 
+        "middleinitial": null, 
+        "role": "Visiting Scholar"
+    }, 
+    {
+        "collegename": "Fine and Applied Arts, College of ", 
+        "departmentname": "Architecture, School of ", 
+        "firstname": "Fengying", 
+        "lastname": "Yan", 
+        "middleinitial": null, 
+        "role": "Visiting Scholar"
+    }, 
+    {
+        "collegename": "Fine and Applied Arts, College of ", 
+        "departmentname": "Architecture, School of ", 
+        "firstname": "Fengying", 
+        "lastname": "Yan", 
+        "middleinitial": null, 
+        "role": "Visiting Scholar"
+    }, 
+    {
+        "collegename": "Fine and Applied Arts, College of ", 
+        "departmentname": "Architecture, School of ", 
+        "firstname": "Fengying", 
+        "lastname": "Yan", 
+        "middleinitial": null, 
+        "role": "Visiting Scholar"
+    }, 
+    {
+        "collegename": "Fine and Applied Arts, College of ", 
+        "departmentname": "Architecture, School of ", 
+        "firstname": "Fengying", 
+        "lastname": "Yan", 
+        "middleinitial": null, 
+        "role": "Visiting Scholar"
+    }, 
+    {
+        "collegename": "Fine and Applied Arts, College of ", 
+        "departmentname": "Architecture, School of ", 
+        "firstname": "Fengying", 
+        "lastname": "Yan", 
+        "middleinitial": null, 
+        "role": "Visiting Scholar"
+    }, 
+    {
+        "collegename": "Fine and Applied Arts, College of ", 
+        "departmentname": "Architecture, School of ", 
+        "firstname": "Fengying", 
+        "lastname": "Yan", 
+        "middleinitial": null, 
+        "role": "Visiting Scholar"
+    }, 
+    {
+        "collegename": "Fine and Applied Arts, College of ", 
+        "departmentname": "Architecture, School of ", 
+        "firstname": "Fengying", 
+        "lastname": "Yan", 
+        "middleinitial": null, 
+        "role": "Visiting Scholar"
+    }, 
+    {
+        "collegename": "Fine and Applied Arts, College of ", 
+        "departmentname": "Architecture, School of ", 
+        "firstname": "Fengying", 
+        "lastname": "Yan", 
+        "middleinitial": null, 
+        "role": "Visiting Scholar"
+    }, 
+    {
+        "collegename": "Information Sciences", 
+        "departmentname": "Information Sciences", 
+        "firstname": "Chengxiang", 
+        "lastname": "Zhai", 
+        "middleinitial": null, 
+        "role": "Professor"
+    }, 
+    {
+        "collegename": "Information Sciences", 
+        "departmentname": "Information Sciences", 
+        "firstname": "Chengxiang", 
+        "lastname": "Zhai", 
+        "middleinitial": null, 
+        "role": "Professor"
+    }, 
+    {
+        "collegename": "Information Sciences", 
+        "departmentname": "Information Sciences", 
+        "firstname": "Chengxiang", 
+        "lastname": "Zhai", 
+        "middleinitial": null, 
+        "role": "Professor"
+    }, 
+    {
+        "collegename": "Information Sciences", 
+        "departmentname": "Information Sciences", 
+        "firstname": "Chengxiang", 
+        "lastname": "Zhai", 
+        "middleinitial": null, 
+        "role": "Professor"
+    }, 
+    {
+        "collegename": "Information Sciences", 
+        "departmentname": "Information Sciences", 
+        "firstname": "Chengxiang", 
+        "lastname": "Zhai", 
+        "middleinitial": null, 
+        "role": "Professor"
+    }, 
+    {
+        "collegename": "Information Sciences", 
+        "departmentname": "Information Sciences", 
+        "firstname": "Chengxiang", 
+        "lastname": "Zhai", 
+        "middleinitial": null, 
+        "role": "Professor"
+    }, 
+    {
+        "collegename": "Information Sciences", 
+        "departmentname": "Information Sciences", 
+        "firstname": "Chengxiang", 
+        "lastname": "Zhai", 
+        "middleinitial": null, 
+        "role": "Professor"
+    }, 
+    {
+        "collegename": "Information Sciences", 
+        "departmentname": "Information Sciences", 
+        "firstname": "Chengxiang", 
+        "lastname": "Zhai", 
+        "middleinitial": null, 
+        "role": "Professor"
+    }, 
+    {
+        "collegename": "Information Sciences", 
+        "departmentname": "Information Sciences", 
+        "firstname": "Chengxiang", 
+        "lastname": "Zhai", 
+        "middleinitial": null, 
+        "role": "Professor"
+    }, 
+    {
+        "collegename": "Information Sciences", 
+        "departmentname": "Information Sciences", 
+        "firstname": "Chengxiang", 
+        "lastname": "Zhai", 
+        "middleinitial": null, 
+        "role": "Professor"
+    }, 
+    {
+        "collegename": "Information Sciences", 
+        "departmentname": "Information Sciences", 
+        "firstname": "Chengxiang", 
+        "lastname": "Zhai", 
+        "middleinitial": null, 
+        "role": "Professor"
+    }, 
+    {
+        "collegename": "Information Sciences", 
+        "departmentname": "Information Sciences", 
+        "firstname": "Chengxiang", 
+        "lastname": "Zhai", 
+        "middleinitial": null, 
+        "role": "Professor"
+    }, 
+    {
+        "collegename": "Information Sciences", 
+        "departmentname": "Information Sciences", 
+        "firstname": "Chengxiang", 
+        "lastname": "Zhai", 
+        "middleinitial": null, 
+        "role": "Professor"
+    }, 
+    {
+        "collegename": "Information Sciences", 
+        "departmentname": "Information Sciences", 
+        "firstname": "Chengxiang", 
+        "lastname": "Zhai", 
+        "middleinitial": null, 
+        "role": "Professor"
+    }, 
+    {
+        "collegename": "Information Sciences", 
+        "departmentname": "Information Sciences", 
+        "firstname": "Chengxiang", 
+        "lastname": "Zhai", 
+        "middleinitial": null, 
+        "role": "Professor"
+    }, 
+    {
+        "collegename": "Information Sciences", 
+        "departmentname": "Information Sciences", 
+        "firstname": "Chengxiang", 
+        "lastname": "Zhai", 
+        "middleinitial": null, 
+        "role": "Professor"
+    }, 
+    {
+        "collegename": "Information Sciences", 
+        "departmentname": "Information Sciences", 
+        "firstname": "Chengxiang", 
+        "lastname": "Zhai", 
+        "middleinitial": null, 
+        "role": "Professor"
+    }, 
+    {
+        "collegename": "Information Sciences", 
+        "departmentname": "Information Sciences", 
+        "firstname": "Chengxiang", 
+        "lastname": "Zhai", 
+        "middleinitial": null, 
+        "role": "Professor"
+    }, 
+    {
+        "collegename": "Information Sciences", 
+        "departmentname": "Information Sciences", 
+        "firstname": "Chengxiang", 
+        "lastname": "Zhai", 
+        "middleinitial": null, 
+        "role": "Professor"
+    }, 
+    {
+        "collegename": "Information Sciences", 
+        "departmentname": "Information Sciences", 
+        "firstname": "Chengxiang", 
+        "lastname": "Zhai", 
+        "middleinitial": null, 
+        "role": "Professor"
+    }, 
+    {
+        "collegename": "Information Sciences", 
+        "departmentname": "Information Sciences", 
+        "firstname": "Chengxiang", 
+        "lastname": "Zhai", 
+        "middleinitial": null, 
+        "role": "Professor"
+    }, 
+    {
+        "collegename": "Information Sciences", 
+        "departmentname": "Information Sciences", 
+        "firstname": "Chengxiang", 
+        "lastname": "Zhai", 
+        "middleinitial": null, 
+        "role": "Professor"
+    }, 
+    {
+        "collegename": "Information Sciences", 
+        "departmentname": "Information Sciences", 
+        "firstname": "Chengxiang", 
+        "lastname": "Zhai", 
+        "middleinitial": null, 
+        "role": "Professor"
+    }, 
+    {
+        "collegename": "Information Sciences", 
+        "departmentname": "Information Sciences", 
+        "firstname": "Chengxiang", 
+        "lastname": "Zhai", 
+        "middleinitial": null, 
+        "role": "Professor"
+    }, 
+    {
+        "collegename": "Information Sciences", 
+        "departmentname": "Information Sciences", 
+        "firstname": "Chengxiang", 
+        "lastname": "Zhai", 
+        "middleinitial": null, 
+        "role": "Professor"
+    }, 
+    {
+        "collegename": "Information Sciences", 
+        "departmentname": "Information Sciences", 
+        "firstname": "Chengxiang", 
+        "lastname": "Zhai", 
+        "middleinitial": null, 
+        "role": "Professor"
+    }, 
+    {
+        "collegename": "Information Sciences", 
+        "departmentname": "Information Sciences", 
+        "firstname": "Chengxiang", 
+        "lastname": "Zhai", 
+        "middleinitial": null, 
+        "role": "Professor"
+    }, 
+    {
+        "collegename": "Information Sciences", 
+        "departmentname": "Information Sciences", 
+        "firstname": "Chengxiang", 
+        "lastname": "Zhai", 
+        "middleinitial": null, 
+        "role": "Professor"
+    }, 
+    {
+        "collegename": "Information Sciences", 
+        "departmentname": "Information Sciences", 
+        "firstname": "Chengxiang", 
+        "lastname": "Zhai", 
+        "middleinitial": null, 
+        "role": "Professor"
+    }, 
+    {
+        "collegename": "Information Sciences", 
+        "departmentname": "Information Sciences", 
+        "firstname": "Chengxiang", 
+        "lastname": "Zhai", 
+        "middleinitial": null, 
+        "role": "Professor"
+    }, 
+    {
+        "collegename": "Information Sciences", 
+        "departmentname": "Information Sciences", 
+        "firstname": "Chengxiang", 
+        "lastname": "Zhai", 
+        "middleinitial": null, 
+        "role": "Professor"
+    }, 
+    {
+        "collegename": "Information Sciences", 
+        "departmentname": "Information Sciences", 
+        "firstname": "Chengxiang", 
+        "lastname": "Zhai", 
+        "middleinitial": null, 
+        "role": "Professor"
+    }, 
+    {
+        "collegename": "Information Sciences", 
+        "departmentname": "Information Sciences", 
+        "firstname": "Chengxiang", 
+        "lastname": "Zhai", 
+        "middleinitial": null, 
+        "role": "Professor"
+    }, 
+    {
+        "collegename": "Information Sciences", 
+        "departmentname": "Information Sciences", 
+        "firstname": "Chengxiang", 
+        "lastname": "Zhai", 
+        "middleinitial": null, 
+        "role": "Professor"
+    }, 
+    {
+        "collegename": "Information Sciences", 
+        "departmentname": "Information Sciences", 
+        "firstname": "Chengxiang", 
+        "lastname": "Zhai", 
+        "middleinitial": null, 
+        "role": "Professor"
+    }, 
+    {
+        "collegename": "Information Sciences", 
+        "departmentname": "Information Sciences", 
+        "firstname": "Chengxiang", 
+        "lastname": "Zhai", 
+        "middleinitial": null, 
+        "role": "Professor"
+    }, 
+    {
+        "collegename": "Information Sciences", 
+        "departmentname": "Information Sciences", 
+        "firstname": "Chengxiang", 
+        "lastname": "Zhai", 
+        "middleinitial": null, 
+        "role": "Professor"
+    }, 
+    {
+        "collegename": "Information Sciences", 
+        "departmentname": "Information Sciences", 
+        "firstname": "Chengxiang", 
+        "lastname": "Zhai", 
+        "middleinitial": null, 
+        "role": "Professor"
+    }, 
+    {
+        "collegename": "Information Sciences", 
+        "departmentname": "Information Sciences", 
+        "firstname": "Chengxiang", 
+        "lastname": "Zhai", 
+        "middleinitial": null, 
+        "role": "Professor"
+    }, 
+    {
+        "collegename": "Information Sciences", 
+        "departmentname": "Information Sciences", 
+        "firstname": "Chengxiang", 
+        "lastname": "Zhai", 
+        "middleinitial": null, 
+        "role": "Professor"
+    }, 
+    {
+        "collegename": "Information Sciences", 
+        "departmentname": "Information Sciences", 
+        "firstname": "Chengxiang", 
+        "lastname": "Zhai", 
+        "middleinitial": null, 
+        "role": "Professor"
+    }, 
+    {
+        "collegename": "Information Sciences", 
+        "departmentname": "Information Sciences", 
+        "firstname": "Chengxiang", 
+        "lastname": "Zhai", 
+        "middleinitial": null, 
+        "role": "Professor"
+    }, 
+    {
+        "collegename": "Information Sciences", 
+        "departmentname": "Information Sciences", 
+        "firstname": "Chengxiang", 
+        "lastname": "Zhai", 
+        "middleinitial": null, 
+        "role": "Professor"
+    }, 
+    {
+        "collegename": "Information Sciences", 
+        "departmentname": "Information Sciences", 
+        "firstname": "Chengxiang", 
+        "lastname": "Zhai", 
+        "middleinitial": null, 
+        "role": "Professor"
+    }, 
+    {
+        "collegename": "Information Sciences", 
+        "departmentname": "Information Sciences", 
+        "firstname": "Chengxiang", 
+        "lastname": "Zhai", 
+        "middleinitial": null, 
+        "role": "Professor"
+    }, 
+    {
+        "collegename": "Information Sciences", 
+        "departmentname": "Information Sciences", 
+        "firstname": "Chengxiang", 
+        "lastname": "Zhai", 
+        "middleinitial": null, 
+        "role": "Professor"
+    }, 
+    {
+        "collegename": "Information Sciences", 
+        "departmentname": "Information Sciences", 
+        "firstname": "Chengxiang", 
+        "lastname": "Zhai", 
+        "middleinitial": null, 
+        "role": "Professor"
+    }, 
+    {
+        "collegename": "Information Sciences", 
+        "departmentname": "Information Sciences", 
+        "firstname": "Chengxiang", 
+        "lastname": "Zhai", 
+        "middleinitial": null, 
+        "role": "Professor"
+    }, 
+    {
+        "collegename": "Information Sciences", 
+        "departmentname": "Information Sciences", 
+        "firstname": "Chengxiang", 
+        "lastname": "Zhai", 
+        "middleinitial": null, 
+        "role": "Professor"
+    }, 
+    {
+        "collegename": "Information Sciences", 
+        "departmentname": "Information Sciences", 
+        "firstname": "Chengxiang", 
+        "lastname": "Zhai", 
+        "middleinitial": null, 
+        "role": "Professor"
+    }, 
+    {
+        "collegename": "Information Sciences", 
+        "departmentname": "Information Sciences", 
+        "firstname": "Chengxiang", 
+        "lastname": "Zhai", 
+        "middleinitial": null, 
+        "role": "Professor"
+    }, 
+    {
+        "collegename": "Information Sciences", 
+        "departmentname": "Information Sciences", 
+        "firstname": "Chengxiang", 
+        "lastname": "Zhai", 
+        "middleinitial": null, 
+        "role": "Professor"
+    }, 
+    {
+        "collegename": "Information Sciences", 
+        "departmentname": "Information Sciences", 
+        "firstname": "Chengxiang", 
+        "lastname": "Zhai", 
+        "middleinitial": null, 
+        "role": "Professor"
+    }, 
+    {
+        "collegename": "Information Sciences", 
+        "departmentname": "Information Sciences", 
+        "firstname": "Chengxiang", 
+        "lastname": "Zhai", 
+        "middleinitial": null, 
+        "role": "Professor"
+    }, 
+    {
+        "collegename": "Information Sciences", 
+        "departmentname": "Information Sciences", 
+        "firstname": "Chengxiang", 
+        "lastname": "Zhai", 
+        "middleinitial": null, 
+        "role": "Professor"
+    }, 
+    {
+        "collegename": "Information Sciences", 
+        "departmentname": "Information Sciences", 
+        "firstname": "Chengxiang", 
+        "lastname": "Zhai", 
+        "middleinitial": null, 
+        "role": "Professor"
+    }, 
+    {
+        "collegename": "Labor and Employment Relations, School of ", 
+        "departmentname": "Labor and Employment Relations, School of ", 
+        "firstname": "Andrew", 
+        "lastname": "Weaver", 
+        "middleinitial": null, 
+        "role": "Assistant Professor"
+    }, 
+    {
+        "collegename": "Labor and Employment Relations, School of ", 
+        "departmentname": "Labor and Employment Relations, School of ", 
+        "firstname": "Andrew", 
+        "lastname": "Weaver", 
+        "middleinitial": null, 
+        "role": "Assistant Professor"
+    }, 
+    {
+        "collegename": "Labor and Employment Relations, School of ", 
+        "departmentname": "Labor and Employment Relations, School of ", 
+        "firstname": "Andrew", 
+        "lastname": "Weaver", 
+        "middleinitial": null, 
+        "role": "Assistant Professor"
+    }, 
+    {
+        "collegename": "Labor and Employment Relations, School of ", 
+        "departmentname": "Labor and Employment Relations, School of ", 
+        "firstname": "Andrew", 
+        "lastname": "Weaver", 
+        "middleinitial": null, 
+        "role": "Assistant Professor"
+    }, 
+    {
+        "collegename": "Labor and Employment Relations, School of ", 
+        "departmentname": "Labor and Employment Relations, School of ", 
+        "firstname": "Andrew", 
+        "lastname": "Weaver", 
+        "middleinitial": null, 
+        "role": "Assistant Professor"
+    }, 
+    {
+        "collegename": "Labor and Employment Relations, School of ", 
+        "departmentname": "Labor and Employment Relations, School of ", 
+        "firstname": "Andrew", 
+        "lastname": "Weaver", 
+        "middleinitial": null, 
+        "role": "Assistant Professor"
+    }, 
+    {
+        "collegename": "Labor and Employment Relations, School of ", 
+        "departmentname": "Labor and Employment Relations, School of ", 
+        "firstname": "Andrew", 
+        "lastname": "Weaver", 
+        "middleinitial": null, 
+        "role": "Assistant Professor"
+    }, 
+    {
+        "collegename": "Labor and Employment Relations, School of ", 
+        "departmentname": "Labor and Employment Relations, School of ", 
+        "firstname": "Andrew", 
+        "lastname": "Weaver", 
+        "middleinitial": null, 
+        "role": "Assistant Professor"
+    }, 
+    {
+        "collegename": "Labor and Employment Relations, School of ", 
+        "departmentname": "Labor and Employment Relations, School of ", 
+        "firstname": "Andrew", 
+        "lastname": "Weaver", 
+        "middleinitial": null, 
+        "role": "Assistant Professor"
+    }, 
+    {
+        "collegename": "Labor and Employment Relations, School of ", 
+        "departmentname": "Labor and Employment Relations, School of ", 
+        "firstname": "Andrew", 
+        "lastname": "Weaver", 
+        "middleinitial": null, 
+        "role": "Assistant Professor"
+    }, 
+    {
+        "collegename": "Labor and Employment Relations, School of ", 
+        "departmentname": "Labor and Employment Relations, School of ", 
+        "firstname": "Andrew", 
+        "lastname": "Weaver", 
+        "middleinitial": null, 
+        "role": "Assistant Professor"
+    }, 
+    {
+        "collegename": "Labor and Employment Relations, School of ", 
+        "departmentname": "Labor and Employment Relations, School of ", 
+        "firstname": "Andrew", 
+        "lastname": "Weaver", 
+        "middleinitial": null, 
+        "role": "Assistant Professor"
+    }, 
+    {
+        "collegename": "Labor and Employment Relations, School of ", 
+        "departmentname": "Labor and Employment Relations, School of ", 
+        "firstname": "Andrew", 
+        "lastname": "Weaver", 
+        "middleinitial": null, 
+        "role": "Assistant Professor"
+    }, 
+    {
+        "collegename": "Labor and Employment Relations, School of ", 
+        "departmentname": "Labor and Employment Relations, School of ", 
+        "firstname": "Andrew", 
+        "lastname": "Weaver", 
+        "middleinitial": null, 
+        "role": "Assistant Professor"
+    }, 
+    {
+        "collegename": "Labor and Employment Relations, School of ", 
+        "departmentname": "Labor and Employment Relations, School of ", 
+        "firstname": "Andrew", 
+        "lastname": "Weaver", 
+        "middleinitial": null, 
+        "role": "Assistant Professor"
+    }, 
+    {
+        "collegename": "Labor and Employment Relations, School of ", 
+        "departmentname": "Labor and Employment Relations, School of ", 
+        "firstname": "Andrew", 
+        "lastname": "Weaver", 
+        "middleinitial": null, 
+        "role": "Assistant Professor"
+    }, 
+    {
+        "collegename": "Labor and Employment Relations, School of ", 
+        "departmentname": "Labor and Employment Relations, School of ", 
+        "firstname": "Andrew", 
+        "lastname": "Weaver", 
+        "middleinitial": null, 
+        "role": "Assistant Professor"
+    }, 
+    {
+        "collegename": "Labor and Employment Relations, School of ", 
+        "departmentname": "Labor and Employment Relations, School of ", 
+        "firstname": "Andrew", 
+        "lastname": "Weaver", 
+        "middleinitial": null, 
+        "role": "Assistant Professor"
+    }, 
+    {
+        "collegename": "Labor and Employment Relations, School of ", 
+        "departmentname": "Labor and Employment Relations, School of ", 
+        "firstname": "Andrew", 
+        "lastname": "Weaver", 
+        "middleinitial": null, 
+        "role": "Assistant Professor"
+    }, 
+    {
+        "collegename": "Labor and Employment Relations, School of ", 
+        "departmentname": "Labor and Employment Relations, School of ", 
+        "firstname": "Andrew", 
+        "lastname": "Weaver", 
+        "middleinitial": null, 
+        "role": "Assistant Professor"
+    }, 
+    {
+        "collegename": "Labor and Employment Relations, School of ", 
+        "departmentname": "Labor and Employment Relations, School of ", 
+        "firstname": "Andrew", 
+        "lastname": "Weaver", 
+        "middleinitial": null, 
+        "role": "Assistant Professor"
+    }, 
+    {
+        "collegename": "Labor and Employment Relations, School of ", 
+        "departmentname": "Labor and Employment Relations, School of ", 
+        "firstname": "Andrew", 
+        "lastname": "Weaver", 
+        "middleinitial": null, 
+        "role": "Assistant Professor"
+    }, 
+    {
+        "collegename": "Labor and Employment Relations, School of ", 
+        "departmentname": "Labor and Employment Relations, School of ", 
+        "firstname": "Andrew", 
+        "lastname": "Weaver", 
+        "middleinitial": null, 
+        "role": "Assistant Professor"
+    }, 
+    {
+        "collegename": "Labor and Employment Relations, School of ", 
+        "departmentname": "Labor and Employment Relations, School of ", 
+        "firstname": "Andrew", 
+        "lastname": "Weaver", 
+        "middleinitial": null, 
+        "role": "Assistant Professor"
+    }, 
+    {
+        "collegename": "Labor and Employment Relations, School of ", 
+        "departmentname": "Labor and Employment Relations, School of ", 
+        "firstname": "Andrew", 
+        "lastname": "Weaver", 
+        "middleinitial": null, 
+        "role": "Assistant Professor"
+    }, 
+    {
+        "collegename": "Labor and Employment Relations, School of ", 
+        "departmentname": "Labor and Employment Relations, School of ", 
+        "firstname": "Andrew", 
+        "lastname": "Weaver", 
+        "middleinitial": null, 
+        "role": "Assistant Professor"
+    }, 
+    {
+        "collegename": "Labor and Employment Relations, School of ", 
+        "departmentname": "Labor and Employment Relations, School of ", 
+        "firstname": "Andrew", 
+        "lastname": "Weaver", 
+        "middleinitial": null, 
+        "role": "Assistant Professor"
+    }, 
+    {
+        "collegename": "Labor and Employment Relations, School of ", 
+        "departmentname": "Labor and Employment Relations, School of ", 
+        "firstname": "Andrew", 
+        "lastname": "Weaver", 
+        "middleinitial": null, 
+        "role": "Assistant Professor"
+    }, 
+    {
+        "collegename": "Labor and Employment Relations, School of ", 
+        "departmentname": "Labor and Employment Relations, School of ", 
+        "firstname": "Andrew", 
+        "lastname": "Weaver", 
+        "middleinitial": null, 
+        "role": "Assistant Professor"
+    }, 
+    {
+        "collegename": "Labor and Employment Relations, School of ", 
+        "departmentname": "Labor and Employment Relations, School of ", 
+        "firstname": "Andrew", 
+        "lastname": "Weaver", 
+        "middleinitial": null, 
+        "role": "Assistant Professor"
+    }, 
+    {
+        "collegename": "Labor and Employment Relations, School of ", 
+        "departmentname": "Labor and Employment Relations, School of ", 
+        "firstname": "Andrew", 
+        "lastname": "Weaver", 
+        "middleinitial": null, 
+        "role": "Assistant Professor"
+    }, 
+    {
+        "collegename": "Labor and Employment Relations, School of ", 
+        "departmentname": "Labor and Employment Relations, School of ", 
+        "firstname": "Andrew", 
+        "lastname": "Weaver", 
+        "middleinitial": null, 
+        "role": "Assistant Professor"
+    }, 
+    {
+        "collegename": "Labor and Employment Relations, School of ", 
+        "departmentname": "Labor and Employment Relations, School of ", 
+        "firstname": "Andrew", 
+        "lastname": "Weaver", 
+        "middleinitial": null, 
+        "role": "Assistant Professor"
+    }, 
+    {
+        "collegename": "Liberal Arts and Sciences, College of ", 
+        "departmentname": "African American Studies", 
+        "firstname": "Nafissa", 
+        "lastname": "Thompson-Spires", 
+        "middleinitial": "D", 
+        "role": "Visiting Assistant Professor "
+    }, 
+    {
+        "collegename": "Liberal Arts and Sciences, College of ", 
+        "departmentname": "African American Studies", 
+        "firstname": "Nafissa", 
+        "lastname": "Thompson-Spires", 
+        "middleinitial": "D", 
+        "role": "Visiting Assistant Professor "
+    }, 
+    {
+        "collegename": "Liberal Arts and Sciences, College of ", 
+        "departmentname": "African American Studies", 
+        "firstname": "Nafissa", 
+        "lastname": "Thompson-Spires", 
+        "middleinitial": "D", 
+        "role": "Visiting Assistant Professor "
+    }, 
+    {
+        "collegename": "Liberal Arts and Sciences, College of ", 
+        "departmentname": "African American Studies", 
+        "firstname": "Nafissa", 
+        "lastname": "Thompson-Spires", 
+        "middleinitial": "D", 
+        "role": "Visiting Assistant Professor "
+    }, 
+    {
+        "collegename": "Liberal Arts and Sciences, College of ", 
+        "departmentname": "African American Studies", 
+        "firstname": "Nafissa", 
+        "lastname": "Thompson-Spires", 
+        "middleinitial": "D", 
+        "role": "Visiting Assistant Professor "
+    }, 
+    {
+        "collegename": "Liberal Arts and Sciences, College of ", 
+        "departmentname": "African American Studies", 
+        "firstname": "Nafissa", 
+        "lastname": "Thompson-Spires", 
+        "middleinitial": "D", 
+        "role": "Visiting Assistant Professor "
+    }, 
+    {
+        "collegename": "Liberal Arts and Sciences, College of ", 
+        "departmentname": "African American Studies", 
+        "firstname": "Nafissa", 
+        "lastname": "Thompson-Spires", 
+        "middleinitial": "D", 
+        "role": "Visiting Assistant Professor "
+    }, 
+    {
+        "collegename": "Liberal Arts and Sciences, College of ", 
+        "departmentname": "African American Studies", 
+        "firstname": "Nafissa", 
+        "lastname": "Thompson-Spires", 
+        "middleinitial": "D", 
+        "role": "Visiting Assistant Professor "
+    }, 
+    {
+        "collegename": "Liberal Arts and Sciences, College of ", 
+        "departmentname": "African American Studies", 
+        "firstname": "Nafissa", 
+        "lastname": "Thompson-Spires", 
+        "middleinitial": "D", 
+        "role": "Visiting Assistant Professor "
+    }, 
+    {
+        "collegename": "Liberal Arts and Sciences, College of ", 
+        "departmentname": "African American Studies", 
+        "firstname": "Nafissa", 
+        "lastname": "Thompson-Spires", 
+        "middleinitial": "D", 
+        "role": "Visiting Assistant Professor "
+    }, 
+    {
+        "collegename": "Liberal Arts and Sciences, College of ", 
+        "departmentname": "African American Studies", 
+        "firstname": "Nafissa", 
+        "lastname": "Thompson-Spires", 
+        "middleinitial": "D", 
+        "role": "Visiting Assistant Professor "
+    }, 
+    {
+        "collegename": "Liberal Arts and Sciences, College of ", 
+        "departmentname": "African American Studies", 
+        "firstname": "Nafissa", 
+        "lastname": "Thompson-Spires", 
+        "middleinitial": "D", 
+        "role": "Visiting Assistant Professor "
+    }, 
+    {
+        "collegename": "Liberal Arts and Sciences, College of ", 
+        "departmentname": "African American Studies", 
+        "firstname": "Nafissa", 
+        "lastname": "Thompson-Spires", 
+        "middleinitial": "D", 
+        "role": "Visiting Assistant Professor "
+    }, 
+    {
+        "collegename": "Liberal Arts and Sciences, College of ", 
+        "departmentname": "African American Studies", 
+        "firstname": "Nafissa", 
+        "lastname": "Thompson-Spires", 
+        "middleinitial": "D", 
+        "role": "Visiting Assistant Professor "
+    }, 
+    {
+        "collegename": "Liberal Arts and Sciences, College of ", 
+        "departmentname": "African American Studies", 
+        "firstname": "Nafissa", 
+        "lastname": "Thompson-Spires", 
+        "middleinitial": "D", 
+        "role": "Visiting Assistant Professor "
+    }, 
+    {
+        "collegename": "Liberal Arts and Sciences, College of ", 
+        "departmentname": "African American Studies", 
+        "firstname": "Nafissa", 
+        "lastname": "Thompson-Spires", 
+        "middleinitial": "D", 
+        "role": "Visiting Assistant Professor "
+    }, 
+    {
+        "collegename": "Military Science, Department of ", 
+        "departmentname": "Air Force Aerospace Studies, Department of ", 
+        "firstname": "Jasper", 
+        "lastname": "Simmons", 
+        "middleinitial": null, 
+        "role": "Assistant Professor of Aerospace Studies"
+    }, 
+    {
+        "collegename": "Military Science, Department of ", 
+        "departmentname": "Air Force Aerospace Studies, Department of ", 
+        "firstname": "Jasper", 
+        "lastname": "Simmons", 
+        "middleinitial": null, 
+        "role": "Assistant Professor of Aerospace Studies"
+    }, 
+    {
+        "collegename": "Military Science, Department of ", 
+        "departmentname": "Air Force Aerospace Studies, Department of ", 
+        "firstname": "Jasper", 
+        "lastname": "Simmons", 
+        "middleinitial": null, 
+        "role": "Assistant Professor of Aerospace Studies"
+    }, 
+    {
+        "collegename": "Social Work, School of ", 
+        "departmentname": "Social Work, School of ", 
+        "firstname": "Min", 
+        "lastname": "Zhan", 
+        "middleinitial": null, 
+        "role": "Associate Professor"
+    }, 
+    {
+        "collegename": "Social Work, School of ", 
+        "departmentname": "Social Work, School of ", 
+        "firstname": "Min", 
+        "lastname": "Zhan", 
+        "middleinitial": null, 
+        "role": "Associate Professor"
+    }, 
+    {
+        "collegename": "Social Work, School of ", 
+        "departmentname": "Social Work, School of ", 
+        "firstname": "Min", 
+        "lastname": "Zhan", 
+        "middleinitial": null, 
+        "role": "Associate Professor"
+    }, 
+    {
+        "collegename": "Social Work, School of ", 
+        "departmentname": "Social Work, School of ", 
+        "firstname": "Min", 
+        "lastname": "Zhan", 
+        "middleinitial": null, 
+        "role": "Associate Professor"
+    }, 
+    {
+        "collegename": "Social Work, School of ", 
+        "departmentname": "Social Work, School of ", 
+        "firstname": "Min", 
+        "lastname": "Zhan", 
+        "middleinitial": null, 
+        "role": "Associate Professor"
+    }, 
+    {
+        "collegename": "Social Work, School of ", 
+        "departmentname": "Social Work, School of ", 
+        "firstname": "Min", 
+        "lastname": "Zhan", 
+        "middleinitial": null, 
+        "role": "Associate Professor"
+    }, 
+    {
+        "collegename": "Social Work, School of ", 
+        "departmentname": "Social Work, School of ", 
+        "firstname": "Min", 
+        "lastname": "Zhan", 
+        "middleinitial": null, 
+        "role": "Associate Professor"
+    }, 
+    {
+        "collegename": "Social Work, School of ", 
+        "departmentname": "Social Work, School of ", 
+        "firstname": "Min", 
+        "lastname": "Zhan", 
+        "middleinitial": null, 
+        "role": "Associate Professor"
+    }, 
+    {
+        "collegename": "Social Work, School of ", 
+        "departmentname": "Social Work, School of ", 
+        "firstname": "Min", 
+        "lastname": "Zhan", 
+        "middleinitial": null, 
+        "role": "Associate Professor"
+    }, 
+    {
+        "collegename": "Social Work, School of ", 
+        "departmentname": "Social Work, School of ", 
+        "firstname": "Min", 
+        "lastname": "Zhan", 
+        "middleinitial": null, 
+        "role": "Associate Professor"
+    }, 
+    {
+        "collegename": "Social Work, School of ", 
+        "departmentname": "Social Work, School of ", 
+        "firstname": "Min", 
+        "lastname": "Zhan", 
+        "middleinitial": null, 
+        "role": "Associate Professor"
+    }, 
+    {
+        "collegename": "Social Work, School of ", 
+        "departmentname": "Social Work, School of ", 
+        "firstname": "Min", 
+        "lastname": "Zhan", 
+        "middleinitial": null, 
+        "role": "Associate Professor"
+    }, 
+    {
+        "collegename": "Social Work, School of ", 
+        "departmentname": "Social Work, School of ", 
+        "firstname": "Min", 
+        "lastname": "Zhan", 
+        "middleinitial": null, 
+        "role": "Associate Professor"
+    }, 
+    {
+        "collegename": "Social Work, School of ", 
+        "departmentname": "Social Work, School of ", 
+        "firstname": "Min", 
+        "lastname": "Zhan", 
+        "middleinitial": null, 
+        "role": "Associate Professor"
+    }, 
+    {
+        "collegename": "Social Work, School of ", 
+        "departmentname": "Social Work, School of ", 
+        "firstname": "Min", 
+        "lastname": "Zhan", 
+        "middleinitial": null, 
+        "role": "Associate Professor"
+    }, 
+    {
+        "collegename": "Social Work, School of ", 
+        "departmentname": "Social Work, School of ", 
+        "firstname": "Min", 
+        "lastname": "Zhan", 
+        "middleinitial": null, 
+        "role": "Associate Professor"
+    }, 
+    {
+        "collegename": "Social Work, School of ", 
+        "departmentname": "Social Work, School of ", 
+        "firstname": "Min", 
+        "lastname": "Zhan", 
+        "middleinitial": null, 
+        "role": "Associate Professor"
+    }, 
+    {
+        "collegename": "Social Work, School of ", 
+        "departmentname": "Social Work, School of ", 
+        "firstname": "Min", 
+        "lastname": "Zhan", 
+        "middleinitial": null, 
+        "role": "Associate Professor"
+    }, 
+    {
+        "collegename": "Social Work, School of ", 
+        "departmentname": "Social Work, School of ", 
+        "firstname": "Min", 
+        "lastname": "Zhan", 
+        "middleinitial": null, 
+        "role": "Associate Professor"
+    }, 
+    {
+        "collegename": "Social Work, School of ", 
+        "departmentname": "Social Work, School of ", 
+        "firstname": "Min", 
+        "lastname": "Zhan", 
+        "middleinitial": null, 
+        "role": "Associate Professor"
+    }, 
+    {
+        "collegename": "Social Work, School of ", 
+        "departmentname": "Social Work, School of ", 
+        "firstname": "Min", 
+        "lastname": "Zhan", 
+        "middleinitial": null, 
+        "role": "Associate Professor"
+    }, 
+    {
+        "collegename": "Social Work, School of ", 
+        "departmentname": "Social Work, School of ", 
+        "firstname": "Min", 
+        "lastname": "Zhan", 
+        "middleinitial": null, 
+        "role": "Associate Professor"
+    }, 
+    {
+        "collegename": "Social Work, School of ", 
+        "departmentname": "Social Work, School of ", 
+        "firstname": "Min", 
+        "lastname": "Zhan", 
+        "middleinitial": null, 
+        "role": "Associate Professor"
+    }, 
+    {
+        "collegename": "Social Work, School of ", 
+        "departmentname": "Social Work, School of ", 
+        "firstname": "Min", 
+        "lastname": "Zhan", 
+        "middleinitial": null, 
+        "role": "Associate Professor"
+    }, 
+    {
+        "collegename": "Social Work, School of ", 
+        "departmentname": "Social Work, School of ", 
+        "firstname": "Min", 
+        "lastname": "Zhan", 
+        "middleinitial": null, 
+        "role": "Associate Professor"
+    }, 
+    {
+        "collegename": "Social Work, School of ", 
+        "departmentname": "Social Work, School of ", 
+        "firstname": "Min", 
+        "lastname": "Zhan", 
+        "middleinitial": null, 
+        "role": "Associate Professor"
+    }, 
+    {
+        "collegename": "Social Work, School of ", 
+        "departmentname": "Social Work, School of ", 
+        "firstname": "Min", 
+        "lastname": "Zhan", 
+        "middleinitial": null, 
+        "role": "Associate Professor"
+    }, 
+    {
+        "collegename": "Social Work, School of ", 
+        "departmentname": "Social Work, School of ", 
+        "firstname": "Min", 
+        "lastname": "Zhan", 
+        "middleinitial": null, 
+        "role": "Associate Professor"
+    }, 
+    {
+        "collegename": "Social Work, School of ", 
+        "departmentname": "Social Work, School of ", 
+        "firstname": "Min", 
+        "lastname": "Zhan", 
+        "middleinitial": null, 
+        "role": "Associate Professor"
+    }, 
+    {
+        "collegename": "Social Work, School of ", 
+        "departmentname": "Social Work, School of ", 
+        "firstname": "Min", 
+        "lastname": "Zhan", 
+        "middleinitial": null, 
+        "role": "Associate Professor"
+    }, 
+    {
+        "collegename": "Social Work, School of ", 
+        "departmentname": "Social Work, School of ", 
+        "firstname": "Min", 
+        "lastname": "Zhan", 
+        "middleinitial": null, 
+        "role": "Associate Professor"
+    }, 
+    {
+        "collegename": "Social Work, School of ", 
+        "departmentname": "Social Work, School of ", 
+        "firstname": "Min", 
+        "lastname": "Zhan", 
+        "middleinitial": null, 
+        "role": "Associate Professor"
+    }, 
+    {
+        "collegename": "Social Work, School of ", 
+        "departmentname": "Social Work, School of ", 
+        "firstname": "Min", 
+        "lastname": "Zhan", 
+        "middleinitial": null, 
+        "role": "Associate Professor"
+    }, 
+    {
+        "collegename": "Social Work, School of ", 
+        "departmentname": "Social Work, School of ", 
+        "firstname": "Min", 
+        "lastname": "Zhan", 
+        "middleinitial": null, 
+        "role": "Associate Professor"
+    }, 
+    {
+        "collegename": "University Library", 
+        "departmentname": "Library Admin", 
+        "firstname": "Joyce", 
+        "lastname": "Wright", 
+        "middleinitial": "C", 
+        "role": "None Specified"
+    }, 
+    {
+        "collegename": "University Library", 
+        "departmentname": "Library Admin", 
+        "firstname": "Joyce", 
+        "lastname": "Wright", 
+        "middleinitial": "C", 
+        "role": "None Specified"
+    }, 
+    {
+        "collegename": "University Library", 
+        "departmentname": "Library Admin", 
+        "firstname": "Joyce", 
+        "lastname": "Wright", 
+        "middleinitial": "C", 
+        "role": "None Specified"
+    }, 
+    {
+        "collegename": "University Library", 
+        "departmentname": "Library Admin", 
+        "firstname": "Joyce", 
+        "lastname": "Wright", 
+        "middleinitial": "C", 
+        "role": "None Specified"
+    }, 
+    {
+        "collegename": "University Library", 
+        "departmentname": "Library Admin", 
+        "firstname": "Joyce", 
+        "lastname": "Wright", 
+        "middleinitial": "C", 
+        "role": "None Specified"
+    }, 
+    {
+        "collegename": "University Library", 
+        "departmentname": "Library Admin", 
+        "firstname": "Joyce", 
+        "lastname": "Wright", 
+        "middleinitial": "C", 
+        "role": "None Specified"
+    }, 
+    {
+        "collegename": "University Library", 
+        "departmentname": "Library Admin", 
+        "firstname": "Joyce", 
+        "lastname": "Wright", 
+        "middleinitial": "C", 
+        "role": "None Specified"
+    }, 
+    {
+        "collegename": "University Library", 
+        "departmentname": "Library Admin", 
+        "firstname": "Joyce", 
+        "lastname": "Wright", 
+        "middleinitial": "C", 
+        "role": "None Specified"
+    }, 
+    {
+        "collegename": "University Library", 
+        "departmentname": "Library Admin", 
+        "firstname": "Joyce", 
+        "lastname": "Wright", 
+        "middleinitial": "C", 
+        "role": "None Specified"
+    }, 
+    {
+        "collegename": "University Library", 
+        "departmentname": "Library Admin", 
+        "firstname": "Joyce", 
+        "lastname": "Wright", 
+        "middleinitial": "C", 
+        "role": "None Specified"
+    }, 
+    {
+        "collegename": "University Library", 
+        "departmentname": "Library Admin", 
+        "firstname": "Joyce", 
+        "lastname": "Wright", 
+        "middleinitial": "C", 
+        "role": "None Specified"
+    }, 
+    {
+        "collegename": "University Library", 
+        "departmentname": "Library Admin", 
+        "firstname": "Joyce", 
+        "lastname": "Wright", 
+        "middleinitial": "C", 
+        "role": "None Specified"
+    }, 
+    {
+        "collegename": "University Library", 
+        "departmentname": "Library Admin", 
+        "firstname": "Joyce", 
+        "lastname": "Wright", 
+        "middleinitial": "C", 
+        "role": "None Specified"
+    }, 
+    {
+        "collegename": "University Library", 
+        "departmentname": "Library Admin", 
+        "firstname": "Joyce", 
+        "lastname": "Wright", 
+        "middleinitial": "C", 
+        "role": "None Specified"
+    }, 
+    {
+        "collegename": "University Library", 
+        "departmentname": "Library Admin", 
+        "firstname": "Joyce", 
+        "lastname": "Wright", 
+        "middleinitial": "C", 
+        "role": "None Specified"
+    }, 
+    {
+        "collegename": "University Library", 
+        "departmentname": "Library Admin", 
+        "firstname": "Joyce", 
+        "lastname": "Wright", 
+        "middleinitial": "C", 
+        "role": "None Specified"
+    }, 
+    {
+        "collegename": "Veterinary Medicine, College of ", 
+        "departmentname": "Veterinary Medicine, College of ", 
+        "firstname": "Federico", 
+        "lastname": "Zuckermann", 
+        "middleinitial": "A", 
+        "role": "Professor, Pathobiology"
+    }, 
+    {
+        "collegename": "Veterinary Medicine, College of ", 
+        "departmentname": "Veterinary Medicine, College of ", 
+        "firstname": "Federico", 
+        "lastname": "Zuckermann", 
+        "middleinitial": "A", 
+        "role": "Professor, Pathobiology"
+    }, 
+    {
+        "collegename": "Veterinary Medicine, College of ", 
+        "departmentname": "Veterinary Medicine, College of ", 
+        "firstname": "Federico", 
+        "lastname": "Zuckermann", 
+        "middleinitial": "A", 
+        "role": "Professor, Pathobiology"
+    }, 
+    {
+        "collegename": "Veterinary Medicine, College of ", 
+        "departmentname": "Veterinary Medicine, College of ", 
+        "firstname": "Federico", 
+        "lastname": "Zuckermann", 
+        "middleinitial": "A", 
+        "role": "Professor, Pathobiology"
+    }, 
+    {
+        "collegename": "Veterinary Medicine, College of ", 
+        "departmentname": "Veterinary Medicine, College of ", 
+        "firstname": "Federico", 
+        "lastname": "Zuckermann", 
+        "middleinitial": "A", 
+        "role": "Professor, Pathobiology"
+    }, 
+    {
+        "collegename": "Veterinary Medicine, College of ", 
+        "departmentname": "Veterinary Medicine, College of ", 
+        "firstname": "Federico", 
+        "lastname": "Zuckermann", 
+        "middleinitial": "A", 
+        "role": "Professor, Pathobiology"
+    }, 
+    {
+        "collegename": "Veterinary Medicine, College of ", 
+        "departmentname": "Veterinary Medicine, College of ", 
+        "firstname": "Federico", 
+        "lastname": "Zuckermann", 
+        "middleinitial": "A", 
+        "role": "Professor, Pathobiology"
+    }, 
+    {
+        "collegename": "Veterinary Medicine, College of ", 
+        "departmentname": "Veterinary Medicine, College of ", 
+        "firstname": "Federico", 
+        "lastname": "Zuckermann", 
+        "middleinitial": "A", 
+        "role": "Professor, Pathobiology"
+    }, 
+    {
+        "collegename": "Veterinary Medicine, College of ", 
+        "departmentname": "Veterinary Medicine, College of ", 
+        "firstname": "Federico", 
+        "lastname": "Zuckermann", 
+        "middleinitial": "A", 
+        "role": "Professor, Pathobiology"
+    }, 
+    {
+        "collegename": "Veterinary Medicine, College of ", 
+        "departmentname": "Veterinary Medicine, College of ", 
+        "firstname": "Federico", 
+        "lastname": "Zuckermann", 
+        "middleinitial": "A", 
+        "role": "Professor, Pathobiology"
+    }, 
+    {
+        "collegename": "Veterinary Medicine, College of ", 
+        "departmentname": "Veterinary Medicine, College of ", 
+        "firstname": "Federico", 
+        "lastname": "Zuckermann", 
+        "middleinitial": "A", 
+        "role": "Professor, Pathobiology"
+    }, 
+    {
+        "collegename": "Veterinary Medicine, College of ", 
+        "departmentname": "Veterinary Medicine, College of ", 
+        "firstname": "Federico", 
+        "lastname": "Zuckermann", 
+        "middleinitial": "A", 
+        "role": "Professor, Pathobiology"
+    }, 
+    {
+        "collegename": "Veterinary Medicine, College of ", 
+        "departmentname": "Veterinary Medicine, College of ", 
+        "firstname": "Federico", 
+        "lastname": "Zuckermann", 
+        "middleinitial": "A", 
+        "role": "Professor, Pathobiology"
+    }, 
+    {
+        "collegename": "Veterinary Medicine, College of ", 
+        "departmentname": "Veterinary Medicine, College of ", 
+        "firstname": "Federico", 
+        "lastname": "Zuckermann", 
+        "middleinitial": "A", 
+        "role": "Professor, Pathobiology"
+    }, 
+    {
+        "collegename": "Veterinary Medicine, College of ", 
+        "departmentname": "Veterinary Medicine, College of ", 
+        "firstname": "Federico", 
+        "lastname": "Zuckermann", 
+        "middleinitial": "A", 
+        "role": "Professor, Pathobiology"
+    }, 
+    {
+        "collegename": "Veterinary Medicine, College of ", 
+        "departmentname": "Veterinary Medicine, College of ", 
+        "firstname": "Federico", 
+        "lastname": "Zuckermann", 
+        "middleinitial": "A", 
+        "role": "Professor, Pathobiology"
+    }, 
+    {
+        "collegename": "Veterinary Medicine, College of ", 
+        "departmentname": "Veterinary Medicine, College of ", 
+        "firstname": "Federico", 
+        "lastname": "Zuckermann", 
+        "middleinitial": "A", 
+        "role": "Professor, Pathobiology"
+    }, 
+    {
+        "collegename": "Veterinary Medicine, College of ", 
+        "departmentname": "Veterinary Medicine, College of ", 
+        "firstname": "Federico", 
+        "lastname": "Zuckermann", 
+        "middleinitial": "A", 
+        "role": "Professor, Pathobiology"
+    }, 
+    {
+        "collegename": "Veterinary Medicine, College of ", 
+        "departmentname": "Veterinary Medicine, College of ", 
+        "firstname": "Federico", 
+        "lastname": "Zuckermann", 
+        "middleinitial": "A", 
+        "role": "Professor, Pathobiology"
+    }, 
+    {
+        "collegename": "Veterinary Medicine, College of ", 
+        "departmentname": "Veterinary Medicine, College of ", 
+        "firstname": "Federico", 
+        "lastname": "Zuckermann", 
+        "middleinitial": "A", 
+        "role": "Professor, Pathobiology"
+    }, 
+    {
+        "collegename": "Veterinary Medicine, College of ", 
+        "departmentname": "Veterinary Medicine, College of ", 
+        "firstname": "Federico", 
+        "lastname": "Zuckermann", 
+        "middleinitial": "A", 
+        "role": "Professor, Pathobiology"
+    }, 
+    {
+        "collegename": "Veterinary Medicine, College of ", 
+        "departmentname": "Veterinary Medicine, College of ", 
+        "firstname": "Federico", 
+        "lastname": "Zuckermann", 
+        "middleinitial": "A", 
+        "role": "Professor, Pathobiology"
+    }, 
+    {
+        "collegename": "Veterinary Medicine, College of ", 
+        "departmentname": "Veterinary Medicine, College of ", 
+        "firstname": "Federico", 
+        "lastname": "Zuckermann", 
+        "middleinitial": "A", 
+        "role": "Professor, Pathobiology"
+    }, 
+    {
+        "collegename": "Veterinary Medicine, College of ", 
+        "departmentname": "Veterinary Medicine, College of ", 
+        "firstname": "Federico", 
+        "lastname": "Zuckermann", 
+        "middleinitial": "A", 
+        "role": "Professor, Pathobiology"
+    }, 
+    {
+        "collegename": "Veterinary Medicine, College of ", 
+        "departmentname": "Veterinary Medicine, College of ", 
+        "firstname": "Federico", 
+        "lastname": "Zuckermann", 
+        "middleinitial": "A", 
+        "role": "Professor, Pathobiology"
+    }, 
+    {
+        "collegename": "Veterinary Medicine, College of ", 
+        "departmentname": "Veterinary Medicine, College of ", 
+        "firstname": "Federico", 
+        "lastname": "Zuckermann", 
+        "middleinitial": "A", 
+        "role": "Professor, Pathobiology"
+    }, 
+    {
+        "collegename": "Veterinary Medicine, College of ", 
+        "departmentname": "Veterinary Medicine, College of ", 
+        "firstname": "Federico", 
+        "lastname": "Zuckermann", 
+        "middleinitial": "A", 
+        "role": "Professor, Pathobiology"
+    }, 
+    {
+        "collegename": "Veterinary Medicine, College of ", 
+        "departmentname": "Veterinary Medicine, College of ", 
+        "firstname": "Federico", 
+        "lastname": "Zuckermann", 
+        "middleinitial": "A", 
+        "role": "Professor, Pathobiology"
+    }, 
+    {
+        "collegename": "Veterinary Medicine, College of ", 
+        "departmentname": "Veterinary Medicine, College of ", 
+        "firstname": "Federico", 
+        "lastname": "Zuckermann", 
+        "middleinitial": "A", 
+        "role": "Professor, Pathobiology"
+    }, 
+    {
+        "collegename": "Veterinary Medicine, College of ", 
+        "departmentname": "Veterinary Medicine, College of ", 
+        "firstname": "Federico", 
+        "lastname": "Zuckermann", 
+        "middleinitial": "A", 
+        "role": "Professor, Pathobiology"
+    }, 
+    {
+        "collegename": "Veterinary Medicine, College of ", 
+        "departmentname": "Veterinary Medicine, College of ", 
+        "firstname": "Federico", 
+        "lastname": "Zuckermann", 
+        "middleinitial": "A", 
+        "role": "Professor, Pathobiology"
+    }, 
+    {
+        "collegename": "Veterinary Medicine, College of ", 
+        "departmentname": "Veterinary Medicine, College of ", 
+        "firstname": "Federico", 
+        "lastname": "Zuckermann", 
+        "middleinitial": "A", 
+        "role": "Professor, Pathobiology"
+    }, 
+    {
+        "collegename": "Veterinary Medicine, College of ", 
+        "departmentname": "Veterinary Medicine, College of ", 
+        "firstname": "Federico", 
+        "lastname": "Zuckermann", 
+        "middleinitial": "A", 
+        "role": "Professor, Pathobiology"
+    }, 
+    {
+        "collegename": "Veterinary Medicine, College of ", 
+        "departmentname": "Veterinary Medicine, College of ", 
+        "firstname": "Federico", 
+        "lastname": "Zuckermann", 
+        "middleinitial": "A", 
+        "role": "Professor, Pathobiology"
+    }, 
+    {
+        "collegename": "Veterinary Medicine, College of ", 
+        "departmentname": "Veterinary Medicine, College of ", 
+        "firstname": "Federico", 
+        "lastname": "Zuckermann", 
+        "middleinitial": "A", 
+        "role": "Professor, Pathobiology"
+    }, 
+    {
+        "collegename": "Veterinary Medicine, College of ", 
+        "departmentname": "Veterinary Medicine, College of ", 
+        "firstname": "Federico", 
+        "lastname": "Zuckermann", 
+        "middleinitial": "A", 
+        "role": "Professor, Pathobiology"
+    }, 
+    {
+        "collegename": "Veterinary Medicine, College of ", 
+        "departmentname": "Veterinary Medicine, College of ", 
+        "firstname": "Federico", 
+        "lastname": "Zuckermann", 
+        "middleinitial": "A", 
+        "role": "Professor, Pathobiology"
+    }, 
+    {
+        "collegename": "Veterinary Medicine, College of ", 
+        "departmentname": "Veterinary Medicine, College of ", 
+        "firstname": "Federico", 
+        "lastname": "Zuckermann", 
+        "middleinitial": "A", 
+        "role": "Professor, Pathobiology"
+    }, 
+    {
+        "collegename": "Veterinary Medicine, College of ", 
+        "departmentname": "Veterinary Medicine, College of ", 
+        "firstname": "Federico", 
+        "lastname": "Zuckermann", 
+        "middleinitial": "A", 
+        "role": "Professor, Pathobiology"
+    }, 
+    {
+        "collegename": "Veterinary Medicine, College of ", 
+        "departmentname": "Veterinary Medicine, College of ", 
+        "firstname": "Federico", 
+        "lastname": "Zuckermann", 
+        "middleinitial": "A", 
+        "role": "Professor, Pathobiology"
+    }, 
+    {
+        "collegename": "Veterinary Medicine, College of ", 
+        "departmentname": "Veterinary Medicine, College of ", 
+        "firstname": "Federico", 
+        "lastname": "Zuckermann", 
+        "middleinitial": "A", 
+        "role": "Professor, Pathobiology"
+    }, 
+    {
+        "collegename": "Veterinary Medicine, College of ", 
+        "departmentname": "Veterinary Medicine, College of ", 
+        "firstname": "Federico", 
+        "lastname": "Zuckermann", 
+        "middleinitial": "A", 
+        "role": "Professor, Pathobiology"
+    }, 
+    {
+        "collegename": "Veterinary Medicine, College of ", 
+        "departmentname": "Veterinary Medicine, College of ", 
+        "firstname": "Federico", 
+        "lastname": "Zuckermann", 
+        "middleinitial": "A", 
+        "role": "Professor, Pathobiology"
+    }, 
+    {
+        "collegename": "Veterinary Medicine, College of ", 
+        "departmentname": "Veterinary Medicine, College of ", 
+        "firstname": "Federico", 
+        "lastname": "Zuckermann", 
+        "middleinitial": "A", 
+        "role": "Professor, Pathobiology"
+    }, 
+    {
+        "collegename": "Veterinary Medicine, College of ", 
+        "departmentname": "Veterinary Medicine, College of ", 
+        "firstname": "Federico", 
+        "lastname": "Zuckermann", 
+        "middleinitial": "A", 
+        "role": "Professor, Pathobiology"
+    }, 
+    {
+        "collegename": "Veterinary Medicine, College of ", 
+        "departmentname": "Veterinary Medicine, College of ", 
+        "firstname": "Federico", 
+        "lastname": "Zuckermann", 
+        "middleinitial": "A", 
+        "role": "Professor, Pathobiology"
+    }, 
+    {
+        "collegename": "Veterinary Medicine, College of ", 
+        "departmentname": "Veterinary Medicine, College of ", 
+        "firstname": "Federico", 
+        "lastname": "Zuckermann", 
+        "middleinitial": "A", 
+        "role": "Professor, Pathobiology"
+    }, 
+    {
+        "collegename": "Veterinary Medicine, College of ", 
+        "departmentname": "Veterinary Medicine, College of ", 
+        "firstname": "Federico", 
+        "lastname": "Zuckermann", 
+        "middleinitial": "A", 
+        "role": "Professor, Pathobiology"
+    }, 
+    {
+        "collegename": "Veterinary Medicine, College of ", 
+        "departmentname": "Veterinary Medicine, College of ", 
+        "firstname": "Federico", 
+        "lastname": "Zuckermann", 
+        "middleinitial": "A", 
+        "role": "Professor, Pathobiology"
+    }, 
+    {
+        "collegename": "Veterinary Medicine, College of ", 
+        "departmentname": "Veterinary Medicine, College of ", 
+        "firstname": "Federico", 
+        "lastname": "Zuckermann", 
+        "middleinitial": "A", 
+        "role": "Professor, Pathobiology"
+    }, 
+    {
+        "collegename": "Veterinary Medicine, College of ", 
+        "departmentname": "Veterinary Medicine, College of ", 
+        "firstname": "Federico", 
+        "lastname": "Zuckermann", 
+        "middleinitial": "A", 
+        "role": "Professor, Pathobiology"
+    }, 
+    {
+        "collegename": "Veterinary Medicine, College of ", 
+        "departmentname": "Veterinary Medicine, College of ", 
+        "firstname": "Federico", 
+        "lastname": "Zuckermann", 
+        "middleinitial": "A", 
+        "role": "Professor, Pathobiology"
+    }, 
+    {
+        "collegename": "Veterinary Medicine, College of ", 
+        "departmentname": "Veterinary Medicine, College of ", 
+        "firstname": "Federico", 
+        "lastname": "Zuckermann", 
+        "middleinitial": "A", 
+        "role": "Professor, Pathobiology"
+    }, 
+    {
+        "collegename": "Veterinary Medicine, College of ", 
+        "departmentname": "Veterinary Medicine, College of ", 
+        "firstname": "Federico", 
+        "lastname": "Zuckermann", 
+        "middleinitial": "A", 
+        "role": "Professor, Pathobiology"
+    }, 
+    {
+        "collegename": "Veterinary Medicine, College of ", 
+        "departmentname": "Veterinary Medicine, College of ", 
+        "firstname": "Federico", 
+        "lastname": "Zuckermann", 
+        "middleinitial": "A", 
+        "role": "Professor, Pathobiology"
+    }, 
+    {
+        "collegename": "Veterinary Medicine, College of ", 
+        "departmentname": "Veterinary Medicine, College of ", 
+        "firstname": "Federico", 
+        "lastname": "Zuckermann", 
+        "middleinitial": "A", 
+        "role": "Professor, Pathobiology"
+    }, 
+    {
+        "collegename": "Veterinary Medicine, College of ", 
+        "departmentname": "Veterinary Medicine, College of ", 
+        "firstname": "Federico", 
+        "lastname": "Zuckermann", 
+        "middleinitial": "A", 
+        "role": "Professor, Pathobiology"
+    }, 
+    {
+        "collegename": "Veterinary Medicine, College of ", 
+        "departmentname": "Veterinary Medicine, College of ", 
+        "firstname": "Federico", 
+        "lastname": "Zuckermann", 
+        "middleinitial": "A", 
+        "role": "Professor, Pathobiology"
+    }, 
+    {
+        "collegename": "Veterinary Medicine, College of ", 
+        "departmentname": "Veterinary Medicine, College of ", 
+        "firstname": "Federico", 
+        "lastname": "Zuckermann", 
+        "middleinitial": "A", 
+        "role": "Professor, Pathobiology"
+    }, 
+    {
+        "collegename": "Veterinary Medicine, College of ", 
+        "departmentname": "Veterinary Medicine, College of ", 
+        "firstname": "Federico", 
+        "lastname": "Zuckermann", 
+        "middleinitial": "A", 
+        "role": "Professor, Pathobiology"
+    }, 
+    {
+        "collegename": "Veterinary Medicine, College of ", 
+        "departmentname": "Veterinary Medicine, College of ", 
+        "firstname": "Federico", 
+        "lastname": "Zuckermann", 
+        "middleinitial": "A", 
+        "role": "Professor, Pathobiology"
+    }, 
+    {
+        "collegename": "Veterinary Medicine, College of ", 
+        "departmentname": "Veterinary Medicine, College of ", 
+        "firstname": "Federico", 
+        "lastname": "Zuckermann", 
+        "middleinitial": "A", 
+        "role": "Professor, Pathobiology"
+    }, 
+    {
+        "collegename": "Veterinary Medicine, College of ", 
+        "departmentname": "Veterinary Medicine, College of ", 
+        "firstname": "Federico", 
+        "lastname": "Zuckermann", 
+        "middleinitial": "A", 
+        "role": "Professor, Pathobiology"
+    }, 
+    {
+        "collegename": "Veterinary Medicine, College of ", 
+        "departmentname": "Veterinary Medicine, College of ", 
+        "firstname": "Federico", 
+        "lastname": "Zuckermann", 
+        "middleinitial": "A", 
+        "role": "Professor, Pathobiology"
+    }, 
+    {
+        "collegename": "Veterinary Medicine, College of ", 
+        "departmentname": "Veterinary Medicine, College of ", 
+        "firstname": "Federico", 
+        "lastname": "Zuckermann", 
+        "middleinitial": "A", 
+        "role": "Professor, Pathobiology"
+    }, 
+    {
+        "collegename": "Veterinary Medicine, College of ", 
+        "departmentname": "Veterinary Medicine, College of ", 
+        "firstname": "Federico", 
+        "lastname": "Zuckermann", 
+        "middleinitial": "A", 
+        "role": "Professor, Pathobiology"
+    }, 
+    {
+        "collegename": "Veterinary Medicine, College of ", 
+        "departmentname": "Veterinary Medicine, College of ", 
+        "firstname": "Federico", 
+        "lastname": "Zuckermann", 
+        "middleinitial": "A", 
+        "role": "Professor, Pathobiology"
+    }, 
+    {
+        "collegename": "Veterinary Medicine, College of ", 
+        "departmentname": "Veterinary Medicine, College of ", 
+        "firstname": "Federico", 
+        "lastname": "Zuckermann", 
+        "middleinitial": "A", 
+        "role": "Professor, Pathobiology"
+    }, 
+    {
+        "collegename": "Veterinary Medicine, College of ", 
+        "departmentname": "Veterinary Medicine, College of ", 
+        "firstname": "Federico", 
+        "lastname": "Zuckermann", 
+        "middleinitial": "A", 
+        "role": "Professor, Pathobiology"
+    }, 
+    {
+        "collegename": "Veterinary Medicine, College of ", 
+        "departmentname": "Veterinary Medicine, College of ", 
+        "firstname": "Federico", 
+        "lastname": "Zuckermann", 
+        "middleinitial": "A", 
+        "role": "Professor, Pathobiology"
+    }, 
+    {
+        "collegename": "Veterinary Medicine, College of ", 
+        "departmentname": "Veterinary Medicine, College of ", 
+        "firstname": "Federico", 
+        "lastname": "Zuckermann", 
+        "middleinitial": "A", 
+        "role": "Professor, Pathobiology"
+    }, 
+    {
+        "collegename": "Veterinary Medicine, College of ", 
+        "departmentname": "Veterinary Medicine, College of ", 
+        "firstname": "Federico", 
+        "lastname": "Zuckermann", 
+        "middleinitial": "A", 
+        "role": "Professor, Pathobiology"
+    }, 
+    {
+        "collegename": "Veterinary Medicine, College of ", 
+        "departmentname": "Veterinary Medicine, College of ", 
+        "firstname": "Federico", 
+        "lastname": "Zuckermann", 
+        "middleinitial": "A", 
+        "role": "Professor, Pathobiology"
+    }, 
+    {
+        "collegename": "Veterinary Medicine, College of ", 
+        "departmentname": "Veterinary Medicine, College of ", 
+        "firstname": "Federico", 
+        "lastname": "Zuckermann", 
+        "middleinitial": "A", 
+        "role": "Professor, Pathobiology"
+    }, 
+    {
+        "collegename": "Veterinary Medicine, College of ", 
+        "departmentname": "Veterinary Medicine, College of ", 
+        "firstname": "Federico", 
+        "lastname": "Zuckermann", 
+        "middleinitial": "A", 
+        "role": "Professor, Pathobiology"
+    }, 
+    {
+        "collegename": "Veterinary Medicine, College of ", 
+        "departmentname": "Veterinary Medicine, College of ", 
+        "firstname": "Federico", 
+        "lastname": "Zuckermann", 
+        "middleinitial": "A", 
+        "role": "Professor, Pathobiology"
+    }, 
+    {
+        "collegename": "Veterinary Medicine, College of ", 
+        "departmentname": "Veterinary Medicine, College of ", 
+        "firstname": "Federico", 
+        "lastname": "Zuckermann", 
+        "middleinitial": "A", 
+        "role": "Professor, Pathobiology"
+    }, 
+    {
+        "collegename": "Veterinary Medicine, College of ", 
+        "departmentname": "Veterinary Medicine, College of ", 
+        "firstname": "Federico", 
+        "lastname": "Zuckermann", 
+        "middleinitial": "A", 
+        "role": "Professor, Pathobiology"
+    }, 
+    {
+        "collegename": "Veterinary Medicine, College of ", 
+        "departmentname": "Veterinary Medicine, College of ", 
+        "firstname": "Federico", 
+        "lastname": "Zuckermann", 
+        "middleinitial": "A", 
+        "role": "Professor, Pathobiology"
+    }, 
+    {
+        "collegename": "Veterinary Medicine, College of ", 
+        "departmentname": "Veterinary Medicine, College of ", 
+        "firstname": "Federico", 
+        "lastname": "Zuckermann", 
+        "middleinitial": "A", 
+        "role": "Professor, Pathobiology"
+    }, 
+    {
+        "collegename": "Veterinary Medicine, College of ", 
+        "departmentname": "Veterinary Medicine, College of ", 
+        "firstname": "Federico", 
+        "lastname": "Zuckermann", 
+        "middleinitial": "A", 
+        "role": "Professor, Pathobiology"
+    }, 
+    {
+        "collegename": "Veterinary Medicine, College of ", 
+        "departmentname": "Veterinary Medicine, College of ", 
+        "firstname": "Federico", 
+        "lastname": "Zuckermann", 
+        "middleinitial": "A", 
+        "role": "Professor, Pathobiology"
+    }, 
+    {
+        "collegename": "Veterinary Medicine, College of ", 
+        "departmentname": "Veterinary Medicine, College of ", 
+        "firstname": "Federico", 
+        "lastname": "Zuckermann", 
+        "middleinitial": "A", 
+        "role": "Professor, Pathobiology"
+    }, 
+    {
+        "collegename": "Veterinary Medicine, College of ", 
+        "departmentname": "Veterinary Medicine, College of ", 
+        "firstname": "Federico", 
+        "lastname": "Zuckermann", 
+        "middleinitial": "A", 
+        "role": "Professor, Pathobiology"
+    }, 
+    {
+        "collegename": "Veterinary Medicine, College of ", 
+        "departmentname": "Veterinary Medicine, College of ", 
+        "firstname": "Federico", 
+        "lastname": "Zuckermann", 
+        "middleinitial": "A", 
+        "role": "Professor, Pathobiology"
+    }, 
+    {
+        "collegename": "Veterinary Medicine, College of ", 
+        "departmentname": "Veterinary Medicine, College of ", 
+        "firstname": "Federico", 
+        "lastname": "Zuckermann", 
+        "middleinitial": "A", 
+        "role": "Professor, Pathobiology"
+    }, 
+    {
+        "collegename": "Veterinary Medicine, College of ", 
+        "departmentname": "Veterinary Medicine, College of ", 
+        "firstname": "Federico", 
+        "lastname": "Zuckermann", 
+        "middleinitial": "A", 
+        "role": "Professor, Pathobiology"
+    }, 
+    {
+        "collegename": "Veterinary Medicine, College of ", 
+        "departmentname": "Veterinary Medicine, College of ", 
+        "firstname": "Federico", 
+        "lastname": "Zuckermann", 
+        "middleinitial": "A", 
+        "role": "Professor, Pathobiology"
+    }, 
+    {
+        "collegename": "Veterinary Medicine, College of ", 
+        "departmentname": "Veterinary Medicine, College of ", 
+        "firstname": "Federico", 
+        "lastname": "Zuckermann", 
+        "middleinitial": "A", 
+        "role": "Professor, Pathobiology"
+    }, 
+    {
+        "collegename": "Veterinary Medicine, College of ", 
+        "departmentname": "Veterinary Medicine, College of ", 
+        "firstname": "Federico", 
+        "lastname": "Zuckermann", 
+        "middleinitial": "A", 
+        "role": "Professor, Pathobiology"
+    }, 
+    {
+        "collegename": "Veterinary Medicine, College of ", 
+        "departmentname": "Veterinary Medicine, College of ", 
+        "firstname": "Federico", 
+        "lastname": "Zuckermann", 
+        "middleinitial": "A", 
+        "role": "Professor, Pathobiology"
+    }, 
+    {
+        "collegename": "Veterinary Medicine, College of ", 
+        "departmentname": "Veterinary Medicine, College of ", 
+        "firstname": "Federico", 
+        "lastname": "Zuckermann", 
+        "middleinitial": "A", 
+        "role": "Professor, Pathobiology"
+    }, 
+    {
+        "collegename": "Veterinary Medicine, College of ", 
+        "departmentname": "Veterinary Medicine, College of ", 
+        "firstname": "Federico", 
+        "lastname": "Zuckermann", 
+        "middleinitial": "A", 
+        "role": "Professor, Pathobiology"
+    }, 
+    {
+        "collegename": "Veterinary Medicine, College of ", 
+        "departmentname": "Veterinary Medicine, College of ", 
+        "firstname": "Federico", 
+        "lastname": "Zuckermann", 
+        "middleinitial": "A", 
+        "role": "Professor, Pathobiology"
+    }, 
+    {
+        "collegename": "Veterinary Medicine, College of ", 
+        "departmentname": "Veterinary Medicine, College of ", 
+        "firstname": "Federico", 
+        "lastname": "Zuckermann", 
+        "middleinitial": "A", 
+        "role": "Professor, Pathobiology"
+    }, 
+    {
+        "collegename": "Veterinary Medicine, College of ", 
+        "departmentname": "Veterinary Medicine, College of ", 
+        "firstname": "Federico", 
+        "lastname": "Zuckermann", 
+        "middleinitial": "A", 
+        "role": "Professor, Pathobiology"
+    }, 
+    {
+        "collegename": "Veterinary Medicine, College of ", 
+        "departmentname": "Veterinary Medicine, College of ", 
+        "firstname": "Federico", 
+        "lastname": "Zuckermann", 
+        "middleinitial": "A", 
+        "role": "Professor, Pathobiology"
+    }, 
+    {
+        "collegename": "Veterinary Medicine, College of ", 
+        "departmentname": "Veterinary Medicine, College of ", 
+        "firstname": "Federico", 
+        "lastname": "Zuckermann", 
+        "middleinitial": "A", 
+        "role": "Professor, Pathobiology"
+    }, 
+    {
+        "collegename": "Veterinary Medicine, College of ", 
+        "departmentname": "Veterinary Medicine, College of ", 
+        "firstname": "Federico", 
+        "lastname": "Zuckermann", 
+        "middleinitial": "A", 
+        "role": "Professor, Pathobiology"
+    }, 
+    {
+        "collegename": "Veterinary Medicine, College of ", 
+        "departmentname": "Veterinary Medicine, College of ", 
+        "firstname": "Federico", 
+        "lastname": "Zuckermann", 
+        "middleinitial": "A", 
+        "role": "Professor, Pathobiology"
+    }, 
+    {
+        "collegename": "Veterinary Medicine, College of ", 
+        "departmentname": "Veterinary Medicine, College of ", 
+        "firstname": "Federico", 
+        "lastname": "Zuckermann", 
+        "middleinitial": "A", 
+        "role": "Professor, Pathobiology"
+    }, 
+    {
+        "collegename": "Veterinary Medicine, College of ", 
+        "departmentname": "Veterinary Medicine, College of ", 
+        "firstname": "Federico", 
+        "lastname": "Zuckermann", 
+        "middleinitial": "A", 
+        "role": "Professor, Pathobiology"
+    }, 
+    {
+        "collegename": "Veterinary Medicine, College of ", 
+        "departmentname": "Veterinary Medicine, College of ", 
+        "firstname": "Federico", 
+        "lastname": "Zuckermann", 
+        "middleinitial": "A", 
+        "role": "Professor, Pathobiology"
+    }, 
+    {
+        "collegename": "Veterinary Medicine, College of ", 
+        "departmentname": "Veterinary Medicine, College of ", 
+        "firstname": "Federico", 
+        "lastname": "Zuckermann", 
+        "middleinitial": "A", 
+        "role": "Professor, Pathobiology"
+    }, 
+    {
+        "collegename": "Veterinary Medicine, College of ", 
+        "departmentname": "Veterinary Medicine, College of ", 
+        "firstname": "Federico", 
+        "lastname": "Zuckermann", 
+        "middleinitial": "A", 
+        "role": "Professor, Pathobiology"
+    }
+]

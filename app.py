@@ -1,7 +1,5 @@
 from flask import Flask
 from flask_restful import Api, Resource
-from werkzeug.contrib.cache import SimpleCache
-
 
 from resources.dining import Dining, DiningInformation, DiningSearch, DiningToday
 from resources.weather import Weather
@@ -12,6 +10,7 @@ from resources.free_food import FreeFood
 from resources.ews_status import EWSStatus
 from resources.athletic_schedule import AthleticSchedule
 from resources.buildings import Buildings
+from resources.directory import FacultyDirectory
 
 app = Flask(__name__)
 api = Api(app)
@@ -32,7 +31,7 @@ api.add_resource(DiningInformation, '/dining/information')
 
 api.add_resource(Weather, '/weather')
 api.add_resource(Laundry, '/laundry')
-#api.add_resource(UniversityDirectory, '', '')
+api.add_resource(FacultyDirectory, '/directory/faculty')
 #api.add_resource(DailyIllini, '', '')
 api.add_resource(Buildings, '/buildings')
 api.add_resource(AthleticSchedule, '/athleticschedule/<string:sport>')
