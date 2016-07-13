@@ -35,3 +35,4 @@ _\( managed using [todo-md](https://github.com/Hypercubed/todo-md) \)_
 - [ ] Peoria charter + other bus comapanies
 - [ ] study spaces
 - [ ] redo building list with null names
+- [ ] multithread daily_illini scraping
