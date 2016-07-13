@@ -12,7 +12,7 @@ _\( managed using [todo-md](https://github.com/Hypercubed/todo-md) \)_
 - [ ] Document + Clean up code
 - [ ] https://techservices.illinois.edu/services/campus-lightweight-directory-access-protocol
 - [ ] Add static API request counter (as text file/button)
-- [ ] Enpoint parameters
+- [ ] Endpoint parameters
 - [ ] Academic Department Data
 - [ ] Possibly create a course information endpoint
 - [ ] Error Handling

@@ -20,7 +20,7 @@ Get information about food options from all dining halls.
 
 #### `GET /dining/:hall/:dateFrom/:dateTo`
 
-*Get detailed menus from specific dining halls.*
+*Get detailed menus from specific dining halls from a range of dates*
 
 List of Halls:
 
@@ -89,7 +89,18 @@ Response:
   ...
 ```
 
+#### `GET /dining/:hall`
+
+*Get today's menu for each of the dining halls*
+
+Example query:
+```
+https://uiuc-api.herokuapp.com/dining/par
+```
+
+
 #### `GET /dining/search/:query`
+
 
 *Search dining halls for specific foods.*
 
@@ -229,7 +240,7 @@ Response:
     "winds": "NW at 17 mph",
     "visibility": "10 miles",
     "pressure": "1020.0 mb (30.13 in)",
-    "sunrise": "7:13AM", 
+    "sunrise": "7:13AM",
     "sunset": "6:01PM",
     "images": {
         "latest_radar_image": "https://www.atmos.illinois.edu/weather/tree/prods/current/nicerad/nicerad_N.gif",
@@ -274,7 +285,7 @@ Response:
   ...
 ```
 
-#### `GET /wifi/:latitude/:longitude` 
+#### `GET /wifi/:latitude/:longitude`
 
 Example Query:
 ```
@@ -587,7 +598,7 @@ http://uiuc-api.herokuapp.com/buildings
 
 Response:
 ```json
-{ "building1": "", 
+{ "building1": "",
   "building2": ""
 }
 ```
@@ -719,14 +730,14 @@ UIUC's Student Services Development Team offers an [API](http://courses.illinois
 
 ## Transportation
 The Champaign-Urbana Mass Transit District offers an [API](https://developer.cumtd.com/) for transporation information in the Champaign-Urbana metropolitan area. There are several API wrappers and Open-source applications written with the CUMTD API on [GitHub](https://github.com/search?utf8=%E2%9C%93&q=cumtd) as well as in their [App Garage](http://www.cumtd.com/maps-and-schedules/app-garage).
- 
+
 ## Run Locally
 ```sh
 $ pip install -r requirements.txt
 $ python app.py
 ```
 
-## Deploy to Heroku 
+## Deploy to Heroku
 ```sh
 $ pip install -r requirements.txt
 $ heroku create
@@ -744,11 +755,11 @@ $ git push heroku master
  <!--- []() (Ruby)-->
  <!--- []() (Clojure)-->
  <!--- []() (Golang)-->
- 
+
 *If you've built a wrapper for this API, feel free to add it to this list by sending a PR!*
- 
+
 ## Expo
-Some apps built using this API: 
+Some apps built using this API:
 
 | Name | Description | URL |
 | ---- | ---- | ---- |
@@ -762,7 +773,7 @@ Please refer to the [Contributing Guidelines](https://github.com/xasos/UIUC-Open
 
 ## To-Do List
 The To-Do List can be found [here](https://github.com/xasos/UIUC-Open-Data/blob/master/todo.md).
- 
+
 ## Statistics
 So far, x users have used the API and over y requests have been made!
 
