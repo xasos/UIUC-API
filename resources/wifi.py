@@ -7,7 +7,7 @@ import re
 
 class Wifi(Resource):
     def get(self):
-        request_url = "https://www.cites.illinois.edu/wireless/locations.html"
+        request_url = "http://web.archive.org/web/20151229092233/https://www.cites.illinois.edu/wireless/locations.html"
         response = urllib2.urlopen(request_url)
         soup = BeautifulSoup(response, "html.parser")
         addresses = []
