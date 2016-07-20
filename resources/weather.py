@@ -44,15 +44,3 @@ class Weather(Resource):
 
     def get(self):
       return data
-
-class Forecast(Resource):
-    def finder(tag):
-        return tag.name == 'table' and tag.has_attr('border') and not tag.has_attr('width')
-    def get():
-        retval = {}
-        webpage = urllib2.urlopen('https://www.atmos.illinois.edu/weather/')
-        soup = BeautifulSoup(webpage, "html.parser")
-        for x in soup.find_all('table', border=0):
-            retlist = []
-
-            retval[x.b.string.replace(':', '')] = retlist
